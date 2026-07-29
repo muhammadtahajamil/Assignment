@@ -52,10 +52,10 @@ final class FileProcessingStore: ObservableObject {
             guard let self else { return }
             let startedAt = Date()
             do {
-                let result = try await FileHashProcessor.hashMD5(url: selectedFile) { processed, total in
-                    self.processedBytes = processed
-                    self.totalBytes = total
-                    self.progress = total > 0 ? Double(processed) / Double(total) : 0
+                let result = try await FileHashProcessor.hashMD5(url: selectedFile) {[weak self] processed, total in
+                    self?.processedBytes = processed
+                    self?.totalBytes = total
+                    self?.progress = total > 0 ? Double(processed) / Double(total) : 0
                 }
 
                 guard !Task.isCancelled else {
@@ -149,5 +149,19 @@ enum FileHashProcessor {
             let md5 = digest.map { String(format: "%02hhx", $0) }.joined()
             return HashOutput(url: url, byteCount: processedBytes, md5: md5)
         }.value
+    }
+    
+}
+
+struct CarStruct {
+    var name: String
+    var id : Int
+}
+
+class CarClass {
+    var name: String
+
+    init(name: String) {
+        self.name = name
     }
 }

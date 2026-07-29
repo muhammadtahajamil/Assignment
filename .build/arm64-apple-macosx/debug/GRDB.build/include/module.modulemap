@@ -1,0 +1,3 @@
+module GRDB {
+    header "/Users/taha/Documents/GitHub/Assignment/.build/arm64-apple-macosx/debug/GRDB.build/include/GRDB-Swift.h"
+}

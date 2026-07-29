@@ -1,0 +1,40 @@
+{
+  "source": "/Users/taha/Documents/GitHub/Assignment/PureLogicsMac/Views/SettingView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Settings",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 30
+        }
+      },
+      {
+        "comment": "",
+        "key": "This is setting view %@",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 16
+        }
+      },
+      {
+        "comment": "",
+        "key": "No Device Found",
+        "location": {
+          "startingColumn": 36,
+          "startingLine": 25
+        }
+      },
+      {
+        "comment": "",
+        "key": "Open Devices",
+        "location": {
+          "startingColumn": 23,
+          "startingLine": 21
+        }
+      }
+    ]
+  },
+  "version": 1
+}

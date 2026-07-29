@@ -1,0 +1,103 @@
+{
+  "": {
+    "swift-dependencies": "/Users/taha/Documents/GitHub/Assignment/.build/arm64-apple-macosx/debug/PureLogicsMac.build/master.swiftdeps"
+  },
+  "/Users/taha/Documents/GitHub/Assignment/PureLogicsMac/FileProcessing/FileHashProcessor.swift": {
+    "dependencies": "/Users/taha/Documents/GitHub/Assignment/.build/arm64-apple-macosx/debug/PureLogicsMac.build/FileHashProcessor.d",
+    "object": "/Users/taha/Documents/GitHub/Assignment/.build/arm64-apple-macosx/debug/PureLogicsMac.build/FileHashProcessor.swift.o",
+    "swiftmodule": "/Users/taha/Documents/GitHub/Assignment/.build/arm64-apple-macosx/debug/PureLogicsMac.build/FileHashProcessor~partial.swiftmodule",
+    "swift-dependencies": "/Users/taha/Documents/GitHub/Assignment/.build/arm64-apple-macosx/debug/PureLogicsMac.build/FileHashProcessor.swiftdeps",
+    "diagnostics": "/Users/taha/Documents/GitHub/Assignment/.build/arm64-apple-macosx/debug/PureLogicsMac.build/FileHashProcessor.dia"
+  },
+  "/Users/taha/Documents/GitHub/Assignment/PureLogicsMac/Models/User.swift": {
+    "dependencies": "/Users/taha/Documents/GitHub/Assignment/.build/arm64-apple-macosx/debug/PureLogicsMac.build/User.d",
+    "object": "/Users/taha/Documents/GitHub/Assignment/.build/arm64-apple-macosx/debug/PureLogicsMac.build/User.swift.o",
+    "swiftmodule": "/Users/taha/Documents/GitHub/Assignment/.build/arm64-apple-macosx/debug/PureLogicsMac.build/User~partial.swiftmodule",
+    "swift-dependencies": "/Users/taha/Documents/GitHub/Assignment/.build/arm64-apple-macosx/debug/PureLogicsMac.build/User.swiftdeps",
+    "diagnostics": "/Users/taha/Documents/GitHub/Assignment/.build/arm64-apple-macosx/debug/PureLogicsMac.build/User.dia"
+  },
+  "/Users/taha/Documents/GitHub/Assignment/PureLogicsMac/Navigation/AppNavigation.swift": {
+    "dependencies": "/Users/taha/Documents/GitHub/Assignment/.build/arm64-apple-macosx/debug/PureLogicsMac.build/AppNavigation.d",
+    "object": "/Users/taha/Documents/GitHub/Assignment/.build/arm64-apple-macosx/debug/PureLogicsMac.build/AppNavigation.swift.o",
+    "swiftmodule": "/Users/taha/Documents/GitHub/Assignment/.build/arm64-apple-macosx/debug/PureLogicsMac.build/AppNavigation~partial.swiftmodule",
+    "swift-dependencies": "/Users/taha/Documents/GitHub/Assignment/.build/arm64-apple-macosx/debug/PureLogicsMac.build/AppNavigation.swiftdeps",
+    "diagnostics": "/Users/taha/Documents/GitHub/Assignment/.build/arm64-apple-macosx/debug/PureLogicsMac.build/AppNavigation.dia"
+  },
+  "/Users/taha/Documents/GitHub/Assignment/PureLogicsMac/Networking/UserAPIClient.swift": {
+    "dependencies": "/Users/taha/Documents/GitHub/Assignment/.build/arm64-apple-macosx/debug/PureLogicsMac.build/UserAPIClient.d",
+    "object": "/Users/taha/Documents/GitHub/Assignment/.build/arm64-apple-macosx/debug/PureLogicsMac.build/UserAPIClient.swift.o",
+    "swiftmodule": "/Users/taha/Documents/GitHub/Assignment/.build/arm64-apple-macosx/debug/PureLogicsMac.build/UserAPIClient~partial.swiftmodule",
+    "swift-dependencies": "/Users/taha/Documents/GitHub/Assignment/.build/arm64-apple-macosx/debug/PureLogicsMac.build/UserAPIClient.swiftdeps",
+    "diagnostics": "/Users/taha/Documents/GitHub/Assignment/.build/arm64-apple-macosx/debug/PureLogicsMac.build/UserAPIClient.dia"
+  },
+  "/Users/taha/Documents/GitHub/Assignment/PureLogicsMac/Persistence/AppDatabase.swift": {
+    "dependencies": "/Users/taha/Documents/GitHub/Assignment/.build/arm64-apple-macosx/debug/PureLogicsMac.build/AppDatabase.d",
+    "object": "/Users/taha/Documents/GitHub/Assignment/.build/arm64-apple-macosx/debug/PureLogicsMac.build/AppDatabase.swift.o",
+    "swiftmodule": "/Users/taha/Documents/GitHub/Assignment/.build/arm64-apple-macosx/debug/PureLogicsMac.build/AppDatabase~partial.swiftmodule",
+    "swift-dependencies": "/Users/taha/Documents/GitHub/Assignment/.build/arm64-apple-macosx/debug/PureLogicsMac.build/AppDatabase.swiftdeps",
+    "diagnostics": "/Users/taha/Documents/GitHub/Assignment/.build/arm64-apple-macosx/debug/PureLogicsMac.build/AppDatabase.dia"
+  },
+  "/Users/taha/Documents/GitHub/Assignment/PureLogicsMac/PureLogicsMacApp.swift": {
+    "dependencies": "/Users/taha/Documents/GitHub/Assignment/.build/arm64-apple-macosx/debug/PureLogicsMac.build/PureLogicsMacApp.d",
+    "object": "/Users/taha/Documents/GitHub/Assignment/.build/arm64-apple-macosx/debug/PureLogicsMac.build/PureLogicsMacApp.swift.o",
+    "swiftmodule": "/Users/taha/Documents/GitHub/Assignment/.build/arm64-apple-macosx/debug/PureLogicsMac.build/PureLogicsMacApp~partial.swiftmodule",
+    "swift-dependencies": "/Users/taha/Documents/GitHub/Assignment/.build/arm64-apple-macosx/debug/PureLogicsMac.build/PureLogicsMacApp.swiftdeps",
+    "diagnostics": "/Users/taha/Documents/GitHub/Assignment/.build/arm64-apple-macosx/debug/PureLogicsMac.build/PureLogicsMacApp.dia"
+  },
+  "/Users/taha/Documents/GitHub/Assignment/PureLogicsMac/Stores/UserStore.swift": {
+    "dependencies": "/Users/taha/Documents/GitHub/Assignment/.build/arm64-apple-macosx/debug/PureLogicsMac.build/UserStore.d",
+    "object": "/Users/taha/Documents/GitHub/Assignment/.build/arm64-apple-macosx/debug/PureLogicsMac.build/UserStore.swift.o",
+    "swiftmodule": "/Users/taha/Documents/GitHub/Assignment/.build/arm64-apple-macosx/debug/PureLogicsMac.build/UserStore~partial.swiftmodule",
+    "swift-dependencies": "/Users/taha/Documents/GitHub/Assignment/.build/arm64-apple-macosx/debug/PureLogicsMac.build/UserStore.swiftdeps",
+    "diagnostics": "/Users/taha/Documents/GitHub/Assignment/.build/arm64-apple-macosx/debug/PureLogicsMac.build/UserStore.dia"
+  },
+  "/Users/taha/Documents/GitHub/Assignment/PureLogicsMac/ViewModels/LoginViewModel.swift": {
+    "dependencies": "/Users/taha/Documents/GitHub/Assignment/.build/arm64-apple-macosx/debug/PureLogicsMac.build/LoginViewModel.d",
+    "object": "/Users/taha/Documents/GitHub/Assignment/.build/arm64-apple-macosx/debug/PureLogicsMac.build/LoginViewModel.swift.o",
+    "swiftmodule": "/Users/taha/Documents/GitHub/Assignment/.build/arm64-apple-macosx/debug/PureLogicsMac.build/LoginViewModel~partial.swiftmodule",
+    "swift-dependencies": "/Users/taha/Documents/GitHub/Assignment/.build/arm64-apple-macosx/debug/PureLogicsMac.build/LoginViewModel.swiftdeps",
+    "diagnostics": "/Users/taha/Documents/GitHub/Assignment/.build/arm64-apple-macosx/debug/PureLogicsMac.build/LoginViewModel.dia"
+  },
+  "/Users/taha/Documents/GitHub/Assignment/PureLogicsMac/Views/DashboardViews.swift": {
+    "dependencies": "/Users/taha/Documents/GitHub/Assignment/.build/arm64-apple-macosx/debug/PureLogicsMac.build/DashboardViews.d",
+    "object": "/Users/taha/Documents/GitHub/Assignment/.build/arm64-apple-macosx/debug/PureLogicsMac.build/DashboardViews.swift.o",
+    "swiftmodule": "/Users/taha/Documents/GitHub/Assignment/.build/arm64-apple-macosx/debug/PureLogicsMac.build/DashboardViews~partial.swiftmodule",
+    "swift-dependencies": "/Users/taha/Documents/GitHub/Assignment/.build/arm64-apple-macosx/debug/PureLogicsMac.build/DashboardViews.swiftdeps",
+    "diagnostics": "/Users/taha/Documents/GitHub/Assignment/.build/arm64-apple-macosx/debug/PureLogicsMac.build/DashboardViews.dia"
+  },
+  "/Users/taha/Documents/GitHub/Assignment/PureLogicsMac/Views/FileProcessingViews.swift": {
+    "dependencies": "/Users/taha/Documents/GitHub/Assignment/.build/arm64-apple-macosx/debug/PureLogicsMac.build/FileProcessingViews.d",
+    "object": "/Users/taha/Documents/GitHub/Assignment/.build/arm64-apple-macosx/debug/PureLogicsMac.build/FileProcessingViews.swift.o",
+    "swiftmodule": "/Users/taha/Documents/GitHub/Assignment/.build/arm64-apple-macosx/debug/PureLogicsMac.build/FileProcessingViews~partial.swiftmodule",
+    "swift-dependencies": "/Users/taha/Documents/GitHub/Assignment/.build/arm64-apple-macosx/debug/PureLogicsMac.build/FileProcessingViews.swiftdeps",
+    "diagnostics": "/Users/taha/Documents/GitHub/Assignment/.build/arm64-apple-macosx/debug/PureLogicsMac.build/FileProcessingViews.dia"
+  },
+  "/Users/taha/Documents/GitHub/Assignment/PureLogicsMac/Views/LoginView.swift": {
+    "dependencies": "/Users/taha/Documents/GitHub/Assignment/.build/arm64-apple-macosx/debug/PureLogicsMac.build/LoginView.d",
+    "object": "/Users/taha/Documents/GitHub/Assignment/.build/arm64-apple-macosx/debug/PureLogicsMac.build/LoginView.swift.o",
+    "swiftmodule": "/Users/taha/Documents/GitHub/Assignment/.build/arm64-apple-macosx/debug/PureLogicsMac.build/LoginView~partial.swiftmodule",
+    "swift-dependencies": "/Users/taha/Documents/GitHub/Assignment/.build/arm64-apple-macosx/debug/PureLogicsMac.build/LoginView.swiftdeps",
+    "diagnostics": "/Users/taha/Documents/GitHub/Assignment/.build/arm64-apple-macosx/debug/PureLogicsMac.build/LoginView.dia"
+  },
+  "/Users/taha/Documents/GitHub/Assignment/PureLogicsMac/Views/RootView.swift": {
+    "dependencies": "/Users/taha/Documents/GitHub/Assignment/.build/arm64-apple-macosx/debug/PureLogicsMac.build/RootView.d",
+    "object": "/Users/taha/Documents/GitHub/Assignment/.build/arm64-apple-macosx/debug/PureLogicsMac.build/RootView.swift.o",
+    "swiftmodule": "/Users/taha/Documents/GitHub/Assignment/.build/arm64-apple-macosx/debug/PureLogicsMac.build/RootView~partial.swiftmodule",
+    "swift-dependencies": "/Users/taha/Documents/GitHub/Assignment/.build/arm64-apple-macosx/debug/PureLogicsMac.build/RootView.swiftdeps",
+    "diagnostics": "/Users/taha/Documents/GitHub/Assignment/.build/arm64-apple-macosx/debug/PureLogicsMac.build/RootView.dia"
+  },
+  "/Users/taha/Documents/GitHub/Assignment/PureLogicsMac/Views/SettingView.swift": {
+    "dependencies": "/Users/taha/Documents/GitHub/Assignment/.build/arm64-apple-macosx/debug/PureLogicsMac.build/SettingView.d",
+    "object": "/Users/taha/Documents/GitHub/Assignment/.build/arm64-apple-macosx/debug/PureLogicsMac.build/SettingView.swift.o",
+    "swiftmodule": "/Users/taha/Documents/GitHub/Assignment/.build/arm64-apple-macosx/debug/PureLogicsMac.build/SettingView~partial.swiftmodule",
+    "swift-dependencies": "/Users/taha/Documents/GitHub/Assignment/.build/arm64-apple-macosx/debug/PureLogicsMac.build/SettingView.swiftdeps",
+    "diagnostics": "/Users/taha/Documents/GitHub/Assignment/.build/arm64-apple-macosx/debug/PureLogicsMac.build/SettingView.dia"
+  },
+  "/Users/taha/Documents/GitHub/Assignment/PureLogicsMac/Views/UserViews.swift": {
+    "dependencies": "/Users/taha/Documents/GitHub/Assignment/.build/arm64-apple-macosx/debug/PureLogicsMac.build/UserViews.d",
+    "object": "/Users/taha/Documents/GitHub/Assignment/.build/arm64-apple-macosx/debug/PureLogicsMac.build/UserViews.swift.o",
+    "swiftmodule": "/Users/taha/Documents/GitHub/Assignment/.build/arm64-apple-macosx/debug/PureLogicsMac.build/UserViews~partial.swiftmodule",
+    "swift-dependencies": "/Users/taha/Documents/GitHub/Assignment/.build/arm64-apple-macosx/debug/PureLogicsMac.build/UserViews.swiftdeps",
+    "diagnostics": "/Users/taha/Documents/GitHub/Assignment/.build/arm64-apple-macosx/debug/PureLogicsMac.build/UserViews.dia"
+  }
+}

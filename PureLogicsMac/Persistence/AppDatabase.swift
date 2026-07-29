@@ -21,6 +21,7 @@ struct AppDatabase: Sendable {
 
             try FileManager.default.createDirectory(at: directory, withIntermediateDirectories: true)
             let url = directory.appending(path: "users.sqlite")
+            print("Url where data base is paste is == \(url.absoluteString)")
             return try AppDatabase(writer: DatabaseQueue(path: url.path(percentEncoded: false)))
         } catch {
             return try! AppDatabase(writer: DatabaseQueue())

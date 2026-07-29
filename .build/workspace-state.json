@@ -1,0 +1,27 @@
+{
+  "object" : {
+    "artifacts" : [
+
+    ],
+    "dependencies" : [
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "grdb.swift",
+          "kind" : "fileSystem",
+          "location" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift",
+          "name" : "GRDB"
+        },
+        "state" : {
+          "name" : "fileSystem",
+          "path" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift"
+        },
+        "subpath" : "grdb.swift"
+      }
+    ],
+    "prebuilts" : [
+
+    ]
+  },
+  "version" : 7
+}

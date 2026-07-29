@@ -1,33 +1,26 @@
-import AppKit
+//import AppKit
 import SwiftUI
 
 @main
 struct PureLogicsMacApp: App {
-    @StateObject private var navigation = AppNavigation()
-    @StateObject private var userStore: UserStore
-    @StateObject private var fileStore = FileProcessingStore()
-
-    init() {
-        NSWindow.allowsAutomaticWindowTabbing = false
-
-        let database = AppDatabase.makeDefault()
-        let repository = UserRepository(
-            apiClient: DummyJSONUserAPIClient(),
-            database: database
-        )
-        _userStore = StateObject(wrappedValue: UserStore(repository: repository))
-    }
+    
+    @State private var isLoggedIn = false
+    @State private var isOffline = false
+//    @State private var testString = "Taha"
+    @State private var sessionstore = UserSessionStore()
 
     var body: some Scene {
         WindowGroup {
-            RootView()
-                .environmentObject(navigation)
-                .environmentObject(userStore)
-                .environmentObject(fileStore)
-                .frame(minWidth: 980, minHeight: 640)
-                .task {
-                    await userStore.load()
+            SwiftUI.Group {
+                if isLoggedIn {
+                    AuthenticatedSessionView()
+                        
+                } else {
+                    LoginView(isLoggedIn: $isLoggedIn, isOffline: $isOffline, sessionStore: sessionstore)
                 }
+            }
+            .frame(minWidth: 800, minHeight: 600)
+            .environment(sessionstore)
         }
         .windowResizability(.contentMinSize)
         .commands {
@@ -35,3 +28,5 @@ struct PureLogicsMacApp: App {
         }
     }
 }
+
+

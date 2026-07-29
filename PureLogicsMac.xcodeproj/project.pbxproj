@@ -3,10 +3,92 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F37534C3008228900714FCB /* AuthenticatedSessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F37534B3008228900714FCB /* AuthenticatedSessionView.swift */; };
+		0F6EDD2030066B52002B51D2 /* Connectivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6EDD1F30066B52002B51D2 /* Connectivity.swift */; };
+		0F83ACCB300641E000A2516A /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F83ACCA300641E000A2516A /* LoginView.swift */; };
+		0FA6CB98301774BE008D1AB4 /* SignInApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA6CB97301774B1008D1AB4 /* SignInApi.swift */; };
+		0FA6CB9A30177820008D1AB4 /* APIDecryptionError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA6CB9930177820008D1AB4 /* APIDecryptionError.swift */; };
+		0FA6CC05301778D3008D1AB4 /* myvault_base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FA6CBA6301778D3008D1AB4 /* myvault_base64.m */; };
+		0FA6CC06301778D3008D1AB4 /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA6CBC5301778D3008D1AB4 /* Group.swift */; };
+		0FA6CC07301778D3008D1AB4 /* OpenSSL_IVHelper_Wrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0FA6CBE2301778D3008D1AB4 /* OpenSSL_IVHelper_Wrapper.mm */; };
+		0FA6CC08301778D3008D1AB4 /* VerifyAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA6CBD5301778D3008D1AB4 /* VerifyAccount.swift */; };
+		0FA6CC09301778D3008D1AB4 /* WrappingKeyCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FA6CBAC301778D3008D1AB4 /* WrappingKeyCache.m */; };
+		0FA6CC0A301778D3008D1AB4 /* VaultManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA6CBBF301778D3008D1AB4 /* VaultManager.swift */; };
+		0FA6CC0B301778D3008D1AB4 /* EncryptAccountDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA6CBD4301778D3008D1AB4 /* EncryptAccountDetails.swift */; };
+		0FA6CC0C301778D3008D1AB4 /* WrappingKeyCacheValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FA6CBAE301778D3008D1AB4 /* WrappingKeyCacheValue.m */; };
+		0FA6CC0D301778D3008D1AB4 /* myvault_aes.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FA6CBA4301778D3008D1AB4 /* myvault_aes.m */; };
+		0FA6CC0E301778D3008D1AB4 /* VaultXmlParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA6CBCC301778D3008D1AB4 /* VaultXmlParser.swift */; };
+		0FA6CC0F301778D3008D1AB4 /* CryptLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FA6CB9C301778D3008D1AB4 /* CryptLib.m */; };
+		0FA6CC10301778D3008D1AB4 /* OpenSSL_SHA256Helper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0FA6CC01301778D3008D1AB4 /* OpenSSL_SHA256Helper.cpp */; };
+		0FA6CC11301778D3008D1AB4 /* UtilManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA6CBCE301778D3008D1AB4 /* UtilManager.swift */; };
+		0FA6CC12301778D3008D1AB4 /* OpenSSL_AESKeyHelper_Wrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0FA6CBDA301778D3008D1AB4 /* OpenSSL_AESKeyHelper_Wrapper.mm */; };
+		0FA6CC13301778D3008D1AB4 /* AccountInfoXml.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA6CBC2301778D3008D1AB4 /* AccountInfoXml.swift */; };
+		0FA6CC14301778D3008D1AB4 /* ShareGroupManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA6CBBC301778D3008D1AB4 /* ShareGroupManager.swift */; };
+		0FA6CC15301778D3008D1AB4 /* OpenSSL_SHA256Helper_Wrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0FA6CBEA301778D3008D1AB4 /* OpenSSL_SHA256Helper_Wrapper.mm */; };
+		0FA6CC16301778D3008D1AB4 /* GroupManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA6CBB9301778D3008D1AB4 /* GroupManager.swift */; };
+		0FA6CC17301778D3008D1AB4 /* OpenSSL_Helper_Wrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0FA6CBDE301778D3008D1AB4 /* OpenSSL_Helper_Wrapper.mm */; };
+		0FA6CC18301778D3008D1AB4 /* OpenSSL_PBKDF2Helper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0FA6CBFB301778D3008D1AB4 /* OpenSSL_PBKDF2Helper.cpp */; };
+		0FA6CC19301778D3008D1AB4 /* OpenSSL_PBKDF2Helper_Wrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0FA6CBE4301778D3008D1AB4 /* OpenSSL_PBKDF2Helper_Wrapper.mm */; };
+		0FA6CC1A301778D3008D1AB4 /* FileNameEnc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA6CBB5301778D3008D1AB4 /* FileNameEnc.swift */; };
+		0FA6CC1B301778D3008D1AB4 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA6CBC1301778D3008D1AB4 /* Account.swift */; };
+		0FA6CC1C301778D3008D1AB4 /* AccountManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA6CBB7301778D3008D1AB4 /* AccountManager.swift */; };
+		0FA6CC1D301778D3008D1AB4 /* Secret.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA6CBC7301778D3008D1AB4 /* Secret.swift */; };
+		0FA6CC1E301778D3008D1AB4 /* VaultInfoXml.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA6CBCB301778D3008D1AB4 /* VaultInfoXml.swift */; };
+		0FA6CC1F301778D3008D1AB4 /* OpenSSL_Base64Helper_Wrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0FA6CBDC301778D3008D1AB4 /* OpenSSL_Base64Helper_Wrapper.mm */; };
+		0FA6CC20301778D3008D1AB4 /* OpenSSL_Helper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0FA6CBF5301778D3008D1AB4 /* OpenSSL_Helper.cpp */; };
+		0FA6CC21301778D3008D1AB4 /* OpenSSL_AESHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0FA6CBEF301778D3008D1AB4 /* OpenSSL_AESHelper.cpp */; };
+		0FA6CC22301778D3008D1AB4 /* OpenSSL_AESHelper_Wrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0FA6CBD8301778D3008D1AB4 /* OpenSSL_AESHelper_Wrapper.mm */; };
+		0FA6CC23301778D3008D1AB4 /* CipherRsa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA6CBB3301778D3008D1AB4 /* CipherRsa.swift */; };
+		0FA6CC24301778D3008D1AB4 /* OpenSSL_IVHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0FA6CBF9301778D3008D1AB4 /* OpenSSL_IVHelper.cpp */; };
+		0FA6CC25301778D3008D1AB4 /* OpenSSL_Base64Helper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0FA6CBF3301778D3008D1AB4 /* OpenSSL_Base64Helper.cpp */; };
+		0FA6CC26301778D3008D1AB4 /* enc_filename.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0FA6CBA2301778D3008D1AB4 /* enc_filename.mm */; };
+		0FA6CC27301778D3008D1AB4 /* SecretManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA6CBBA301778D3008D1AB4 /* SecretManager.swift */; };
+		0FA6CC28301778D3008D1AB4 /* BaseUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA6CBC3301778D3008D1AB4 /* BaseUser.swift */; };
+		0FA6CC29301778D3008D1AB4 /* SecureAccount.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0FA6CC03301778D3008D1AB4 /* SecureAccount.cpp */; };
+		0FA6CC2A301778D3008D1AB4 /* enc_content.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0FA6CBA0301778D3008D1AB4 /* enc_content.mm */; };
+		0FA6CC2B301778D3008D1AB4 /* VaultInfoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA6CBBE301778D3008D1AB4 /* VaultInfoManager.swift */; };
+		0FA6CC2C301778D3008D1AB4 /* OpenSSL_SaltHelper_Wrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0FA6CBE8301778D3008D1AB4 /* OpenSSL_SaltHelper_Wrapper.mm */; };
+		0FA6CC2D301778D3008D1AB4 /* WrappingKeyRequester.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FA6CBB0301778D3008D1AB4 /* WrappingKeyRequester.m */; };
+		0FA6CC2E301778D3008D1AB4 /* FileEncInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA6CBC4301778D3008D1AB4 /* FileEncInfo.swift */; };
+		0FA6CC2F301778D3008D1AB4 /* myvault_rsa.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FA6CBA8301778D3008D1AB4 /* myvault_rsa.m */; };
+		0FA6CC30301778D3008D1AB4 /* OpenSSL_RSAHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0FA6CBFD301778D3008D1AB4 /* OpenSSL_RSAHelper.cpp */; };
+		0FA6CC31301778D3008D1AB4 /* DecryptAccountDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA6CBD3301778D3008D1AB4 /* DecryptAccountDetails.swift */; };
+		0FA6CC32301778D3008D1AB4 /* OpenSSL_SaltHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0FA6CBFF301778D3008D1AB4 /* OpenSSL_SaltHelper.cpp */; };
+		0FA6CC33301778D3008D1AB4 /* UtilManagerC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FA6CBAA301778D3008D1AB4 /* UtilManagerC.m */; };
+		0FA6CC34301778D3008D1AB4 /* OpenSSL_HMACSHA256Helper_Wrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0FA6CBE0301778D3008D1AB4 /* OpenSSL_HMACSHA256Helper_Wrapper.mm */; };
+		0FA6CC35301778D3008D1AB4 /* ChangePassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA6CBD1301778D3008D1AB4 /* ChangePassword.swift */; };
+		0FA6CC36301778D3008D1AB4 /* GroupInfoXml.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA6CBC6301778D3008D1AB4 /* GroupInfoXml.swift */; };
+		0FA6CC37301778D3008D1AB4 /* SecretInfoXml.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA6CBC8301778D3008D1AB4 /* SecretInfoXml.swift */; };
+		0FA6CC38301778D3008D1AB4 /* CreateAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA6CBD2301778D3008D1AB4 /* CreateAccount.swift */; };
+		0FA6CC39301778D3008D1AB4 /* VaultInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA6CBCA301778D3008D1AB4 /* VaultInfo.swift */; };
+		0FA6CC3A301778D3008D1AB4 /* CipherAes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA6CBB2301778D3008D1AB4 /* CipherAes.swift */; };
+		0FA6CC3B301778D3008D1AB4 /* SecureAccount_Wrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0FA6CBEC301778D3008D1AB4 /* SecureAccount_Wrapper.mm */; };
+		0FA6CC3C301778D3008D1AB4 /* VaultFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA6CBC9301778D3008D1AB4 /* VaultFile.swift */; };
+		0FA6CC3D301778D3008D1AB4 /* EncKeyLib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA6CBB4301778D3008D1AB4 /* EncKeyLib.swift */; };
+		0FA6CC3E301778D3008D1AB4 /* OpenSSL_AESKeyHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0FA6CBF1301778D3008D1AB4 /* OpenSSL_AESKeyHelper.cpp */; };
+		0FA6CC3F301778D3008D1AB4 /* OpenSSL_RSAHelper_Wrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0FA6CBE6301778D3008D1AB4 /* OpenSSL_RSAHelper_Wrapper.mm */; };
+		0FA6CC40301778D3008D1AB4 /* OpenSSL_HMACSHA256Helper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0FA6CBF7301778D3008D1AB4 /* OpenSSL_HMACSHA256Helper.cpp */; };
+		0FA6CC41301778D3008D1AB4 /* share.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0FA6CBBB301778D3008D1AB4 /* share.xml */; };
+		0FA6CC42301778D3008D1AB4 /* vault_info.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0FA6CBBD301778D3008D1AB4 /* vault_info.xml */; };
+		0FA6CC43301778D3008D1AB4 /* accounts.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0FA6CBB8301778D3008D1AB4 /* accounts.xml */; };
+		0FA6CC4A3017FCD3008D1AB4 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA6CC493017FCD3008D1AB4 /* NetworkError.swift */; };
+		0FA6CC4C3017FCE3008D1AB4 /* EncryptedAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA6CC4B3017FCE3008D1AB4 /* EncryptedAPIClient.swift */; };
+		0FA6CC503017FF36008D1AB4 /* APIEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA6CC4F3017FF36008D1AB4 /* APIEnvironment.swift */; };
+		0FA6CC57301802D4008D1AB4 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA6CC55301802D4008D1AB4 /* LoginViewModel.swift */; };
+		0FA6CC59301802FC008D1AB4 /* LoginRequestDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA6CC58301802FC008D1AB4 /* LoginRequestDTO.swift */; };
+		0FA6CC5B301803EE008D1AB4 /* LoginResponseDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA6CC5A301803EE008D1AB4 /* LoginResponseDTO.swift */; };
+		0FA6CC6230180BC7008D1AB4 /* AuthRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA6CC6130180BC7008D1AB4 /* AuthRepository.swift */; };
+		0FA6CC6430180C06008D1AB4 /* LoginUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA6CC6330180C06008D1AB4 /* LoginUseCase.swift */; };
+		0FA6CC6730180C8E008D1AB4 /* AuthRemoteDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA6CC6630180C8E008D1AB4 /* AuthRemoteDataSource.swift */; };
+		0FA6CC6930180F38008D1AB4 /* DefaultAuthRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA6CC6830180F38008D1AB4 /* DefaultAuthRepository.swift */; };
+		0FA6CC6B301894C6008D1AB4 /* APIEncryptionError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA6CC6A301894C6008D1AB4 /* APIEncryptionError.swift */; };
+		0FA6CC6D3018ACE2008D1AB4 /* AuthResponseDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA6CC6C3018ACE2008D1AB4 /* AuthResponseDTO.swift */; };
+		0FA6CC6F3018C2C3008D1AB4 /* UserSessionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA6CC6E3018C2C3008D1AB4 /* UserSessionStore.swift */; };
+		0FDF89DC300026B10094F5DB /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDF89DB300026B10094F5DB /* SettingView.swift */; };
 		100000000000000000000101 /* PureLogicsMacApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000201 /* PureLogicsMacApp.swift */; };
 		100000000000000000000102 /* FileHashProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000202 /* FileHashProcessor.swift */; };
 		100000000000000000000103 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000203 /* User.swift */; };
@@ -16,12 +98,127 @@
 		100000000000000000000107 /* UserStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000207 /* UserStore.swift */; };
 		100000000000000000000108 /* DashboardViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000208 /* DashboardViews.swift */; };
 		100000000000000000000109 /* FileProcessingViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000209 /* FileProcessingViews.swift */; };
-		100000000000000000000110 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000210 /* RootView.swift */; };
+		100000000000000000000110 /* NaviagtionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000210 /* NaviagtionView.swift */; };
 		100000000000000000000111 /* UserViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000211 /* UserViews.swift */; };
 		100000000000000000000112 /* GRDB in Frameworks */ = {isa = PBXBuildFile; productRef = 100000000000000000000901 /* GRDB */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F37534B3008228900714FCB /* AuthenticatedSessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticatedSessionView.swift; sourceTree = "<group>"; };
+		0F6EDD1F30066B52002B51D2 /* Connectivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connectivity.swift; sourceTree = "<group>"; };
+		0F83ACCA300641E000A2516A /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		0FA6CB97301774B1008D1AB4 /* SignInApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInApi.swift; sourceTree = "<group>"; };
+		0FA6CB9930177820008D1AB4 /* APIDecryptionError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIDecryptionError.swift; sourceTree = "<group>"; };
+		0FA6CB9B301778D3008D1AB4 /* CryptLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CryptLib.h; sourceTree = "<group>"; };
+		0FA6CB9C301778D3008D1AB4 /* CryptLib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CryptLib.m; sourceTree = "<group>"; };
+		0FA6CB9D301778D3008D1AB4 /* PureLogicsMac_Bridging header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PureLogicsMac_Bridging header.h"; sourceTree = "<group>"; };
+		0FA6CB9F301778D3008D1AB4 /* enc_content.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = enc_content.h; sourceTree = "<group>"; };
+		0FA6CBA0301778D3008D1AB4 /* enc_content.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = enc_content.mm; sourceTree = "<group>"; };
+		0FA6CBA1301778D3008D1AB4 /* enc_filename.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = enc_filename.h; sourceTree = "<group>"; };
+		0FA6CBA2301778D3008D1AB4 /* enc_filename.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = enc_filename.mm; sourceTree = "<group>"; };
+		0FA6CBA3301778D3008D1AB4 /* myvault_aes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = myvault_aes.h; sourceTree = "<group>"; };
+		0FA6CBA4301778D3008D1AB4 /* myvault_aes.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = myvault_aes.m; sourceTree = "<group>"; };
+		0FA6CBA5301778D3008D1AB4 /* myvault_base64.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = myvault_base64.h; sourceTree = "<group>"; };
+		0FA6CBA6301778D3008D1AB4 /* myvault_base64.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = myvault_base64.m; sourceTree = "<group>"; };
+		0FA6CBA7301778D3008D1AB4 /* myvault_rsa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = myvault_rsa.h; sourceTree = "<group>"; };
+		0FA6CBA8301778D3008D1AB4 /* myvault_rsa.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = myvault_rsa.m; sourceTree = "<group>"; };
+		0FA6CBA9301778D3008D1AB4 /* UtilManagerC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UtilManagerC.h; sourceTree = "<group>"; };
+		0FA6CBAA301778D3008D1AB4 /* UtilManagerC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UtilManagerC.m; sourceTree = "<group>"; };
+		0FA6CBAB301778D3008D1AB4 /* WrappingKeyCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WrappingKeyCache.h; sourceTree = "<group>"; };
+		0FA6CBAC301778D3008D1AB4 /* WrappingKeyCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WrappingKeyCache.m; sourceTree = "<group>"; };
+		0FA6CBAD301778D3008D1AB4 /* WrappingKeyCacheValue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WrappingKeyCacheValue.h; sourceTree = "<group>"; };
+		0FA6CBAE301778D3008D1AB4 /* WrappingKeyCacheValue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WrappingKeyCacheValue.m; sourceTree = "<group>"; };
+		0FA6CBAF301778D3008D1AB4 /* WrappingKeyRequester.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WrappingKeyRequester.h; sourceTree = "<group>"; };
+		0FA6CBB0301778D3008D1AB4 /* WrappingKeyRequester.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WrappingKeyRequester.m; sourceTree = "<group>"; };
+		0FA6CBB2301778D3008D1AB4 /* CipherAes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CipherAes.swift; sourceTree = "<group>"; };
+		0FA6CBB3301778D3008D1AB4 /* CipherRsa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CipherRsa.swift; sourceTree = "<group>"; };
+		0FA6CBB4301778D3008D1AB4 /* EncKeyLib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncKeyLib.swift; sourceTree = "<group>"; };
+		0FA6CBB5301778D3008D1AB4 /* FileNameEnc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileNameEnc.swift; sourceTree = "<group>"; };
+		0FA6CBB7301778D3008D1AB4 /* AccountManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountManager.swift; sourceTree = "<group>"; };
+		0FA6CBB8301778D3008D1AB4 /* accounts.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = accounts.xml; sourceTree = "<group>"; };
+		0FA6CBB9301778D3008D1AB4 /* GroupManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupManager.swift; sourceTree = "<group>"; };
+		0FA6CBBA301778D3008D1AB4 /* SecretManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecretManager.swift; sourceTree = "<group>"; };
+		0FA6CBBB301778D3008D1AB4 /* share.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = share.xml; sourceTree = "<group>"; };
+		0FA6CBBC301778D3008D1AB4 /* ShareGroupManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareGroupManager.swift; sourceTree = "<group>"; };
+		0FA6CBBD301778D3008D1AB4 /* vault_info.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = vault_info.xml; sourceTree = "<group>"; };
+		0FA6CBBE301778D3008D1AB4 /* VaultInfoManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaultInfoManager.swift; sourceTree = "<group>"; };
+		0FA6CBBF301778D3008D1AB4 /* VaultManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaultManager.swift; sourceTree = "<group>"; };
+		0FA6CBC1301778D3008D1AB4 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		0FA6CBC2301778D3008D1AB4 /* AccountInfoXml.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountInfoXml.swift; sourceTree = "<group>"; };
+		0FA6CBC3301778D3008D1AB4 /* BaseUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseUser.swift; sourceTree = "<group>"; };
+		0FA6CBC4301778D3008D1AB4 /* FileEncInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileEncInfo.swift; sourceTree = "<group>"; };
+		0FA6CBC5301778D3008D1AB4 /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
+		0FA6CBC6301778D3008D1AB4 /* GroupInfoXml.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupInfoXml.swift; sourceTree = "<group>"; };
+		0FA6CBC7301778D3008D1AB4 /* Secret.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secret.swift; sourceTree = "<group>"; };
+		0FA6CBC8301778D3008D1AB4 /* SecretInfoXml.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecretInfoXml.swift; sourceTree = "<group>"; };
+		0FA6CBC9301778D3008D1AB4 /* VaultFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaultFile.swift; sourceTree = "<group>"; };
+		0FA6CBCA301778D3008D1AB4 /* VaultInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaultInfo.swift; sourceTree = "<group>"; };
+		0FA6CBCB301778D3008D1AB4 /* VaultInfoXml.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaultInfoXml.swift; sourceTree = "<group>"; };
+		0FA6CBCC301778D3008D1AB4 /* VaultXmlParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaultXmlParser.swift; sourceTree = "<group>"; };
+		0FA6CBCE301778D3008D1AB4 /* UtilManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilManager.swift; sourceTree = "<group>"; };
+		0FA6CBD1301778D3008D1AB4 /* ChangePassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePassword.swift; sourceTree = "<group>"; };
+		0FA6CBD2301778D3008D1AB4 /* CreateAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccount.swift; sourceTree = "<group>"; };
+		0FA6CBD3301778D3008D1AB4 /* DecryptAccountDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecryptAccountDetails.swift; sourceTree = "<group>"; };
+		0FA6CBD4301778D3008D1AB4 /* EncryptAccountDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncryptAccountDetails.swift; sourceTree = "<group>"; };
+		0FA6CBD5301778D3008D1AB4 /* VerifyAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyAccount.swift; sourceTree = "<group>"; };
+		0FA6CBD7301778D3008D1AB4 /* OpenSSL_AESHelper_Wrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenSSL_AESHelper_Wrapper.h; sourceTree = "<group>"; };
+		0FA6CBD8301778D3008D1AB4 /* OpenSSL_AESHelper_Wrapper.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = OpenSSL_AESHelper_Wrapper.mm; sourceTree = "<group>"; };
+		0FA6CBD9301778D3008D1AB4 /* OpenSSL_AESKeyHelper_Wrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenSSL_AESKeyHelper_Wrapper.h; sourceTree = "<group>"; };
+		0FA6CBDA301778D3008D1AB4 /* OpenSSL_AESKeyHelper_Wrapper.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = OpenSSL_AESKeyHelper_Wrapper.mm; sourceTree = "<group>"; };
+		0FA6CBDB301778D3008D1AB4 /* OpenSSL_Base64Helper_Wrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenSSL_Base64Helper_Wrapper.h; sourceTree = "<group>"; };
+		0FA6CBDC301778D3008D1AB4 /* OpenSSL_Base64Helper_Wrapper.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = OpenSSL_Base64Helper_Wrapper.mm; sourceTree = "<group>"; };
+		0FA6CBDD301778D3008D1AB4 /* OpenSSL_Helper_Wrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenSSL_Helper_Wrapper.h; sourceTree = "<group>"; };
+		0FA6CBDE301778D3008D1AB4 /* OpenSSL_Helper_Wrapper.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = OpenSSL_Helper_Wrapper.mm; sourceTree = "<group>"; };
+		0FA6CBDF301778D3008D1AB4 /* OpenSSL_HMACSHA256Helper_Wrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenSSL_HMACSHA256Helper_Wrapper.h; sourceTree = "<group>"; };
+		0FA6CBE0301778D3008D1AB4 /* OpenSSL_HMACSHA256Helper_Wrapper.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = OpenSSL_HMACSHA256Helper_Wrapper.mm; sourceTree = "<group>"; };
+		0FA6CBE1301778D3008D1AB4 /* OpenSSL_IVHelper_Wrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenSSL_IVHelper_Wrapper.h; sourceTree = "<group>"; };
+		0FA6CBE2301778D3008D1AB4 /* OpenSSL_IVHelper_Wrapper.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = OpenSSL_IVHelper_Wrapper.mm; sourceTree = "<group>"; };
+		0FA6CBE3301778D3008D1AB4 /* OpenSSL_PBKDF2Helper_Wrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenSSL_PBKDF2Helper_Wrapper.h; sourceTree = "<group>"; };
+		0FA6CBE4301778D3008D1AB4 /* OpenSSL_PBKDF2Helper_Wrapper.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = OpenSSL_PBKDF2Helper_Wrapper.mm; sourceTree = "<group>"; };
+		0FA6CBE5301778D3008D1AB4 /* OpenSSL_RSAHelper_Wrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenSSL_RSAHelper_Wrapper.h; sourceTree = "<group>"; };
+		0FA6CBE6301778D3008D1AB4 /* OpenSSL_RSAHelper_Wrapper.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = OpenSSL_RSAHelper_Wrapper.mm; sourceTree = "<group>"; };
+		0FA6CBE7301778D3008D1AB4 /* OpenSSL_SaltHelper_Wrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenSSL_SaltHelper_Wrapper.h; sourceTree = "<group>"; };
+		0FA6CBE8301778D3008D1AB4 /* OpenSSL_SaltHelper_Wrapper.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = OpenSSL_SaltHelper_Wrapper.mm; sourceTree = "<group>"; };
+		0FA6CBE9301778D3008D1AB4 /* OpenSSL_SHA256Helper_Wrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenSSL_SHA256Helper_Wrapper.h; sourceTree = "<group>"; };
+		0FA6CBEA301778D3008D1AB4 /* OpenSSL_SHA256Helper_Wrapper.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = OpenSSL_SHA256Helper_Wrapper.mm; sourceTree = "<group>"; };
+		0FA6CBEB301778D3008D1AB4 /* SecureAccount_Wrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecureAccount_Wrapper.h; sourceTree = "<group>"; };
+		0FA6CBEC301778D3008D1AB4 /* SecureAccount_Wrapper.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = SecureAccount_Wrapper.mm; sourceTree = "<group>"; };
+		0FA6CBEE301778D3008D1AB4 /* OpenSSL_AESHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenSSL_AESHelper.h; sourceTree = "<group>"; };
+		0FA6CBEF301778D3008D1AB4 /* OpenSSL_AESHelper.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = OpenSSL_AESHelper.cpp; sourceTree = "<group>"; };
+		0FA6CBF0301778D3008D1AB4 /* OpenSSL_AESKeyHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenSSL_AESKeyHelper.h; sourceTree = "<group>"; };
+		0FA6CBF1301778D3008D1AB4 /* OpenSSL_AESKeyHelper.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = OpenSSL_AESKeyHelper.cpp; sourceTree = "<group>"; };
+		0FA6CBF2301778D3008D1AB4 /* OpenSSL_Base64Helper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenSSL_Base64Helper.h; sourceTree = "<group>"; };
+		0FA6CBF3301778D3008D1AB4 /* OpenSSL_Base64Helper.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = OpenSSL_Base64Helper.cpp; sourceTree = "<group>"; };
+		0FA6CBF4301778D3008D1AB4 /* OpenSSL_Helper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenSSL_Helper.h; sourceTree = "<group>"; };
+		0FA6CBF5301778D3008D1AB4 /* OpenSSL_Helper.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = OpenSSL_Helper.cpp; sourceTree = "<group>"; };
+		0FA6CBF6301778D3008D1AB4 /* OpenSSL_HMACSHA256Helper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenSSL_HMACSHA256Helper.h; sourceTree = "<group>"; };
+		0FA6CBF7301778D3008D1AB4 /* OpenSSL_HMACSHA256Helper.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = OpenSSL_HMACSHA256Helper.cpp; sourceTree = "<group>"; };
+		0FA6CBF8301778D3008D1AB4 /* OpenSSL_IVHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenSSL_IVHelper.h; sourceTree = "<group>"; };
+		0FA6CBF9301778D3008D1AB4 /* OpenSSL_IVHelper.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = OpenSSL_IVHelper.cpp; sourceTree = "<group>"; };
+		0FA6CBFA301778D3008D1AB4 /* OpenSSL_PBKDF2Helper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenSSL_PBKDF2Helper.h; sourceTree = "<group>"; };
+		0FA6CBFB301778D3008D1AB4 /* OpenSSL_PBKDF2Helper.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = OpenSSL_PBKDF2Helper.cpp; sourceTree = "<group>"; };
+		0FA6CBFC301778D3008D1AB4 /* OpenSSL_RSAHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenSSL_RSAHelper.h; sourceTree = "<group>"; };
+		0FA6CBFD301778D3008D1AB4 /* OpenSSL_RSAHelper.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = OpenSSL_RSAHelper.cpp; sourceTree = "<group>"; };
+		0FA6CBFE301778D3008D1AB4 /* OpenSSL_SaltHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenSSL_SaltHelper.h; sourceTree = "<group>"; };
+		0FA6CBFF301778D3008D1AB4 /* OpenSSL_SaltHelper.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = OpenSSL_SaltHelper.cpp; sourceTree = "<group>"; };
+		0FA6CC00301778D3008D1AB4 /* OpenSSL_SHA256Helper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenSSL_SHA256Helper.h; sourceTree = "<group>"; };
+		0FA6CC01301778D3008D1AB4 /* OpenSSL_SHA256Helper.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = OpenSSL_SHA256Helper.cpp; sourceTree = "<group>"; };
+		0FA6CC02301778D3008D1AB4 /* SecureAccount.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecureAccount.h; sourceTree = "<group>"; };
+		0FA6CC03301778D3008D1AB4 /* SecureAccount.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SecureAccount.cpp; sourceTree = "<group>"; };
+		0FA6CC493017FCD3008D1AB4 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		0FA6CC4B3017FCE3008D1AB4 /* EncryptedAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncryptedAPIClient.swift; sourceTree = "<group>"; };
+		0FA6CC4F3017FF36008D1AB4 /* APIEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIEnvironment.swift; sourceTree = "<group>"; };
+		0FA6CC55301802D4008D1AB4 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		0FA6CC58301802FC008D1AB4 /* LoginRequestDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRequestDTO.swift; sourceTree = "<group>"; };
+		0FA6CC5A301803EE008D1AB4 /* LoginResponseDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponseDTO.swift; sourceTree = "<group>"; };
+		0FA6CC6130180BC7008D1AB4 /* AuthRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthRepository.swift; sourceTree = "<group>"; };
+		0FA6CC6330180C06008D1AB4 /* LoginUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUseCase.swift; sourceTree = "<group>"; };
+		0FA6CC6630180C8E008D1AB4 /* AuthRemoteDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthRemoteDataSource.swift; sourceTree = "<group>"; };
+		0FA6CC6830180F38008D1AB4 /* DefaultAuthRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultAuthRepository.swift; sourceTree = "<group>"; };
+		0FA6CC6A301894C6008D1AB4 /* APIEncryptionError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIEncryptionError.swift; sourceTree = "<group>"; };
+		0FA6CC6C3018ACE2008D1AB4 /* AuthResponseDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthResponseDTO.swift; sourceTree = "<group>"; };
+		0FA6CC6E3018C2C3008D1AB4 /* UserSessionStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSessionStore.swift; sourceTree = "<group>"; };
+		0FDF89DB300026B10094F5DB /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
 		100000000000000000000201 /* PureLogicsMacApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PureLogicsMacApp.swift; sourceTree = "<group>"; };
 		100000000000000000000202 /* FileHashProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileHashProcessor.swift; sourceTree = "<group>"; };
 		100000000000000000000203 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
@@ -31,7 +228,7 @@
 		100000000000000000000207 /* UserStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStore.swift; sourceTree = "<group>"; };
 		100000000000000000000208 /* DashboardViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViews.swift; sourceTree = "<group>"; };
 		100000000000000000000209 /* FileProcessingViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileProcessingViews.swift; sourceTree = "<group>"; };
-		100000000000000000000210 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		100000000000000000000210 /* NaviagtionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaviagtionView.swift; sourceTree = "<group>"; };
 		100000000000000000000211 /* UserViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViews.swift; sourceTree = "<group>"; };
 		100000000000000000000212 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		100000000000000000000301 /* PureLogicsMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PureLogicsMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +246,256 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0FA6CB9E301778D3008D1AB4 /* AES Encryption */ = {
+			isa = PBXGroup;
+			children = (
+				0FA6CB9B301778D3008D1AB4 /* CryptLib.h */,
+				0FA6CB9C301778D3008D1AB4 /* CryptLib.m */,
+				0FA6CB9D301778D3008D1AB4 /* PureLogicsMac_Bridging header.h */,
+			);
+			path = "AES Encryption";
+			sourceTree = "<group>";
+		};
+		0FA6CBB1301778D3008D1AB4 /* enc */ = {
+			isa = PBXGroup;
+			children = (
+				0FA6CB9F301778D3008D1AB4 /* enc_content.h */,
+				0FA6CBA0301778D3008D1AB4 /* enc_content.mm */,
+				0FA6CBA1301778D3008D1AB4 /* enc_filename.h */,
+				0FA6CBA2301778D3008D1AB4 /* enc_filename.mm */,
+				0FA6CBA3301778D3008D1AB4 /* myvault_aes.h */,
+				0FA6CBA4301778D3008D1AB4 /* myvault_aes.m */,
+				0FA6CBA5301778D3008D1AB4 /* myvault_base64.h */,
+				0FA6CBA6301778D3008D1AB4 /* myvault_base64.m */,
+				0FA6CBA7301778D3008D1AB4 /* myvault_rsa.h */,
+				0FA6CBA8301778D3008D1AB4 /* myvault_rsa.m */,
+				0FA6CBA9301778D3008D1AB4 /* UtilManagerC.h */,
+				0FA6CBAA301778D3008D1AB4 /* UtilManagerC.m */,
+				0FA6CBAB301778D3008D1AB4 /* WrappingKeyCache.h */,
+				0FA6CBAC301778D3008D1AB4 /* WrappingKeyCache.m */,
+				0FA6CBAD301778D3008D1AB4 /* WrappingKeyCacheValue.h */,
+				0FA6CBAE301778D3008D1AB4 /* WrappingKeyCacheValue.m */,
+				0FA6CBAF301778D3008D1AB4 /* WrappingKeyRequester.h */,
+				0FA6CBB0301778D3008D1AB4 /* WrappingKeyRequester.m */,
+			);
+			path = enc;
+			sourceTree = "<group>";
+		};
+		0FA6CBB6301778D3008D1AB4 /* encryption */ = {
+			isa = PBXGroup;
+			children = (
+				0FA6CBB2301778D3008D1AB4 /* CipherAes.swift */,
+				0FA6CBB3301778D3008D1AB4 /* CipherRsa.swift */,
+				0FA6CBB4301778D3008D1AB4 /* EncKeyLib.swift */,
+				0FA6CBB5301778D3008D1AB4 /* FileNameEnc.swift */,
+			);
+			path = encryption;
+			sourceTree = "<group>";
+		};
+		0FA6CBC0301778D3008D1AB4 /* manager */ = {
+			isa = PBXGroup;
+			children = (
+				0FA6CBB7301778D3008D1AB4 /* AccountManager.swift */,
+				0FA6CBB8301778D3008D1AB4 /* accounts.xml */,
+				0FA6CBB9301778D3008D1AB4 /* GroupManager.swift */,
+				0FA6CBBA301778D3008D1AB4 /* SecretManager.swift */,
+				0FA6CBBB301778D3008D1AB4 /* share.xml */,
+				0FA6CBBC301778D3008D1AB4 /* ShareGroupManager.swift */,
+				0FA6CBBD301778D3008D1AB4 /* vault_info.xml */,
+				0FA6CBBE301778D3008D1AB4 /* VaultInfoManager.swift */,
+				0FA6CBBF301778D3008D1AB4 /* VaultManager.swift */,
+			);
+			path = manager;
+			sourceTree = "<group>";
+		};
+		0FA6CBCD301778D3008D1AB4 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				0FA6CBC1301778D3008D1AB4 /* Account.swift */,
+				0FA6CBC2301778D3008D1AB4 /* AccountInfoXml.swift */,
+				0FA6CBC3301778D3008D1AB4 /* BaseUser.swift */,
+				0FA6CBC4301778D3008D1AB4 /* FileEncInfo.swift */,
+				0FA6CBC5301778D3008D1AB4 /* Group.swift */,
+				0FA6CBC6301778D3008D1AB4 /* GroupInfoXml.swift */,
+				0FA6CBC7301778D3008D1AB4 /* Secret.swift */,
+				0FA6CBC8301778D3008D1AB4 /* SecretInfoXml.swift */,
+				0FA6CBC9301778D3008D1AB4 /* VaultFile.swift */,
+				0FA6CBCA301778D3008D1AB4 /* VaultInfo.swift */,
+				0FA6CBCB301778D3008D1AB4 /* VaultInfoXml.swift */,
+				0FA6CBCC301778D3008D1AB4 /* VaultXmlParser.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		0FA6CBCF301778D3008D1AB4 /* util */ = {
+			isa = PBXGroup;
+			children = (
+				0FA6CBCE301778D3008D1AB4 /* UtilManager.swift */,
+			);
+			path = util;
+			sourceTree = "<group>";
+		};
+		0FA6CBD0301778D3008D1AB4 /* encs */ = {
+			isa = PBXGroup;
+			children = (
+				0FA6CBB1301778D3008D1AB4 /* enc */,
+				0FA6CBB6301778D3008D1AB4 /* encryption */,
+				0FA6CBC0301778D3008D1AB4 /* manager */,
+				0FA6CBCD301778D3008D1AB4 /* model */,
+				0FA6CBCF301778D3008D1AB4 /* util */,
+			);
+			path = encs;
+			sourceTree = "<group>";
+		};
+		0FA6CBD6301778D3008D1AB4 /* EncyAccount */ = {
+			isa = PBXGroup;
+			children = (
+				0FA6CBD1301778D3008D1AB4 /* ChangePassword.swift */,
+				0FA6CBD2301778D3008D1AB4 /* CreateAccount.swift */,
+				0FA6CBD3301778D3008D1AB4 /* DecryptAccountDetails.swift */,
+				0FA6CBD4301778D3008D1AB4 /* EncryptAccountDetails.swift */,
+				0FA6CBD5301778D3008D1AB4 /* VerifyAccount.swift */,
+			);
+			path = EncyAccount;
+			sourceTree = "<group>";
+		};
+		0FA6CBED301778D3008D1AB4 /* OpenSSLHelperWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				0FA6CBD7301778D3008D1AB4 /* OpenSSL_AESHelper_Wrapper.h */,
+				0FA6CBD8301778D3008D1AB4 /* OpenSSL_AESHelper_Wrapper.mm */,
+				0FA6CBD9301778D3008D1AB4 /* OpenSSL_AESKeyHelper_Wrapper.h */,
+				0FA6CBDA301778D3008D1AB4 /* OpenSSL_AESKeyHelper_Wrapper.mm */,
+				0FA6CBDB301778D3008D1AB4 /* OpenSSL_Base64Helper_Wrapper.h */,
+				0FA6CBDC301778D3008D1AB4 /* OpenSSL_Base64Helper_Wrapper.mm */,
+				0FA6CBDD301778D3008D1AB4 /* OpenSSL_Helper_Wrapper.h */,
+				0FA6CBDE301778D3008D1AB4 /* OpenSSL_Helper_Wrapper.mm */,
+				0FA6CBDF301778D3008D1AB4 /* OpenSSL_HMACSHA256Helper_Wrapper.h */,
+				0FA6CBE0301778D3008D1AB4 /* OpenSSL_HMACSHA256Helper_Wrapper.mm */,
+				0FA6CBE1301778D3008D1AB4 /* OpenSSL_IVHelper_Wrapper.h */,
+				0FA6CBE2301778D3008D1AB4 /* OpenSSL_IVHelper_Wrapper.mm */,
+				0FA6CBE3301778D3008D1AB4 /* OpenSSL_PBKDF2Helper_Wrapper.h */,
+				0FA6CBE4301778D3008D1AB4 /* OpenSSL_PBKDF2Helper_Wrapper.mm */,
+				0FA6CBE5301778D3008D1AB4 /* OpenSSL_RSAHelper_Wrapper.h */,
+				0FA6CBE6301778D3008D1AB4 /* OpenSSL_RSAHelper_Wrapper.mm */,
+				0FA6CBE7301778D3008D1AB4 /* OpenSSL_SaltHelper_Wrapper.h */,
+				0FA6CBE8301778D3008D1AB4 /* OpenSSL_SaltHelper_Wrapper.mm */,
+				0FA6CBE9301778D3008D1AB4 /* OpenSSL_SHA256Helper_Wrapper.h */,
+				0FA6CBEA301778D3008D1AB4 /* OpenSSL_SHA256Helper_Wrapper.mm */,
+				0FA6CBEB301778D3008D1AB4 /* SecureAccount_Wrapper.h */,
+				0FA6CBEC301778D3008D1AB4 /* SecureAccount_Wrapper.mm */,
+			);
+			path = OpenSSLHelperWrapper;
+			sourceTree = "<group>";
+		};
+		0FA6CC04301778D3008D1AB4 /* OpenSSLHelper */ = {
+			isa = PBXGroup;
+			children = (
+				0FA6CBED301778D3008D1AB4 /* OpenSSLHelperWrapper */,
+				0FA6CBEE301778D3008D1AB4 /* OpenSSL_AESHelper.h */,
+				0FA6CBEF301778D3008D1AB4 /* OpenSSL_AESHelper.cpp */,
+				0FA6CBF0301778D3008D1AB4 /* OpenSSL_AESKeyHelper.h */,
+				0FA6CBF1301778D3008D1AB4 /* OpenSSL_AESKeyHelper.cpp */,
+				0FA6CBF2301778D3008D1AB4 /* OpenSSL_Base64Helper.h */,
+				0FA6CBF3301778D3008D1AB4 /* OpenSSL_Base64Helper.cpp */,
+				0FA6CBF4301778D3008D1AB4 /* OpenSSL_Helper.h */,
+				0FA6CBF5301778D3008D1AB4 /* OpenSSL_Helper.cpp */,
+				0FA6CBF6301778D3008D1AB4 /* OpenSSL_HMACSHA256Helper.h */,
+				0FA6CBF7301778D3008D1AB4 /* OpenSSL_HMACSHA256Helper.cpp */,
+				0FA6CBF8301778D3008D1AB4 /* OpenSSL_IVHelper.h */,
+				0FA6CBF9301778D3008D1AB4 /* OpenSSL_IVHelper.cpp */,
+				0FA6CBFA301778D3008D1AB4 /* OpenSSL_PBKDF2Helper.h */,
+				0FA6CBFB301778D3008D1AB4 /* OpenSSL_PBKDF2Helper.cpp */,
+				0FA6CBFC301778D3008D1AB4 /* OpenSSL_RSAHelper.h */,
+				0FA6CBFD301778D3008D1AB4 /* OpenSSL_RSAHelper.cpp */,
+				0FA6CBFE301778D3008D1AB4 /* OpenSSL_SaltHelper.h */,
+				0FA6CBFF301778D3008D1AB4 /* OpenSSL_SaltHelper.cpp */,
+				0FA6CC00301778D3008D1AB4 /* OpenSSL_SHA256Helper.h */,
+				0FA6CC01301778D3008D1AB4 /* OpenSSL_SHA256Helper.cpp */,
+				0FA6CC02301778D3008D1AB4 /* SecureAccount.h */,
+				0FA6CC03301778D3008D1AB4 /* SecureAccount.cpp */,
+			);
+			path = OpenSSLHelper;
+			sourceTree = "<group>";
+		};
+		0FA6CC53301802CE008D1AB4 /* DTOs */ = {
+			isa = PBXGroup;
+			children = (
+				0FA6CC6C3018ACE2008D1AB4 /* AuthResponseDTO.swift */,
+				0FA6CC5A301803EE008D1AB4 /* LoginResponseDTO.swift */,
+				0FA6CC58301802FC008D1AB4 /* LoginRequestDTO.swift */,
+			);
+			path = DTOs;
+			sourceTree = "<group>";
+		};
+		0FA6CC54301802CE008D1AB4 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				0FA6CC6530180C85008D1AB4 /* RemoteDataSource */,
+				0FA6CC5D30180A6A008D1AB4 /* Repositories */,
+				100000000000000000000508 /* Networking */,
+				0FA6CC53301802CE008D1AB4 /* DTOs */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		0FA6CC56301802D4008D1AB4 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				0FA6CC55301802D4008D1AB4 /* LoginViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		0FA6CC5C30180A38008D1AB4 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				0FA6CC6030180AC7008D1AB4 /* Entities */,
+				0FA6CC5F30180AC3008D1AB4 /* Repositories */,
+				0FA6CC5E30180AB2008D1AB4 /* UseCases */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		0FA6CC5D30180A6A008D1AB4 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				0FA6CC6830180F38008D1AB4 /* DefaultAuthRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		0FA6CC5E30180AB2008D1AB4 /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				0FA6CC6330180C06008D1AB4 /* LoginUseCase.swift */,
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		0FA6CC5F30180AC3008D1AB4 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				0FA6CC6130180BC7008D1AB4 /* AuthRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		0FA6CC6030180AC7008D1AB4 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		0FA6CC6530180C85008D1AB4 /* RemoteDataSource */ = {
+			isa = PBXGroup;
+			children = (
+				0FA6CC6630180C8E008D1AB4 /* AuthRemoteDataSource.swift */,
+			);
+			path = RemoteDataSource;
+			sourceTree = "<group>";
+		};
 		100000000000000000000501 = {
 			isa = PBXGroup;
 			children = (
@@ -61,16 +508,21 @@
 		100000000000000000000502 /* PureLogicsMac */ = {
 			isa = PBXGroup;
 			children = (
+				0FA6CB9E301778D3008D1AB4 /* AES Encryption */,
+				0FA6CBD0301778D3008D1AB4 /* encs */,
+				0FA6CBD6301778D3008D1AB4 /* EncyAccount */,
+				0FA6CC04301778D3008D1AB4 /* OpenSSLHelper */,
 				100000000000000000000201 /* PureLogicsMacApp.swift */,
 				100000000000000000000505 /* FileProcessing */,
 				100000000000000000000506 /* Models */,
 				100000000000000000000507 /* Navigation */,
-				100000000000000000000508 /* Networking */,
+				0FA6CC54301802CE008D1AB4 /* Data */,
+				0FA6CC5C30180A38008D1AB4 /* Domain */,
 				100000000000000000000509 /* Persistence */,
 				100000000000000000000510 /* Stores */,
+				0FA6CC56301802D4008D1AB4 /* ViewModels */,
 				100000000000000000000511 /* Views */,
 			);
-			name = PureLogicsMac;
 			path = PureLogicsMac;
 			sourceTree = SOURCE_ROOT;
 		};
@@ -118,7 +570,14 @@
 		100000000000000000000508 /* Networking */ = {
 			isa = PBXGroup;
 			children = (
+				0FA6CC6A301894C6008D1AB4 /* APIEncryptionError.swift */,
+				0FA6CB9930177820008D1AB4 /* APIDecryptionError.swift */,
+				0FA6CC4F3017FF36008D1AB4 /* APIEnvironment.swift */,
+				0FA6CC4B3017FCE3008D1AB4 /* EncryptedAPIClient.swift */,
+				0FA6CC493017FCD3008D1AB4 /* NetworkError.swift */,
+				0FA6CB97301774B1008D1AB4 /* SignInApi.swift */,
 				100000000000000000000205 /* UserAPIClient.swift */,
+				0F6EDD1F30066B52002B51D2 /* Connectivity.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -134,6 +593,7 @@
 		100000000000000000000510 /* Stores */ = {
 			isa = PBXGroup;
 			children = (
+				0FA6CC6E3018C2C3008D1AB4 /* UserSessionStore.swift */,
 				100000000000000000000207 /* UserStore.swift */,
 			);
 			path = Stores;
@@ -142,10 +602,13 @@
 		100000000000000000000511 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				0F37534B3008228900714FCB /* AuthenticatedSessionView.swift */,
+				0F83ACCA300641E000A2516A /* LoginView.swift */,
 				100000000000000000000208 /* DashboardViews.swift */,
 				100000000000000000000209 /* FileProcessingViews.swift */,
-				100000000000000000000210 /* RootView.swift */,
+				100000000000000000000210 /* NaviagtionView.swift */,
 				100000000000000000000211 /* UserViews.swift */,
+				0FDF89DB300026B10094F5DB /* SettingView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -214,6 +677,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FA6CC41301778D3008D1AB4 /* share.xml in Resources */,
+				0FA6CC42301778D3008D1AB4 /* vault_info.xml in Resources */,
+				0FA6CC43301778D3008D1AB4 /* accounts.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,15 +692,94 @@
 			files = (
 				100000000000000000000101 /* PureLogicsMacApp.swift in Sources */,
 				100000000000000000000102 /* FileHashProcessor.swift in Sources */,
+				0FA6CC6D3018ACE2008D1AB4 /* AuthResponseDTO.swift in Sources */,
+				0F6EDD2030066B52002B51D2 /* Connectivity.swift in Sources */,
 				100000000000000000000103 /* User.swift in Sources */,
 				100000000000000000000104 /* AppNavigation.swift in Sources */,
 				100000000000000000000105 /* UserAPIClient.swift in Sources */,
+				0FA6CB9A30177820008D1AB4 /* APIDecryptionError.swift in Sources */,
+				0FDF89DC300026B10094F5DB /* SettingView.swift in Sources */,
 				100000000000000000000106 /* AppDatabase.swift in Sources */,
 				100000000000000000000107 /* UserStore.swift in Sources */,
 				100000000000000000000108 /* DashboardViews.swift in Sources */,
+				0FA6CC05301778D3008D1AB4 /* myvault_base64.m in Sources */,
+				0FA6CC06301778D3008D1AB4 /* Group.swift in Sources */,
+				0FA6CC07301778D3008D1AB4 /* OpenSSL_IVHelper_Wrapper.mm in Sources */,
+				0FA6CC08301778D3008D1AB4 /* VerifyAccount.swift in Sources */,
+				0FA6CC09301778D3008D1AB4 /* WrappingKeyCache.m in Sources */,
+				0FA6CC5B301803EE008D1AB4 /* LoginResponseDTO.swift in Sources */,
+				0FA6CC0A301778D3008D1AB4 /* VaultManager.swift in Sources */,
+				0FA6CC0B301778D3008D1AB4 /* EncryptAccountDetails.swift in Sources */,
+				0FA6CC0C301778D3008D1AB4 /* WrappingKeyCacheValue.m in Sources */,
+				0FA6CC0D301778D3008D1AB4 /* myvault_aes.m in Sources */,
+				0FA6CC0E301778D3008D1AB4 /* VaultXmlParser.swift in Sources */,
+				0FA6CC0F301778D3008D1AB4 /* CryptLib.m in Sources */,
+				0FA6CC10301778D3008D1AB4 /* OpenSSL_SHA256Helper.cpp in Sources */,
+				0FA6CC11301778D3008D1AB4 /* UtilManager.swift in Sources */,
+				0FA6CC12301778D3008D1AB4 /* OpenSSL_AESKeyHelper_Wrapper.mm in Sources */,
+				0FA6CC13301778D3008D1AB4 /* AccountInfoXml.swift in Sources */,
+				0FA6CC14301778D3008D1AB4 /* ShareGroupManager.swift in Sources */,
+				0FA6CC15301778D3008D1AB4 /* OpenSSL_SHA256Helper_Wrapper.mm in Sources */,
+				0FA6CC16301778D3008D1AB4 /* GroupManager.swift in Sources */,
+				0FA6CC6730180C8E008D1AB4 /* AuthRemoteDataSource.swift in Sources */,
+				0FA6CC17301778D3008D1AB4 /* OpenSSL_Helper_Wrapper.mm in Sources */,
+				0FA6CC18301778D3008D1AB4 /* OpenSSL_PBKDF2Helper.cpp in Sources */,
+				0FA6CC19301778D3008D1AB4 /* OpenSSL_PBKDF2Helper_Wrapper.mm in Sources */,
+				0FA6CC1A301778D3008D1AB4 /* FileNameEnc.swift in Sources */,
+				0FA6CC57301802D4008D1AB4 /* LoginViewModel.swift in Sources */,
+				0FA6CC1B301778D3008D1AB4 /* Account.swift in Sources */,
+				0FA6CC1C301778D3008D1AB4 /* AccountManager.swift in Sources */,
+				0FA6CC1D301778D3008D1AB4 /* Secret.swift in Sources */,
+				0FA6CC1E301778D3008D1AB4 /* VaultInfoXml.swift in Sources */,
+				0FA6CC1F301778D3008D1AB4 /* OpenSSL_Base64Helper_Wrapper.mm in Sources */,
+				0FA6CC20301778D3008D1AB4 /* OpenSSL_Helper.cpp in Sources */,
+				0FA6CC21301778D3008D1AB4 /* OpenSSL_AESHelper.cpp in Sources */,
+				0FA6CC22301778D3008D1AB4 /* OpenSSL_AESHelper_Wrapper.mm in Sources */,
+				0FA6CC23301778D3008D1AB4 /* CipherRsa.swift in Sources */,
+				0FA6CC24301778D3008D1AB4 /* OpenSSL_IVHelper.cpp in Sources */,
+				0FA6CC25301778D3008D1AB4 /* OpenSSL_Base64Helper.cpp in Sources */,
+				0FA6CC26301778D3008D1AB4 /* enc_filename.mm in Sources */,
+				0FA6CC27301778D3008D1AB4 /* SecretManager.swift in Sources */,
+				0FA6CC28301778D3008D1AB4 /* BaseUser.swift in Sources */,
+				0FA6CC6230180BC7008D1AB4 /* AuthRepository.swift in Sources */,
+				0FA6CC29301778D3008D1AB4 /* SecureAccount.cpp in Sources */,
+				0FA6CC2A301778D3008D1AB4 /* enc_content.mm in Sources */,
+				0FA6CC4A3017FCD3008D1AB4 /* NetworkError.swift in Sources */,
+				0FA6CC2B301778D3008D1AB4 /* VaultInfoManager.swift in Sources */,
+				0FA6CC2C301778D3008D1AB4 /* OpenSSL_SaltHelper_Wrapper.mm in Sources */,
+				0FA6CC2D301778D3008D1AB4 /* WrappingKeyRequester.m in Sources */,
+				0FA6CC4C3017FCE3008D1AB4 /* EncryptedAPIClient.swift in Sources */,
+				0FA6CC2E301778D3008D1AB4 /* FileEncInfo.swift in Sources */,
+				0FA6CC2F301778D3008D1AB4 /* myvault_rsa.m in Sources */,
+				0FA6CC59301802FC008D1AB4 /* LoginRequestDTO.swift in Sources */,
+				0FA6CC30301778D3008D1AB4 /* OpenSSL_RSAHelper.cpp in Sources */,
+				0FA6CC31301778D3008D1AB4 /* DecryptAccountDetails.swift in Sources */,
+				0FA6CC32301778D3008D1AB4 /* OpenSSL_SaltHelper.cpp in Sources */,
+				0FA6CC33301778D3008D1AB4 /* UtilManagerC.m in Sources */,
+				0FA6CC6B301894C6008D1AB4 /* APIEncryptionError.swift in Sources */,
+				0FA6CC34301778D3008D1AB4 /* OpenSSL_HMACSHA256Helper_Wrapper.mm in Sources */,
+				0FA6CC35301778D3008D1AB4 /* ChangePassword.swift in Sources */,
+				0FA6CC36301778D3008D1AB4 /* GroupInfoXml.swift in Sources */,
+				0FA6CC37301778D3008D1AB4 /* SecretInfoXml.swift in Sources */,
+				0FA6CC38301778D3008D1AB4 /* CreateAccount.swift in Sources */,
+				0FA6CC39301778D3008D1AB4 /* VaultInfo.swift in Sources */,
+				0FA6CC3A301778D3008D1AB4 /* CipherAes.swift in Sources */,
+				0FA6CC3B301778D3008D1AB4 /* SecureAccount_Wrapper.mm in Sources */,
+				0FA6CC3C301778D3008D1AB4 /* VaultFile.swift in Sources */,
+				0FA6CC6F3018C2C3008D1AB4 /* UserSessionStore.swift in Sources */,
+				0FA6CC3D301778D3008D1AB4 /* EncKeyLib.swift in Sources */,
+				0FA6CC3E301778D3008D1AB4 /* OpenSSL_AESKeyHelper.cpp in Sources */,
+				0FA6CC6930180F38008D1AB4 /* DefaultAuthRepository.swift in Sources */,
+				0FA6CC3F301778D3008D1AB4 /* OpenSSL_RSAHelper_Wrapper.mm in Sources */,
+				0FA6CC40301778D3008D1AB4 /* OpenSSL_HMACSHA256Helper.cpp in Sources */,
+				0F37534C3008228900714FCB /* AuthenticatedSessionView.swift in Sources */,
 				100000000000000000000109 /* FileProcessingViews.swift in Sources */,
-				100000000000000000000110 /* RootView.swift in Sources */,
+				100000000000000000000110 /* NaviagtionView.swift in Sources */,
+				0FA6CC6430180C06008D1AB4 /* LoginUseCase.swift in Sources */,
+				0FA6CB98301774BE008D1AB4 /* SignInApi.swift in Sources */,
 				100000000000000000000111 /* UserViews.swift in Sources */,
+				0F83ACCB300641E000A2516A /* LoginView.swift in Sources */,
+				0FA6CC503017FF36008D1AB4 /* APIEnvironment.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,26 +904,50 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "";
-				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_ENTITLEMENTS = PureLogicsMac/PureLogicsMac.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = XGDJY7DSAD;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/homebrew/include,
+					/usr/local/include,
+					"$(SRCROOT)/PureLogicsMac/AES",
+					Encryption,
+					"$(SRCROOT)/PureLogicsMac/encs/enc",
+					"$(SRCROOT)/PureLogicsMac/OpenSSLHelper",
+					"$(SRCROOT)/PureLogicsMac/OpenSSLHelper/OpenSSLHelperWrapper",
+				);
 				INFOPLIST_FILE = AppBundle/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/homebrew/lib,
+					/usr/local/lib,
+				);
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-lssl",
+					"-lcrypto",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.purelogics.assignment.PureLogicsMac;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "PureLogicsMac/AES Encryption/PureLogicsMac_Bridging header.h";
 				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -386,26 +955,51 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "";
-				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_ENTITLEMENTS = PureLogicsMac/PureLogicsMac.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = XGDJY7DSAD;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/homebrew/include,
+					/usr/local/include,
+					"$(SRCROOT)/PureLogicsMac/AES",
+					Encryption,
+					"$(SRCROOT)/PureLogicsMac/encs/enc",
+					"$(SRCROOT)/PureLogicsMac/OpenSSLHelper",
+					"$(SRCROOT)/PureLogicsMac/OpenSSLHelper/OpenSSLHelperWrapper",
+				);
 				INFOPLIST_FILE = AppBundle/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/homebrew/lib,
+					/usr/local/lib,
+				);
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-lssl",
+					"-lcrypto",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.purelogics.assignment.PureLogicsMac;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "PureLogicsMac/AES Encryption/PureLogicsMac_Bridging header.h";
 				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

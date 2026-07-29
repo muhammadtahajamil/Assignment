@@ -1,5 +1,9 @@
-import AppKit
+
 import SwiftUI
+#if canImport(AppKit)
+import AppKit
+#endif
+
 
 struct FileBrowserView: View {
     @EnvironmentObject private var navigation: AppNavigation
@@ -107,6 +111,7 @@ struct FileBrowserView: View {
     }
 
     private func selectFile() {
+        #if os(macOS)
         let panel = NSOpenPanel()
         panel.allowsMultipleSelection = false
         panel.canChooseDirectories = false
@@ -115,6 +120,7 @@ struct FileBrowserView: View {
         if panel.runModal() == .OK, let url = panel.url {
             store.selectFile(url)
         }
+        #endif
     }
 }
 
@@ -187,7 +193,7 @@ struct FileSummary: View {
         }
         .padding(16)
         .frame(maxWidth: .infinity, alignment: .leading)
-        .background(Color(nsColor: .controlBackgroundColor), in: RoundedRectangle(cornerRadius: 8))
+//        .background(Color(nsColor: .controlBackgroundColor), in: RoundedRectangle(cornerRadius: 8))
     }
 }
 
@@ -208,6 +214,6 @@ struct HashResultCard: View {
         }
         .padding(16)
         .frame(maxWidth: .infinity, alignment: .leading)
-        .background(Color(nsColor: .controlBackgroundColor), in: RoundedRectangle(cornerRadius: 8))
+//        .background(Color(nsColor: .controlBackgroundColor), in: RoundedRectangle(cornerRadius: 8))
     }
 }

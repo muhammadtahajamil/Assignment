@@ -1,0 +1,40 @@
+{
+  "source": "/Users/taha/Documents/GitHub/Assignment/PureLogicsMac/Views/NaviagtionView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "PureLogics",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 18
+        }
+      },
+      {
+        "comment": "",
+        "key": "General Here",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 63
+        }
+      },
+      {
+        "comment": "",
+        "key": "Devices Here",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 65
+        }
+      },
+      {
+        "comment": "",
+        "key": "Devices Screen",
+        "location": {
+          "startingColumn": 54,
+          "startingLine": 66
+        }
+      }
+    ]
+  },
+  "version": 1
+}

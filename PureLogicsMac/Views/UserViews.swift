@@ -1,4 +1,7 @@
 import SwiftUI
+#if canImport(AppKit)
+import AppKit
+#endif
 
 struct UserListView: View {
     @EnvironmentObject private var navigation: AppNavigation
@@ -84,7 +87,7 @@ struct UserDetailView: View {
     let userID: UserRecord.ID
 
     var body: some View {
-        Group {
+        SwiftUI.Group {
             if let user = userStore.user(id: userID) {
                 ScrollView {
                     VStack(alignment: .leading, spacing: 20) {
@@ -125,6 +128,7 @@ struct UserDetailView: View {
                     }
                     .padding(28)
                     .frame(maxWidth: 860, alignment: .leading)
+                    
                 }
             } else {
                 ContentUnavailableView("User Not Found", systemImage: "person.crop.circle.badge.questionmark")
@@ -139,7 +143,7 @@ struct UserActivityView: View {
     let userID: UserRecord.ID
 
     var body: some View {
-        Group {
+        SwiftUI.Group {
             if let user = userStore.user(id: userID) {
                 VStack(alignment: .leading, spacing: 16) {
                     Header(title: "User Activity", subtitle: user.displayName)
@@ -170,7 +174,7 @@ struct DetailGrid: View {
             row("Department", user.companyDepartment ?? "Not provided")
         }
         .padding(16)
-        .background(Color(nsColor: .controlBackgroundColor), in: RoundedRectangle(cornerRadius: 8))
+//        .background(Color(nsColor: .controlBackgroundColor), in: RoundedRectangle(cornerRadius: 8))
     }
 
     private func row(_ title: String, _ value: String) -> some View {
@@ -200,7 +204,7 @@ struct ErrorBanner: View {
         }
         .padding(.horizontal, 16)
         .frame(minHeight: 52)
-        .background(Color(nsColor: .controlBackgroundColor))
+//        .background(Color(nsColor: .controlBackgroundColor))
     }
 }
 
