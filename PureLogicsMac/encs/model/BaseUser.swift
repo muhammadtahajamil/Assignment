@@ -23,24 +23,27 @@ import Foundation
     private var base64EncodedPrivateKeySalt: String = ""
     private var privateKeyIterations: Int = 0
     private var passwordIterations: Int = 0
-    
+    private var gracePeriodDays: Int = 0
     private var passwordSha256Hash: Data?
     private var derEncodedPrivateKeySha256Hash: Data?
     
     // Account Details
     private var subscription: String = "Free"
     private var defaultCloud: String = "None"
-    private var status: String = "Active"
     private var numberOfDevices: Int = 0
-    private var cardExpiry: String = "empty"
+    private var cardExpiryDate: String = "empty"
     private var cardLastFourDigits: String = "empty"
-    private var subscriptionDate: String = "empty"
-    private var subscriptionExpiryDate: String = "empty"
-    private var activationCode: String = "empty"
+    private var purchaseDate: String = "empty"
+    private var expiryDate: String = "empty"
+    private var activationKey: String = "empty"
     
     private var serverCurrentDate: String = ""
     
     private var aesEncryptedBase64EncodedAccountDetails: String = ""
+    
+    private var passwordSalt: String = ""
+    private var subscriptionPlatform: String = ""
+    
     
     // Default initializer
     override init() {
@@ -62,13 +65,16 @@ import Foundation
         self.derEncodedPrivateKeySha256Hash = other.derEncodedPrivateKeySha256Hash
         self.subscription = other.subscription
         self.defaultCloud = other.defaultCloud
-        self.status = other.status
         self.numberOfDevices = other.numberOfDevices
-        self.cardExpiry = other.cardExpiry
+        self.cardExpiryDate = other.cardExpiryDate
         self.cardLastFourDigits = other.cardLastFourDigits
-        self.subscriptionDate = other.subscriptionDate
-        self.subscriptionExpiryDate = other.subscriptionExpiryDate
-        self.activationCode = other.activationCode
+        self.purchaseDate = other.purchaseDate
+        self.expiryDate = other.expiryDate
+        self.activationKey = other.activationKey
+        self.subscriptionPlatform = other.subscriptionPlatform
+        self.passwordSalt = other.passwordSalt
+        self.gracePeriodDays = other.gracePeriodDays
+        
         self.serverCurrentDate = other.serverCurrentDate
         self.aesEncryptedBase64EncodedAccountDetails = other.aesEncryptedBase64EncodedAccountDetails
         super.init()
@@ -88,15 +94,18 @@ import Foundation
     @objc func getPrivateKeyHash() -> Data? { return derEncodedPrivateKeySha256Hash }
     @objc func getSubscription() -> String { return subscription }
     @objc func getDefaultCloud() -> String { return defaultCloud }
-    @objc func getStatus() -> String { return status }
     @objc func getNumberOfDevices() -> Int { return numberOfDevices }
-    @objc func getCardExpiry() -> String { return cardExpiry }
+    @objc func getCardExpiry() -> String { return cardExpiryDate }
     @objc func getCardLastFourDigits() -> String { return cardLastFourDigits }
-    @objc func getSubscriptionDate() -> String { return subscriptionDate }
-    @objc func getSubscriptionExpiryDate() -> String { return subscriptionExpiryDate }
-    @objc func getActivationCode() -> String { return activationCode }
+    @objc func getSubscriptionDate() -> String { return purchaseDate }
+    @objc func getSubscriptionExpiryDate() -> String { return expiryDate }
+    @objc func getActivationCode() -> String { return activationKey }
+    @objc func getSubscriptionPlatform() -> String { return subscriptionPlatform }
     @objc func getAesEncryptedBase64EncodedAccountDetails() -> String { return aesEncryptedBase64EncodedAccountDetails }
     @objc func getServerCurrentDate() -> String { return serverCurrentDate }
+    @objc func getGracePeriodDays() -> Int { return gracePeriodDays }
+    
+    @objc func getpasswordSalt() -> String { return passwordSalt }
     
     // Setters
     @objc func setId(_ id: String) { self.id = id }
@@ -112,13 +121,15 @@ import Foundation
     @objc func setPrivateKeyHash(_ derEncodedPrivateKeySha256Hash: Data?) { self.derEncodedPrivateKeySha256Hash = derEncodedPrivateKeySha256Hash }
     @objc func setSubscription(_ subscription: String) { self.subscription = subscription }
     @objc func setDefaultCloud(_ defaultCloud: String) { self.defaultCloud = defaultCloud }
-    @objc func setStatus(_ status: String) { self.status = status }
     @objc func setNumberOfDevices(_ numberOfDevices: Int) { self.numberOfDevices = numberOfDevices }
-    @objc func setCardExpiry(_ cardExpiry: String) { self.cardExpiry = cardExpiry }
+    @objc func setCardExpiry(_ cardExpiryDate: String) { self.cardExpiryDate = cardExpiryDate }
     @objc func setCardLastFourDigits(_ cardLastFourDigits: String) { self.cardLastFourDigits = cardLastFourDigits }
-    @objc func setSubscriptionDate(_ subscriptionDate: String) { self.subscriptionDate = subscriptionDate }
-    @objc func setSubscriptionExpiryDate(_ subscriptionExpiryDate: String) { self.subscriptionExpiryDate = subscriptionExpiryDate }
-    @objc func setActivationCode(_ activationCode: String) { self.activationCode = activationCode }
+    @objc func setSubscriptionDate(_ purchaseDate: String) { self.purchaseDate = purchaseDate }
+    @objc func setSubscriptionExpiryDate(_ expiryDate: String) { self.expiryDate = expiryDate }
+    @objc func setActivationCode(_ activationKey: String) { self.activationKey = activationKey }
+    @objc func setSubscriptionPlatform(_ subscriptionPlatform: String) { self.subscriptionPlatform = subscriptionPlatform }
     @objc func setAesEncryptedBase64EncodedAccountDetails(_ aesEncryptedBase64EncodedAccountDetails: String) { self.aesEncryptedBase64EncodedAccountDetails = aesEncryptedBase64EncodedAccountDetails }
     @objc func setServerCurrentDate(_ serverCurrentDate: String) { self.serverCurrentDate = serverCurrentDate }
+    @objc func setpasswordSalt(_ passwordSalt: String) { self.passwordSalt = passwordSalt }
+    @objc func setGracePeriodDays(_ gracePeriodDays: Int) { self.gracePeriodDays = gracePeriodDays }
 }

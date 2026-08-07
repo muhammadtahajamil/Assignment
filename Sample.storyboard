@@ -1,0 +1,621 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="24506" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="24506"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="PEd-7d-5j0">
+            <objects>
+                <viewController id="bU7-R8-ocO" sceneMemberID="viewController">
+                    <view key="view" id="tOy-S4-hL0">
+                        <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </view>
+                </viewController>
+                <customObject id="9uD-mB-xHs" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="139" y="131"/>
+        </scene>
+        <!--SignupViewController-->
+        <scene sceneID="wza-wB-FlN">
+            <objects>
+                <viewController title="SignupViewController" storyboardIdentifier="SignupViewController" id="SfX-4i-uHI" customClass="SignupViewController" customModule="FolderLock" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" autoresizesSubviews="NO" appearanceType="aqua" translatesAutoresizingMaskIntoConstraints="NO" id="nS3-Mr-6iy">
+                        <rect key="frame" x="0.0" y="0.0" width="800" height="626"/>
+                        <subviews>
+                            <customView translatesAutoresizingMaskIntoConstraints="NO" id="ZVh-tA-tTr">
+                                <rect key="frame" x="0.0" y="0.0" width="800" height="626"/>
+                                <subviews>
+                                    <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="sZq-tR-ag9">
+                                        <rect key="frame" x="0.0" y="0.0" width="800" height="626"/>
+                                        <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="Sign_InBackGroung" id="q29-Pt-uqL"/>
+                                    </imageView>
+                                    <stackView distribution="fill" orientation="horizontal" alignment="centerY" spacing="6" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="H9k-dm-83x" userLabel="Main Feature Stack">
+                                        <rect key="frame" x="10" y="506" width="120" height="26"/>
+                                        <subviews>
+                                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="vV0-Wf-7Qs">
+                                                <rect key="frame" x="0.0" y="0.0" width="26" height="26"/>
+                                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" animates="YES" imageAlignment="top" imageScaling="proportionallyDown" image="ic_round-home" id="9UE-cR-fNC"/>
+                                            </imageView>
+                                            <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="rpd-ft-ITd">
+                                                <rect key="frame" x="30" y="5" width="92" height="16"/>
+                                                <textFieldCell key="cell" lineBreakMode="clipping" title="Main Features" id="xyz-sx-x4v">
+                                                    <font key="font" metaFont="systemMedium" size="13"/>
+                                                    <color key="textColor" name="Text Color"/>
+                                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                                </textFieldCell>
+                                            </textField>
+                                        </subviews>
+                                        <visibilityPriorities>
+                                            <integer value="1000"/>
+                                            <integer value="1000"/>
+                                        </visibilityPriorities>
+                                        <customSpacing>
+                                            <real value="3.4028234663852886e+38"/>
+                                            <real value="3.4028234663852886e+38"/>
+                                        </customSpacing>
+                                    </stackView>
+                                    <stackView distribution="fill" orientation="horizontal" alignment="centerY" spacing="6" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="srq-0P-A6j" userLabel="Aditonal Stack">
+                                        <rect key="frame" x="557" y="509" width="145" height="20"/>
+                                        <subviews>
+                                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="n1U-lv-Oms">
+                                                <rect key="frame" x="0.0" y="0.0" width="18" height="20"/>
+                                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" animates="YES" imageAlignment="top" imageScaling="proportionallyDown" image="features 1 1" id="3S3-8L-zS7"/>
+                                            </imageView>
+                                            <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="O9V-0d-TTB">
+                                                <rect key="frame" x="22" y="2" width="125" height="16"/>
+                                                <textFieldCell key="cell" lineBreakMode="clipping" title="Additional Features" id="Q3h-NY-rgJ">
+                                                    <font key="font" metaFont="systemMedium" size="13"/>
+                                                    <color key="textColor" name="Text Color"/>
+                                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                                </textFieldCell>
+                                            </textField>
+                                        </subviews>
+                                        <visibilityPriorities>
+                                            <integer value="1000"/>
+                                            <integer value="1000"/>
+                                        </visibilityPriorities>
+                                        <customSpacing>
+                                            <real value="3.4028234663852886e+38"/>
+                                            <real value="3.4028234663852886e+38"/>
+                                        </customSpacing>
+                                    </stackView>
+                                    <button translatesAutoresizingMaskIntoConstraints="NO" id="s4x-86-UJ5" customClass="UnderlinedButton" customModule="FolderLock" customModuleProvider="target">
+                                        <rect key="frame" x="127" y="549" width="87" height="16"/>
+                                        <buttonCell key="cell" type="bevel" title="Version 10.1.1" bezelStyle="rounded" alignment="left" imageScaling="proportionallyDown" inset="2" id="VSz-Tx-Pnc">
+                                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                            <font key="font" metaFont="system"/>
+                                        </buttonCell>
+                                        <color key="contentTintColor" name="whiteColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="87" id="kHn-KK-g7H"/>
+                                            <constraint firstAttribute="height" constant="16" id="ufK-VH-iqn"/>
+                                        </constraints>
+                                        <connections>
+                                            <action selector="versionButton:" target="SfX-4i-uHI" id="WeO-pW-Ck3"/>
+                                        </connections>
+                                    </button>
+                                    <button focusRingType="none" imageHugsTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6iK-SH-tku" customClass="UnderlinedButton" customModule="FolderLock" customModuleProvider="target">
+                                        <rect key="frame" x="400" y="510" width="135" height="24"/>
+                                        <buttonCell key="cell" type="bevel" title="Checking Updates" bezelStyle="rounded" image="upgrade icon 1" imagePosition="left" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="iW9-B2-6qN">
+                                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                            <font key="font" metaFont="system"/>
+                                        </buttonCell>
+                                        <color key="contentTintColor" name="whiteColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="24" id="Hq1-QV-Kgu"/>
+                                        </constraints>
+                                        <connections>
+                                            <action selector="noUpdatesButton:" target="SfX-4i-uHI" id="DeK-PR-wiO"/>
+                                        </connections>
+                                    </button>
+                                    <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="5f8-s3-mE3">
+                                        <rect key="frame" x="196" y="476" width="131" height="20"/>
+                                        <textFieldCell key="cell" lineBreakMode="clipping" title="Create Account" id="sON-up-v9M">
+                                            <font key="font" metaFont="systemBold" size="17"/>
+                                            <color key="textColor" red="0.32937228680000002" green="0.32943451400000001" blue="0.32936835289999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                        </textFieldCell>
+                                    </textField>
+                                    <stackView distribution="fillEqually" orientation="vertical" alignment="leading" spacing="12" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tV1-WO-Cj7">
+                                        <rect key="frame" x="198" y="290" width="321" height="171"/>
+                                        <subviews>
+                                            <stackView distribution="fill" orientation="vertical" alignment="leading" spacing="2" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="99d-7b-Kij">
+                                                <rect key="frame" x="0.0" y="122" width="321" height="49"/>
+                                                <subviews>
+                                                    <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" verticalCompressionResistancePriority="751" translatesAutoresizingMaskIntoConstraints="NO" id="eSF-Kv-22R">
+                                                        <rect key="frame" x="-2" y="32" width="77" height="17"/>
+                                                        <textFieldCell key="cell" lineBreakMode="clipping" title="Enter Email" id="kM6-mp-VLT">
+                                                            <font key="font" metaFont="system" size="14"/>
+                                                            <color key="textColor" red="0.32937228680000002" green="0.32943451400000001" blue="0.32936835289999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                                        </textFieldCell>
+                                                    </textField>
+                                                    <textField clipsToBounds="NO" focusRingType="none" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="djh-f1-wwc" customClass="MyTextField" customModule="FolderLock" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="0.0" width="321" height="30"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="30" id="pQt-iG-5GK"/>
+                                                        </constraints>
+                                                        <textFieldCell key="cell" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" borderStyle="bezel" focusRingType="none" usesSingleLineMode="YES" bezelStyle="round" id="ncL-Q1-soz">
+                                                            <font key="font" metaFont="system"/>
+                                                            <color key="textColor" name="Text Color"/>
+                                                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                                        </textFieldCell>
+                                                    </textField>
+                                                </subviews>
+                                                <visibilityPriorities>
+                                                    <integer value="1000"/>
+                                                    <integer value="1000"/>
+                                                </visibilityPriorities>
+                                                <customSpacing>
+                                                    <real value="3.4028234663852886e+38"/>
+                                                    <real value="3.4028234663852886e+38"/>
+                                                </customSpacing>
+                                            </stackView>
+                                            <stackView distribution="fill" orientation="vertical" alignment="leading" spacing="2" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5CJ-VT-FdS">
+                                                <rect key="frame" x="0.0" y="61" width="321" height="49"/>
+                                                <subviews>
+                                                    <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="1kT-qc-d73">
+                                                        <rect key="frame" x="-2" y="32" width="113" height="17"/>
+                                                        <textFieldCell key="cell" lineBreakMode="clipping" title="Create Password" id="OPU-5k-sbY">
+                                                            <font key="font" metaFont="system" size="14"/>
+                                                            <color key="textColor" red="0.32937228680000002" green="0.32943451400000001" blue="0.32936835289999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                                        </textFieldCell>
+                                                    </textField>
+                                                    <secureTextField focusRingType="none" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="5c6-Jq-kE0" customClass="NewSecureTextField" customModule="FolderLock" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="0.0" width="321" height="30"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="30" id="n5J-ao-Fvx"/>
+                                                        </constraints>
+                                                        <secureTextFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" borderStyle="bezel" focusRingType="none" usesSingleLineMode="YES" bezelStyle="round" id="YVH-Eb-mlC">
+                                                            <font key="font" metaFont="system"/>
+                                                            <color key="textColor" name="Text Color"/>
+                                                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                                            <allowedInputSourceLocales>
+                                                                <string>NSAllRomanInputSourcesLocaleIdentifier</string>
+                                                            </allowedInputSourceLocales>
+                                                        </secureTextFieldCell>
+                                                    </secureTextField>
+                                                </subviews>
+                                                <visibilityPriorities>
+                                                    <integer value="1000"/>
+                                                    <integer value="1000"/>
+                                                </visibilityPriorities>
+                                                <customSpacing>
+                                                    <real value="3.4028234663852886e+38"/>
+                                                    <real value="3.4028234663852886e+38"/>
+                                                </customSpacing>
+                                            </stackView>
+                                            <stackView distribution="fill" orientation="vertical" alignment="leading" spacing="2" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sez-xp-FKk">
+                                                <rect key="frame" x="0.0" y="0.0" width="321" height="49"/>
+                                                <subviews>
+                                                    <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="4sr-3W-kHm">
+                                                        <rect key="frame" x="-2" y="32" width="122" height="17"/>
+                                                        <textFieldCell key="cell" lineBreakMode="clipping" title="Confirm Password" id="OoS-KO-vwy">
+                                                            <font key="font" metaFont="system" size="14"/>
+                                                            <color key="textColor" red="0.32937228680000002" green="0.32943451400000001" blue="0.32936835289999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                                        </textFieldCell>
+                                                    </textField>
+                                                    <secureTextField focusRingType="none" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="NBa-dt-B5P" customClass="NewSecureTextField" customModule="FolderLock" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="0.0" width="321" height="30"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="30" id="eNL-rm-fIe"/>
+                                                        </constraints>
+                                                        <secureTextFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" borderStyle="bezel" focusRingType="none" usesSingleLineMode="YES" bezelStyle="round" id="4Is-Tb-Xlc">
+                                                            <font key="font" metaFont="system"/>
+                                                            <color key="textColor" name="Text Color"/>
+                                                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                                            <allowedInputSourceLocales>
+                                                                <string>NSAllRomanInputSourcesLocaleIdentifier</string>
+                                                            </allowedInputSourceLocales>
+                                                        </secureTextFieldCell>
+                                                    </secureTextField>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstItem="4sr-3W-kHm" firstAttribute="top" secondItem="sez-xp-FKk" secondAttribute="top" id="alo-YK-HN8"/>
+                                                    <constraint firstItem="4sr-3W-kHm" firstAttribute="leading" secondItem="sez-xp-FKk" secondAttribute="leading" id="bAn-g6-J1I"/>
+                                                </constraints>
+                                                <visibilityPriorities>
+                                                    <integer value="1000"/>
+                                                    <integer value="1000"/>
+                                                </visibilityPriorities>
+                                                <customSpacing>
+                                                    <real value="3.4028234663852886e+38"/>
+                                                    <real value="3.4028234663852886e+38"/>
+                                                </customSpacing>
+                                            </stackView>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="99d-7b-Kij" firstAttribute="top" secondItem="tV1-WO-Cj7" secondAttribute="top" id="4L4-AQ-jWq"/>
+                                            <constraint firstAttribute="bottom" secondItem="sez-xp-FKk" secondAttribute="bottom" id="8YC-ia-LPv"/>
+                                            <constraint firstAttribute="trailing" secondItem="99d-7b-Kij" secondAttribute="trailing" id="GHs-c8-j0R"/>
+                                            <constraint firstItem="99d-7b-Kij" firstAttribute="leading" secondItem="tV1-WO-Cj7" secondAttribute="leading" id="Laq-Iq-hBX"/>
+                                            <constraint firstItem="sez-xp-FKk" firstAttribute="top" secondItem="5CJ-VT-FdS" secondAttribute="bottom" constant="12" id="Wn9-eE-reJ"/>
+                                            <constraint firstItem="5CJ-VT-FdS" firstAttribute="top" secondItem="99d-7b-Kij" secondAttribute="bottom" constant="12" id="YFS-6h-Njd"/>
+                                            <constraint firstItem="5CJ-VT-FdS" firstAttribute="leading" secondItem="tV1-WO-Cj7" secondAttribute="leading" id="bKW-ho-yV5"/>
+                                            <constraint firstAttribute="trailing" secondItem="5CJ-VT-FdS" secondAttribute="trailing" id="hg0-iW-tvO"/>
+                                            <constraint firstAttribute="trailing" secondItem="sez-xp-FKk" secondAttribute="trailing" id="hry-Np-WpP"/>
+                                            <constraint firstAttribute="width" constant="321" id="mP9-vk-N0G"/>
+                                            <constraint firstItem="sez-xp-FKk" firstAttribute="leading" secondItem="tV1-WO-Cj7" secondAttribute="leading" id="oFm-aw-dT9"/>
+                                        </constraints>
+                                        <visibilityPriorities>
+                                            <integer value="1000"/>
+                                            <integer value="1000"/>
+                                            <integer value="1000"/>
+                                        </visibilityPriorities>
+                                        <customSpacing>
+                                            <real value="3.4028234663852886e+38"/>
+                                            <real value="3.4028234663852886e+38"/>
+                                            <real value="3.4028234663852886e+38"/>
+                                        </customSpacing>
+                                    </stackView>
+                                    <imageView hidden="YES" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="3ow-yJ-wJv">
+                                        <rect key="frame" x="483" y="287" width="34" height="26"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="34" id="CIW-jd-zoN"/>
+                                        </constraints>
+                                        <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageAlignment="top" imageScaling="proportionallyDown" image="Keyboard" id="sr5-fH-1jv"/>
+                                    </imageView>
+                                    <imageView hidden="YES" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="bZq-OR-mF9">
+                                        <rect key="frame" x="488" y="349" width="26" height="26"/>
+                                        <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageAlignment="top" imageScaling="proportionallyDown" image="Keyboard" id="UVZ-hL-S4d"/>
+                                    </imageView>
+                                    <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="8fp-ac-8VI">
+                                        <rect key="frame" x="378" y="271" width="142" height="16"/>
+                                        <textFieldCell key="cell" lineBreakMode="clipping" title="Password didn't match" id="dzR-Nt-mD1">
+                                            <font key="font" metaFont="system"/>
+                                            <color key="textColor" name="systemRedColor" catalog="System" colorSpace="catalog"/>
+                                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                        </textFieldCell>
+                                    </textField>
+                                    <button focusRingType="none" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="09q-Uc-fl0" customClass="SharingHoverButton" customModule="FolderLock" customModuleProvider="target">
+                                        <rect key="frame" x="263" y="137" width="196" height="40"/>
+                                        <buttonCell key="cell" type="bevel" title="Sign Up" bezelStyle="rounded" alignment="center" lineBreakMode="truncatingTail" state="on" focusRingType="none" inset="2" id="vRj-YY-vpr">
+                                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                            <font key="font" metaFont="systemBold" size="15"/>
+                                        </buttonCell>
+                                        <color key="contentTintColor" red="0.99896323310000001" green="0.98431856480000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="o9A-Y0-NaY"/>
+                                            <constraint firstAttribute="width" constant="196" id="qvs-jA-ka7"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="originalColor">
+                                                <color key="value" name="hoverGreen"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="hoverColor">
+                                                <color key="value" name="green"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="SignUpBtn:" target="SfX-4i-uHI" id="egx-eD-40x"/>
+                                        </connections>
+                                    </button>
+                                    <stackView distribution="fill" orientation="horizontal" alignment="top" spacing="0.0" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Zcu-Hc-aqD">
+                                        <rect key="frame" x="223" y="192" width="272" height="17"/>
+                                        <subviews>
+                                            <button focusRingType="exterior" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="VQP-7t-rbj">
+                                                <rect key="frame" x="0.0" y="1" width="80" height="16"/>
+                                                <buttonCell key="cell" type="check" title="I agree to" bezelStyle="regularSquare" imagePosition="left" focusRingType="exterior" inset="2" id="NIH-4g-zCy">
+                                                    <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                                    <font key="font" metaFont="system"/>
+                                                </buttonCell>
+                                                <color key="contentTintColor" red="0.1278790534" green="0.30211877819999999" blue="0.58826416729999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                        <color key="value" red="0.0020247251919999999" green="0.71306216060000005" blue="0.0031415454870000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColorActive">
+                                                        <color key="value" red="0.0020247251919999999" green="0.71306216060000005" blue="0.0031415454870000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="buttonColor">
+                                                        <color key="value" red="0.30840110780000002" green="0.5618229508" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="buttonColorActive">
+                                                        <color key="value" red="0.0020247251919999999" green="0.71306216060000005" blue="0.0031415454870000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="iconColor">
+                                                        <color key="value" red="0.44900035859999998" green="0.72514379019999997" blue="0.91375094649999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="iconColorActive">
+                                                        <color key="value" name="redColor"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="textColor">
+                                                        <color key="value" name="Text Color"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="textColorActive">
+                                                        <color key="value" red="0.1612966518" green="0.1612966518" blue="0.1612966518" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="hoverHighlightingEnabled" value="YES"/>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="agreeCheck:" target="SfX-4i-uHI" id="gAU-Fj-381"/>
+                                                </connections>
+                                            </button>
+                                            <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="OOm-Kn-BFl">
+                                                <rect key="frame" x="78" y="1" width="154" height="16"/>
+                                                <textFieldCell key="cell" lineBreakMode="clipping" title="Not forget this password" id="WRo-LE-zdj">
+                                                    <font key="font" metaFont="system"/>
+                                                    <color key="textColor" red="0.99907737969999999" green="0.22950214150000001" blue="0.18888315559999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                                </textFieldCell>
+                                            </textField>
+                                            <button focusRingType="none" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="kB7-hv-88r" customClass="UnderlinedButton" customModule="FolderLock" customModuleProvider="target">
+                                                <rect key="frame" x="230" y="0.0" width="42" height="17"/>
+                                                <buttonCell key="cell" type="bevel" title="Why?" bezelStyle="regularSquare" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="IAX-GP-6AY">
+                                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                                    <font key="font" metaFont="systemSemibold" size="14"/>
+                                                </buttonCell>
+                                                <color key="contentTintColor" red="0.0097403498369999994" green="0.259970963" blue="0.51753032210000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                        <real key="value" value="0.0"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="whyPopOver:" target="SfX-4i-uHI" id="pVF-BO-ajh"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <visibilityPriorities>
+                                            <integer value="1000"/>
+                                            <integer value="1000"/>
+                                            <integer value="1000"/>
+                                        </visibilityPriorities>
+                                        <customSpacing>
+                                            <real value="3.4028234663852886e+38"/>
+                                            <real value="3.4028234663852886e+38"/>
+                                            <real value="3.4028234663852886e+38"/>
+                                        </customSpacing>
+                                    </stackView>
+                                    <customView translatesAutoresizingMaskIntoConstraints="NO" id="N65-EL-S8W" customClass="RedBackground" customModule="FolderLock" customModuleProvider="target">
+                                        <rect key="frame" x="203" y="343" width="80" height="4"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="80" id="44X-B1-Y65"/>
+                                            <constraint firstAttribute="height" constant="4" id="bMK-4x-qF9"/>
+                                        </constraints>
+                                    </customView>
+                                    <customView translatesAutoresizingMaskIntoConstraints="NO" id="feN-RP-Cf9" customClass="OrangeBackground" customModule="FolderLock" customModuleProvider="target">
+                                        <rect key="frame" x="203" y="343" width="160" height="4"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="160" id="67a-3W-cL4"/>
+                                            <constraint firstAttribute="height" constant="4" id="goA-ci-Vvd"/>
+                                        </constraints>
+                                    </customView>
+                                    <customView translatesAutoresizingMaskIntoConstraints="NO" id="P42-nJ-eem" customClass="YellowBackground" customModule="FolderLock" customModuleProvider="target">
+                                        <rect key="frame" x="203" y="343" width="240" height="4"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="240" id="5Kr-Fb-b0c"/>
+                                            <constraint firstAttribute="height" constant="4" id="5Qg-P0-P2p"/>
+                                        </constraints>
+                                    </customView>
+                                    <customView translatesAutoresizingMaskIntoConstraints="NO" id="9CG-NK-i3X" customClass="GreenBackground" customModule="FolderLock" customModuleProvider="target">
+                                        <rect key="frame" x="203" y="343" width="312" height="4"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="4" id="O4E-hb-K8I"/>
+                                            <constraint firstAttribute="width" constant="312" id="Oda-cE-Awe"/>
+                                        </constraints>
+                                    </customView>
+                                    <stackView hidden="YES" distribution="fill" orientation="vertical" alignment="leading" spacing="6" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Bma-cn-HUP">
+                                        <rect key="frame" x="198" y="197" width="323" height="75"/>
+                                        <subviews>
+                                            <button translatesAutoresizingMaskIntoConstraints="NO" id="1Ih-sE-7YA" customClass="UnderlinedButton" customModule="FolderLock" customModuleProvider="target">
+                                                <rect key="frame" x="3" y="58" width="127" height="17"/>
+                                                <buttonCell key="cell" type="bevel" title="Purchased Pro?" bezelStyle="rounded" image="purchase_Pro_down" imagePosition="left" alignment="center" imageScaling="proportionallyDown" inset="2" id="fMz-eL-epZ">
+                                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                                    <font key="font" metaFont="systemBold" size="14"/>
+                                                </buttonCell>
+                                                <color key="contentTintColor" name="DropDown"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="17" id="mzX-Cz-P2i"/>
+                                                    <constraint firstAttribute="width" constant="127" id="oVz-lh-qfD"/>
+                                                </constraints>
+                                                <connections>
+                                                    <action selector="purchasedProButton:" target="SfX-4i-uHI" id="K1o-OF-q83"/>
+                                                </connections>
+                                            </button>
+                                            <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="TqA-5M-cVr">
+                                                <rect key="frame" x="3" y="36" width="322" height="16"/>
+                                                <textFieldCell key="cell" lineBreakMode="clipping" title="Purchased for someone or yourself? Enter Pro Code:" id="fiH-Bg-c6y">
+                                                    <font key="font" metaFont="system"/>
+                                                    <color key="textColor" name="Text Color"/>
+                                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                                </textFieldCell>
+                                            </textField>
+                                            <textField focusRingType="none" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="zDc-S3-s07" customClass="NewTextField" customModule="FolderLock" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="321" height="30"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="30" id="4Ai-E8-MkZ"/>
+                                                </constraints>
+                                                <textFieldCell key="cell" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" borderStyle="bezel" focusRingType="none" usesSingleLineMode="YES" bezelStyle="round" id="BOU-BB-2vm">
+                                                    <font key="font" metaFont="system"/>
+                                                    <color key="textColor" name="Text Color"/>
+                                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                                </textFieldCell>
+                                            </textField>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="1Ih-sE-7YA" secondAttribute="trailing" constant="193" id="eUk-UY-N1A"/>
+                                            <constraint firstItem="1Ih-sE-7YA" firstAttribute="leading" secondItem="Bma-cn-HUP" secondAttribute="leading" constant="3" id="p9q-sI-Skr"/>
+                                            <constraint firstItem="TqA-5M-cVr" firstAttribute="leading" secondItem="Bma-cn-HUP" secondAttribute="leading" constant="5" id="xwc-q3-ncb"/>
+                                        </constraints>
+                                        <visibilityPriorities>
+                                            <integer value="1000"/>
+                                            <integer value="1000"/>
+                                            <integer value="1000"/>
+                                        </visibilityPriorities>
+                                        <customSpacing>
+                                            <real value="3.4028234663852886e+38"/>
+                                            <real value="3.4028234663852886e+38"/>
+                                            <real value="3.4028234663852886e+38"/>
+                                        </customSpacing>
+                                    </stackView>
+                                    <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="6vm-Xp-8KB">
+                                        <rect key="frame" x="191" y="515" width="105" height="17"/>
+                                        <textFieldCell key="cell" lineBreakMode="clipping" title="Create Account" id="ieI-GH-uUt">
+                                            <font key="font" metaFont="system" size="14"/>
+                                            <color key="textColor" name="whiteColor"/>
+                                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                        </textFieldCell>
+                                    </textField>
+                                    <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="TaN-Rm-zCn">
+                                        <rect key="frame" x="290" y="108" width="100" height="16"/>
+                                        <textFieldCell key="cell" lineBreakMode="clipping" title="Already a User?" id="dSY-mk-cOz">
+                                            <font key="font" metaFont="system"/>
+                                            <color key="textColor" name="Text Color"/>
+                                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                        </textFieldCell>
+                                    </textField>
+                                    <button focusRingType="none" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="ubd-8i-JoO" customClass="UnderlinedButton" customModule="FolderLock" customModuleProvider="target">
+                                        <rect key="frame" x="389" y="108" width="50" height="17"/>
+                                        <buttonCell key="cell" type="bevel" title="Sign in" bezelStyle="regularSquare" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="t7S-ub-dP9">
+                                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                            <font key="font" metaFont="systemSemibold" size="14"/>
+                                        </buttonCell>
+                                        <color key="contentTintColor" red="0.0097403498369999994" green="0.259970963" blue="0.51753032210000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                <real key="value" value="0.0"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="SgninBtn:" target="SfX-4i-uHI" id="x08-o7-yq4"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="ubd-8i-JoO" firstAttribute="leading" secondItem="TaN-Rm-zCn" secondAttribute="trailing" constant="1" id="0mJ-pI-lv8"/>
+                                    <constraint firstAttribute="trailing" secondItem="sZq-tR-ag9" secondAttribute="trailing" id="1FY-yO-V6B"/>
+                                    <constraint firstItem="feN-RP-Cf9" firstAttribute="top" secondItem="ZVh-tA-tTr" secondAttribute="top" constant="279" id="1Pq-sE-XlX"/>
+                                    <constraint firstItem="09q-Uc-fl0" firstAttribute="top" secondItem="Zcu-Hc-aqD" secondAttribute="bottom" constant="15" id="5Tz-IW-NK9"/>
+                                    <constraint firstItem="bZq-OR-mF9" firstAttribute="top" secondItem="ZVh-tA-tTr" secondAttribute="top" constant="251" id="5nm-nD-vqY"/>
+                                    <constraint firstItem="TaN-Rm-zCn" firstAttribute="leading" secondItem="ZVh-tA-tTr" secondAttribute="leading" constant="292" id="5vd-IT-6DJ"/>
+                                    <constraint firstAttribute="trailing" secondItem="8fp-ac-8VI" secondAttribute="trailing" constant="282" id="9Ky-NY-uMH"/>
+                                    <constraint firstAttribute="bottom" secondItem="ubd-8i-JoO" secondAttribute="bottom" constant="108" id="A32-Fy-hcm"/>
+                                    <constraint firstItem="8fp-ac-8VI" firstAttribute="top" secondItem="tV1-WO-Cj7" secondAttribute="bottom" constant="3" id="AN7-7g-xXe"/>
+                                    <constraint firstItem="ubd-8i-JoO" firstAttribute="top" secondItem="09q-Uc-fl0" secondAttribute="bottom" constant="12" id="CXr-w8-aSk"/>
+                                    <constraint firstItem="N65-EL-S8W" firstAttribute="leading" secondItem="ZVh-tA-tTr" secondAttribute="leading" constant="203" id="Fmf-x4-yE6"/>
+                                    <constraint firstItem="6vm-Xp-8KB" firstAttribute="top" secondItem="s4x-86-UJ5" secondAttribute="bottom" constant="17" id="Ftk-j7-cFS"/>
+                                    <constraint firstItem="s4x-86-UJ5" firstAttribute="top" secondItem="ZVh-tA-tTr" secondAttribute="top" constant="61" id="Imm-DV-H5k"/>
+                                    <constraint firstItem="3ow-yJ-wJv" firstAttribute="top" secondItem="ZVh-tA-tTr" secondAttribute="top" constant="313" id="KiB-9c-B62"/>
+                                    <constraint firstItem="feN-RP-Cf9" firstAttribute="leading" secondItem="ZVh-tA-tTr" secondAttribute="leading" constant="203" id="LHB-Nh-y7e"/>
+                                    <constraint firstItem="5f8-s3-mE3" firstAttribute="top" secondItem="ZVh-tA-tTr" secondAttribute="top" constant="130" id="MzV-om-E6F"/>
+                                    <constraint firstAttribute="trailing" secondItem="6iK-SH-tku" secondAttribute="trailing" constant="265" id="Nze-dl-itW"/>
+                                    <constraint firstItem="tV1-WO-Cj7" firstAttribute="top" secondItem="ZVh-tA-tTr" secondAttribute="top" constant="165" id="RQf-lL-UBU"/>
+                                    <constraint firstItem="9CG-NK-i3X" firstAttribute="top" secondItem="ZVh-tA-tTr" secondAttribute="top" constant="279" id="Sns-Cl-jga"/>
+                                    <constraint firstAttribute="trailing" secondItem="3ow-yJ-wJv" secondAttribute="trailing" constant="283" id="UQc-rv-FlV"/>
+                                    <constraint firstItem="srq-0P-A6j" firstAttribute="top" secondItem="ZVh-tA-tTr" secondAttribute="top" constant="97" id="WlH-Nk-Kxf"/>
+                                    <constraint firstAttribute="bottom" secondItem="TaN-Rm-zCn" secondAttribute="bottom" constant="108" id="Xef-ok-OPp"/>
+                                    <constraint firstItem="srq-0P-A6j" firstAttribute="leading" secondItem="6iK-SH-tku" secondAttribute="trailing" constant="22" id="YMu-lY-69T"/>
+                                    <constraint firstItem="H9k-dm-83x" firstAttribute="top" secondItem="s4x-86-UJ5" secondAttribute="bottom" constant="17.5" id="aPF-db-2tF"/>
+                                    <constraint firstItem="s4x-86-UJ5" firstAttribute="leading" secondItem="ZVh-tA-tTr" secondAttribute="leading" constant="127" id="cM9-Bs-0E8"/>
+                                    <constraint firstItem="sZq-tR-ag9" firstAttribute="top" secondItem="ZVh-tA-tTr" secondAttribute="top" id="csi-RM-urC"/>
+                                    <constraint firstItem="Zcu-Hc-aqD" firstAttribute="leading" secondItem="ZVh-tA-tTr" secondAttribute="leading" constant="223" id="f4g-Gb-55l"/>
+                                    <constraint firstAttribute="trailing" secondItem="bZq-OR-mF9" secondAttribute="trailing" constant="286" id="f5L-w3-FpJ"/>
+                                    <constraint firstItem="P42-nJ-eem" firstAttribute="leading" secondItem="ZVh-tA-tTr" secondAttribute="leading" constant="203" id="g4B-Bc-WH5"/>
+                                    <constraint firstItem="tV1-WO-Cj7" firstAttribute="leading" secondItem="ZVh-tA-tTr" secondAttribute="leading" constant="198" id="hEg-vI-VgW"/>
+                                    <constraint firstItem="N65-EL-S8W" firstAttribute="top" secondItem="ZVh-tA-tTr" secondAttribute="top" constant="279" id="hyr-QL-zXk"/>
+                                    <constraint firstItem="6vm-Xp-8KB" firstAttribute="leading" secondItem="ZVh-tA-tTr" secondAttribute="leading" constant="193" id="jYP-3A-X4Z"/>
+                                    <constraint firstItem="sZq-tR-ag9" firstAttribute="leading" secondItem="ZVh-tA-tTr" secondAttribute="leading" id="lgh-tI-XAL"/>
+                                    <constraint firstItem="H9k-dm-83x" firstAttribute="leading" secondItem="ZVh-tA-tTr" secondAttribute="leading" constant="10" id="n37-xP-mP4"/>
+                                    <constraint firstItem="09q-Uc-fl0" firstAttribute="leading" secondItem="ZVh-tA-tTr" secondAttribute="leading" constant="263" id="pFF-2A-TpM"/>
+                                    <constraint firstItem="P42-nJ-eem" firstAttribute="top" secondItem="ZVh-tA-tTr" secondAttribute="top" constant="279" id="qwC-Ji-G3n"/>
+                                    <constraint firstAttribute="bottom" secondItem="sZq-tR-ag9" secondAttribute="bottom" id="r7c-o2-JdT"/>
+                                    <constraint firstItem="6iK-SH-tku" firstAttribute="top" secondItem="ZVh-tA-tTr" secondAttribute="top" constant="92" id="rQp-nF-krH"/>
+                                    <constraint firstItem="Bma-cn-HUP" firstAttribute="top" secondItem="tV1-WO-Cj7" secondAttribute="bottom" constant="18" id="tHJ-qy-tsp"/>
+                                    <constraint firstItem="9CG-NK-i3X" firstAttribute="leading" secondItem="ZVh-tA-tTr" secondAttribute="leading" constant="203" id="ve6-g2-q7N"/>
+                                    <constraint firstItem="5f8-s3-mE3" firstAttribute="leading" secondItem="ZVh-tA-tTr" secondAttribute="leading" constant="198" id="xXP-2J-v4C"/>
+                                    <constraint firstItem="Bma-cn-HUP" firstAttribute="leading" secondItem="ZVh-tA-tTr" secondAttribute="leading" constant="198" id="zeA-gI-OzT"/>
+                                </constraints>
+                            </customView>
+                            <customView translatesAutoresizingMaskIntoConstraints="NO" id="I2S-5V-7Iv" customClass="BlockingView" customModule="FolderLock" customModuleProvider="target">
+                                <rect key="frame" x="179" y="78" width="362" height="430"/>
+                                <subviews>
+                                    <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ZRt-hX-Tz6">
+                                        <rect key="frame" x="156" y="197" width="50" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="eCh-TU-QcO"/>
+                                            <constraint firstAttribute="width" constant="50" id="ehi-LG-FiG"/>
+                                        </constraints>
+                                        <imageCell key="cell" refusesFirstResponder="YES" alignment="left" animates="YES" imageScaling="proportionallyDown" image="Spinner_5" id="d7f-AL-JwA"/>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="430" id="3Pg-RF-ffR"/>
+                                    <constraint firstItem="ZRt-hX-Tz6" firstAttribute="top" secondItem="I2S-5V-7Iv" secondAttribute="top" constant="183" id="IYa-03-LBD"/>
+                                    <constraint firstAttribute="width" constant="362" id="jcn-Be-Apv"/>
+                                    <constraint firstItem="ZRt-hX-Tz6" firstAttribute="leading" secondItem="I2S-5V-7Iv" secondAttribute="leading" constant="156" id="of9-Ao-Slt"/>
+                                </constraints>
+                            </customView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="I2S-5V-7Iv" firstAttribute="leading" secondItem="nS3-Mr-6iy" secondAttribute="leading" constant="179" id="0ez-AF-iYa"/>
+                            <constraint firstAttribute="trailing" secondItem="ZVh-tA-tTr" secondAttribute="trailing" id="3Gk-C7-rhq"/>
+                            <constraint firstItem="I2S-5V-7Iv" firstAttribute="top" secondItem="nS3-Mr-6iy" secondAttribute="top" constant="118" id="A09-7n-B9g"/>
+                            <constraint firstAttribute="bottom" secondItem="ZVh-tA-tTr" secondAttribute="bottom" id="Ic8-gK-B0a"/>
+                            <constraint firstItem="ZVh-tA-tTr" firstAttribute="leading" secondItem="nS3-Mr-6iy" secondAttribute="leading" id="Uqc-gE-Qdm"/>
+                            <constraint firstItem="ZVh-tA-tTr" firstAttribute="top" secondItem="nS3-Mr-6iy" secondAttribute="top" id="lyX-m5-wa4"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="CnpassTf" destination="NBa-dt-B5P" id="ea6-gL-I3e"/>
+                        <outlet property="CpassTf" destination="5c6-Jq-kE0" id="aqy-iI-qcY"/>
+                        <outlet property="EmailTf" destination="djh-f1-wwc" id="kFp-iB-ut5"/>
+                        <outlet property="activationTf" destination="zDc-S3-s07" id="xzx-2k-N1X"/>
+                        <outlet property="activityIndicator" destination="ZRt-hX-Tz6" id="7cz-SF-c8r"/>
+                        <outlet property="agreeTermsBtn" destination="VQP-7t-rbj" id="IZA-bN-ihq"/>
+                        <outlet property="grayView" destination="I2S-5V-7Iv" id="llR-cu-ylT"/>
+                        <outlet property="greenView" destination="9CG-NK-i3X" id="buP-gh-ZcE"/>
+                        <outlet property="mainView" destination="ZVh-tA-tTr" id="zfG-My-ykl"/>
+                        <outlet property="noUpdatesBtn" destination="6iK-SH-tku" id="n1q-l3-SfY"/>
+                        <outlet property="orangeView" destination="feN-RP-Cf9" id="og1-g2-N0c"/>
+                        <outlet property="passwordmatchLbl" destination="8fp-ac-8VI" id="k6s-dt-3QM"/>
+                        <outlet property="purchasedProBtn" destination="1Ih-sE-7YA" id="9Bd-j6-Icu"/>
+                        <outlet property="purchasedProLabel" destination="TqA-5M-cVr" id="ghz-PF-wtW"/>
+                        <outlet property="redView" destination="N65-EL-S8W" id="rc3-Kt-BI9"/>
+                        <outlet property="signinBtn" destination="ubd-8i-JoO" id="N4l-3K-cPX"/>
+                        <outlet property="signupBtn" destination="09q-Uc-fl0" id="EyW-ly-nnV"/>
+                        <outlet property="versionLbl" destination="s4x-86-UJ5" id="csc-ff-JT3"/>
+                        <outlet property="whyBtn" destination="kB7-hv-88r" id="AWE-pW-wzn"/>
+                        <outlet property="yellowView" destination="P42-nJ-eem" id="4wl-Ma-F4f"/>
+                    </connections>
+                </viewController>
+                <customObject id="sA4-Fx-4tz" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1109" y="857"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Keyboard" width="26" height="26"/>
+        <image name="Sign_InBackGroung" width="800" height="626"/>
+        <image name="Spinner_5" width="64" height="64"/>
+        <image name="features 1 1" width="18" height="20"/>
+        <image name="ic_round-home" width="26" height="26"/>
+        <image name="purchase_Pro_down" width="11" height="10"/>
+        <image name="upgrade icon 1" width="17" height="18"/>
+        <namedColor name="DropDown">
+            <color red="0.12941176470588237" green="0.43137254901960786" blue="0.74117647058823533" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Text Color">
+            <color red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="green">
+            <color red="0.30980392156862746" green="0.73333333333333328" blue="0.28235294117647058" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="hoverGreen">
+            <color red="0.078431372549019607" green="0.72941176470588232" blue="0.027450980392156862" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="redColor">
+            <color red="0.32899999618530273" green="0.32400000095367432" blue="0.4779999852180481" alpha="0.33000001311302185" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="whiteColor">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

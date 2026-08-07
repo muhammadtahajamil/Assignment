@@ -17,8 +17,20 @@ struct SettingView: View {
                 .font(.headline)
             Button {
                 navigation.settingsPath.append(settingsDestination.devices)
-            } label: {
+            }
+            label: {
                 Label("Open Devices", systemImage: "chart.xyaxis.line")
+            }
+            .buttonStyle(.borderedProminent)
+            
+            Button(role: .destructive){
+//                navigation.dashboardPath = NavigationPath()
+//                navigation.settingsPath = NavigationPath()
+                navigation.reset()
+                session.logout()
+                
+            }label: {
+                Label("Sign Out", image: "rectangle.portrait.and.arrow.right")
             }
             .buttonStyle(.borderedProminent)
             Spacer()

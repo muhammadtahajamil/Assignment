@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="24506" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="24506"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="PEd-7d-5j0">
+            <objects>
+                <viewController id="bU7-R8-ocO" sceneMemberID="viewController">
+                    <view key="view" id="tOy-S4-hL0">
+                        <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </view>
+                </viewController>
+                <customObject id="9uD-mB-xHs" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="139" y="131"/>
+        </scene>
+        <!--Sign In-->
+        <scene sceneID="0uG-W4-nQa">
+            <objects>
+                <viewController title="Sign In" storyboardIdentifier="SignInViewController" id="SX9-yk-ubm" customClass="SignInViewController" customModule="FolderLock" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" autoresizesSubviews="NO" appearanceType="aqua" translatesAutoresizingMaskIntoConstraints="NO" id="kWP-As-Ypf">
+                        <rect key="frame" x="0.0" y="0.0" width="800" height="626"/>
+                        <subviews>
+                            <customView translatesAutoresizingMaskIntoConstraints="NO" id="bSk-mu-PAu">
+                                <rect key="frame" x="0.0" y="0.0" width="800" height="626"/>
+                                <subviews>
+                                    <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="PtX-gy-AE6">
+                                        <rect key="frame" x="0.0" y="0.0" width="800" height="626"/>
+                                        <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="Sign_InBackGroung" id="dW5-qJ-IxV"/>
+                                    </imageView>
+                                    <stackView distribution="fill" orientation="horizontal" alignment="centerY" spacing="6" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aMt-gS-kCg" userLabel="Main Feature Stack">
+                                        <rect key="frame" x="10" y="506" width="120" height="26"/>
+                                        <subviews>
+                                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="wpC-Qq-xbY">
+                                                <rect key="frame" x="0.0" y="0.0" width="26" height="26"/>
+                                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" animates="YES" imageAlignment="top" imageScaling="proportionallyDown" image="ic_round-home" id="m6a-XI-hmq"/>
+                                            </imageView>
+                                            <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="VK1-00-1YN">
+                                                <rect key="frame" x="30" y="5" width="92" height="16"/>
+                                                <textFieldCell key="cell" lineBreakMode="clipping" title="Main Features" id="T4v-AI-eGm">
+                                                    <font key="font" metaFont="systemMedium" size="13"/>
+                                                    <color key="textColor" name="Text Color"/>
+                                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                                </textFieldCell>
+                                            </textField>
+                                        </subviews>
+                                        <visibilityPriorities>
+                                            <integer value="1000"/>
+                                            <integer value="1000"/>
+                                        </visibilityPriorities>
+                                        <customSpacing>
+                                            <real value="3.4028234663852886e+38"/>
+                                            <real value="3.4028234663852886e+38"/>
+                                        </customSpacing>
+                                    </stackView>
+                                    <stackView distribution="fill" orientation="horizontal" alignment="centerY" spacing="6" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ggb-IB-Dpn" userLabel="Aditonal Stack">
+                                        <rect key="frame" x="557" y="509" width="145" height="20"/>
+                                        <subviews>
+                                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="VKt-nR-faR">
+                                                <rect key="frame" x="0.0" y="0.0" width="18" height="20"/>
+                                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" animates="YES" imageAlignment="top" imageScaling="proportionallyDown" image="features 1 1" id="TBi-3g-t0g"/>
+                                            </imageView>
+                                            <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="bDF-hy-mYS">
+                                                <rect key="frame" x="22" y="2" width="125" height="16"/>
+                                                <textFieldCell key="cell" lineBreakMode="clipping" title="Additional Features" id="Rk5-So-IMQ">
+                                                    <font key="font" metaFont="systemMedium" size="13"/>
+                                                    <color key="textColor" name="Text Color"/>
+                                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                                </textFieldCell>
+                                            </textField>
+                                        </subviews>
+                                        <visibilityPriorities>
+                                            <integer value="1000"/>
+                                            <integer value="1000"/>
+                                        </visibilityPriorities>
+                                        <customSpacing>
+                                            <real value="3.4028234663852886e+38"/>
+                                            <real value="3.4028234663852886e+38"/>
+                                        </customSpacing>
+                                    </stackView>
+                                    <button translatesAutoresizingMaskIntoConstraints="NO" id="nnj-Ur-dyQ" customClass="UnderlinedButton" customModule="FolderLock" customModuleProvider="target">
+                                        <rect key="frame" x="127" y="549" width="87" height="16"/>
+                                        <buttonCell key="cell" type="bevel" title="Version 10.1.1" bezelStyle="rounded" alignment="left" imageScaling="proportionallyDown" inset="2" id="rl3-R9-rnn">
+                                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                            <font key="font" metaFont="system"/>
+                                        </buttonCell>
+                                        <color key="contentTintColor" name="whiteColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="87" id="hwv-GG-WFQ"/>
+                                            <constraint firstAttribute="height" constant="16" id="o3t-Ck-6xN"/>
+                                        </constraints>
+                                        <connections>
+                                            <action selector="versionButton:" target="SX9-yk-ubm" id="Bwh-rw-OpO"/>
+                                        </connections>
+                                    </button>
+                                    <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="F4O-v4-1bi">
+                                        <rect key="frame" x="191" y="515" width="48" height="17"/>
+                                        <textFieldCell key="cell" lineBreakMode="clipping" title="Sign in" id="Dp3-Yo-R8j">
+                                            <font key="font" metaFont="system" size="14"/>
+                                            <color key="textColor" name="whiteColor"/>
+                                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                        </textFieldCell>
+                                    </textField>
+                                    <button focusRingType="none" imageHugsTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xaL-Oq-rkx" customClass="UnderlinedButton" customModule="FolderLock" customModuleProvider="target">
+                                        <rect key="frame" x="419" y="510" width="116" height="24"/>
+                                        <buttonCell key="cell" type="bevel" title="Check Updates" bezelStyle="rounded" image="upgrade icon 1" imagePosition="left" alignment="center" lineBreakMode="truncatingTail" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="Csh-LI-APh">
+                                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                            <font key="font" metaFont="system"/>
+                                        </buttonCell>
+                                        <color key="contentTintColor" name="whiteColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="24" id="Jba-NR-ECP"/>
+                                        </constraints>
+                                        <connections>
+                                            <action selector="noUpdatesButton:" target="SX9-yk-ubm" id="WX1-4u-zZG"/>
+                                        </connections>
+                                    </button>
+                                    <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="VUS-CW-Zym">
+                                        <rect key="frame" x="196" y="473" width="67" height="21"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="63" id="KPb-QI-nFO"/>
+                                        </constraints>
+                                        <textFieldCell key="cell" lineBreakMode="clipping" title="Sign in" id="yKH-hj-pRe">
+                                            <font key="font" metaFont="systemBold" size="18"/>
+                                            <color key="textColor" name="Text Color"/>
+                                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                        </textFieldCell>
+                                    </textField>
+                                    <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="751" translatesAutoresizingMaskIntoConstraints="NO" id="UIt-IU-ru0">
+                                        <rect key="frame" x="196" y="427" width="77" height="17"/>
+                                        <textFieldCell key="cell" lineBreakMode="clipping" title="Enter Email" id="Hqo-IR-g6y">
+                                            <font key="font" metaFont="system" size="14"/>
+                                            <color key="textColor" name="Text Color"/>
+                                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                        </textFieldCell>
+                                    </textField>
+                                    <textField focusRingType="none" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="R4s-ld-VFL" customClass="NewTextField" customModule="FolderLock" customModuleProvider="target">
+                                        <rect key="frame" x="197" y="393" width="320" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="VEK-ah-aQS"/>
+                                            <constraint firstAttribute="width" constant="320" id="p1f-dJ-Kh0"/>
+                                        </constraints>
+                                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" borderStyle="bezel" focusRingType="none" usesSingleLineMode="YES" bezelStyle="round" id="CLZ-Fi-y9a">
+                                            <font key="font" metaFont="system"/>
+                                            <color key="textColor" name="Text Color"/>
+                                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                        </textFieldCell>
+                                        <connections>
+                                            <action selector="Signupbtn:" target="SX9-yk-ubm" id="IY6-7C-2O9"/>
+                                        </connections>
+                                    </textField>
+                                    <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="752" translatesAutoresizingMaskIntoConstraints="NO" id="8k7-4p-yGs">
+                                        <rect key="frame" x="196" y="352" width="67" height="17"/>
+                                        <textFieldCell key="cell" lineBreakMode="clipping" title="Password" id="AMs-D6-gFP">
+                                            <font key="font" metaFont="system" size="14"/>
+                                            <color key="textColor" name="Text Color"/>
+                                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                        </textFieldCell>
+                                    </textField>
+                                    <secureTextField focusRingType="none" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="ekV-61-01z" customClass="NewSecureTextField" customModule="FolderLock" customModuleProvider="target">
+                                        <rect key="frame" x="197" y="318" width="320" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="320" id="cuc-Iz-Nxg"/>
+                                            <constraint firstAttribute="height" constant="30" id="gsk-nP-G4t"/>
+                                        </constraints>
+                                        <secureTextFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" borderStyle="bezel" focusRingType="none" usesSingleLineMode="YES" bezelStyle="round" id="ZJx-dr-7tH">
+                                            <font key="font" metaFont="system"/>
+                                            <color key="textColor" name="Text Color"/>
+                                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                            <allowedInputSourceLocales>
+                                                <string>NSAllRomanInputSourcesLocaleIdentifier</string>
+                                            </allowedInputSourceLocales>
+                                        </secureTextFieldCell>
+                                    </secureTextField>
+                                    <imageView hidden="YES" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="x9J-aH-X5b">
+                                        <rect key="frame" x="481" y="322" width="34" height="26"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="34" id="lDR-IJ-kfy"/>
+                                        </constraints>
+                                        <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageAlignment="top" imageScaling="proportionallyDown" image="Keyboard" id="JsD-uR-lT8"/>
+                                    </imageView>
+                                    <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="752" translatesAutoresizingMaskIntoConstraints="NO" id="mwv-xg-ZtC">
+                                        <rect key="frame" x="386" y="297" width="129" height="17"/>
+                                        <textFieldCell key="cell" lineBreakMode="clipping" title="Incorrect Password" id="dfO-to-f4z">
+                                            <font key="font" metaFont="system" size="14"/>
+                                            <color key="textColor" name="systemRedColor" catalog="System" colorSpace="catalog"/>
+                                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                        </textFieldCell>
+                                    </textField>
+                                    <button focusRingType="none" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="12S-jO-2pw" customClass="SharingHoverButton" customModule="FolderLock" customModuleProvider="target">
+                                        <rect key="frame" x="262" y="234" width="196" height="40"/>
+                                        <buttonCell key="cell" type="bevel" title="Sign in" bezelStyle="rounded" alignment="center" lineBreakMode="truncatingTail" state="on" focusRingType="none" inset="2" id="v5y-I9-rNd">
+                                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                            <font key="font" metaFont="system" size="15"/>
+                                        </buttonCell>
+                                        <color key="contentTintColor" red="0.99896323310000001" green="0.98431856480000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="O8Q-Od-ZQj"/>
+                                            <constraint firstAttribute="width" constant="196" id="Zlw-6P-rM1"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="originalColor">
+                                                <color key="value" name="blueImport"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="hoverColor">
+                                                <color key="value" name="hoverBlue2"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="SignInbtn:" target="SX9-yk-ubm" id="xGo-tg-EA7"/>
+                                        </connections>
+                                    </button>
+                                    <stackView distribution="fill" orientation="horizontal" alignment="centerY" spacing="2" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Nut-wI-JqR">
+                                        <rect key="frame" x="283" y="194" width="170" height="16"/>
+                                        <subviews>
+                                            <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="KM1-wK-dEY">
+                                                <rect key="frame" x="-2" y="0.0" width="70" height="16"/>
+                                                <textFieldCell key="cell" lineBreakMode="clipping" title="New User?" id="vUw-9V-Zhb">
+                                                    <font key="font" metaFont="system"/>
+                                                    <color key="textColor" name="Text Color"/>
+                                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                                </textFieldCell>
+                                            </textField>
+                                            <button focusRingType="none" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="sPW-0I-yGc" customClass="UnderlinedButton" customModule="FolderLock" customModuleProvider="target">
+                                                <rect key="frame" x="68" y="0.0" width="102" height="16"/>
+                                                <buttonCell key="cell" type="bevel" title="Create Account" bezelStyle="regularSquare" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="ulT-ax-LbF">
+                                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                                    <font key="font" metaFont="systemSemibold" size="13"/>
+                                                </buttonCell>
+                                                <color key="contentTintColor" red="0.0097403498369999994" green="0.259970963" blue="0.51753032210000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                        <real key="value" value="0.0"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="createAccountBtn:" target="SX9-yk-ubm" id="0b4-WM-S5J"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <visibilityPriorities>
+                                            <integer value="1000"/>
+                                            <integer value="1000"/>
+                                        </visibilityPriorities>
+                                        <customSpacing>
+                                            <real value="3.4028234663852886e+38"/>
+                                            <real value="3.4028234663852886e+38"/>
+                                        </customSpacing>
+                                    </stackView>
+                                    <button hidden="YES" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="uJt-jn-oZ1" customClass="curserButton" customModule="FolderLock" customModuleProvider="target">
+                                        <rect key="frame" x="445" y="80" width="75" height="32"/>
+                                        <buttonCell key="cell" type="bevel" title="Offline" bezelStyle="rounded" alignment="center" imageScaling="proportionallyDown" inset="2" id="64o-Me-vWh">
+                                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                            <font key="font" metaFont="systemSemibold" size="13"/>
+                                        </buttonCell>
+                                        <color key="contentTintColor" name="Text Color"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="75" id="9Me-G6-p67"/>
+                                            <constraint firstAttribute="height" constant="32" id="MRg-IP-WAE"/>
+                                        </constraints>
+                                        <connections>
+                                            <action selector="testBtn:" target="SX9-yk-ubm" id="SfF-b1-htZ"/>
+                                        </connections>
+                                    </button>
+                                    <stackView hidden="YES" distribution="fill" orientation="horizontal" alignment="centerY" spacing="4" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sEy-wI-4Tw">
+                                        <rect key="frame" x="270" y="142" width="184" height="16"/>
+                                        <subviews>
+                                            <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="tel-qv-GL6">
+                                                <rect key="frame" x="-2" y="0.0" width="84" height="16"/>
+                                                <textFieldCell key="cell" lineBreakMode="clipping" title="Activate Pro?" id="n2i-Tp-nua">
+                                                    <font key="font" metaFont="system"/>
+                                                    <color key="textColor" name="Text Color"/>
+                                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                                </textFieldCell>
+                                            </textField>
+                                            <button focusRingType="none" tag="2" translatesAutoresizingMaskIntoConstraints="NO" id="aZI-KZ-f98" customClass="UnderlinedButton" customModule="FolderLock" customModuleProvider="target">
+                                                <rect key="frame" x="84" y="0.0" width="100" height="16"/>
+                                                <buttonCell key="cell" type="bevel" title="Enter Pro Code" bezelStyle="rounded" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="k0A-yD-df1">
+                                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                                    <font key="font" metaFont="systemSemibold" size="13"/>
+                                                </buttonCell>
+                                                <color key="contentTintColor" name="botmcolor"/>
+                                                <connections>
+                                                    <action selector="enterActivationCodeButton:" target="SX9-yk-ubm" id="Cqz-Tw-UB9"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <visibilityPriorities>
+                                            <integer value="1000"/>
+                                            <integer value="1000"/>
+                                        </visibilityPriorities>
+                                        <customSpacing>
+                                            <real value="3.4028234663852886e+38"/>
+                                            <real value="3.4028234663852886e+38"/>
+                                        </customSpacing>
+                                    </stackView>
+                                    <button hidden="YES" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="XwT-ug-5II" customClass="QXButton" customModule="FolderLock" customModuleProvider="target">
+                                        <rect key="frame" x="410" y="451" width="100" height="35"/>
+                                        <buttonCell key="cell" type="bevel" title="Get" bezelStyle="regularSquare" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="hYt-Wv-JW7">
+                                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                            <font key="font" metaFont="system"/>
+                                        </buttonCell>
+                                        <color key="contentTintColor" red="0.26800000670000002" green="0.64999997620000005" blue="0.06499999762" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="35" id="Pco-mX-gNI"/>
+                                            <constraint firstAttribute="width" constant="100" id="eLV-1V-2l7"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="hoverHighlightingEnabled" value="YES"/>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="buttonColor">
+                                                <color key="value" name="tableColor"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="buttonColorActive">
+                                                <color key="value" name="green"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="textColor">
+                                                <color key="value" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="textColorActive">
+                                                <color key="value" name="red"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                <real key="value" value="0.0"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="0.0"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="getBtn:" target="SX9-yk-ubm" id="n18-Ts-fec"/>
+                                        </connections>
+                                    </button>
+                                    <stackView distribution="fill" orientation="horizontal" alignment="top" spacing="3" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="muJ-hA-Teq">
+                                        <rect key="frame" x="252" y="168" width="240" height="16"/>
+                                        <subviews>
+                                            <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Box-qf-Rze">
+                                                <rect key="frame" x="-2" y="0.0" width="113" height="16"/>
+                                                <textFieldCell key="cell" lineBreakMode="clipping" title="Forgot Password?" id="wh2-W0-mAP">
+                                                    <font key="font" metaFont="system"/>
+                                                    <color key="textColor" name="Text Color"/>
+                                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                                </textFieldCell>
+                                            </textField>
+                                            <button focusRingType="none" tag="1" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="7nn-ne-ESl" customClass="UnderlinedButton" customModule="FolderLock" customModuleProvider="target">
+                                                <rect key="frame" x="112" y="0.0" width="128" height="16"/>
+                                                <buttonCell key="cell" type="bevel" title="Reset Your Account" bezelStyle="regularSquare" alignment="center" focusRingType="none" imageScaling="proportionallyDown" inset="2" id="vYV-oM-5ys">
+                                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                                    <font key="font" metaFont="systemSemibold" size="13"/>
+                                                </buttonCell>
+                                                <color key="contentTintColor" name="systemRedColor" catalog="System" colorSpace="catalog"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                        <real key="value" value="0.0"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="ResetAcc:" target="SX9-yk-ubm" id="yeb-zF-ARr"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <visibilityPriorities>
+                                            <integer value="1000"/>
+                                            <integer value="1000"/>
+                                        </visibilityPriorities>
+                                        <customSpacing>
+                                            <real value="3.4028234663852886e+38"/>
+                                            <real value="3.4028234663852886e+38"/>
+                                        </customSpacing>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="VUS-CW-Zym" firstAttribute="leading" secondItem="bSk-mu-PAu" secondAttribute="leading" constant="198" id="0tO-pC-t8Y"/>
+                                    <constraint firstAttribute="trailing" secondItem="x9J-aH-X5b" secondAttribute="trailing" constant="285" id="1dQ-ok-TXn"/>
+                                    <constraint firstItem="8k7-4p-yGs" firstAttribute="leading" secondItem="bSk-mu-PAu" secondAttribute="leading" constant="198" id="4gz-lt-fFV"/>
+                                    <constraint firstItem="muJ-hA-Teq" firstAttribute="top" secondItem="Nut-wI-JqR" secondAttribute="bottom" constant="10" id="6gN-0P-ycx"/>
+                                    <constraint firstItem="R4s-ld-VFL" firstAttribute="leading" secondItem="bSk-mu-PAu" secondAttribute="leading" constant="197" id="8ks-cc-Xaf"/>
+                                    <constraint firstAttribute="bottom" secondItem="uJt-jn-oZ1" secondAttribute="bottom" constant="80" id="96j-RF-Mum"/>
+                                    <constraint firstItem="x9J-aH-X5b" firstAttribute="top" secondItem="R4s-ld-VFL" secondAttribute="bottom" constant="45" id="BGc-2A-bIp"/>
+                                    <constraint firstItem="12S-jO-2pw" firstAttribute="leading" secondItem="bSk-mu-PAu" secondAttribute="leading" constant="262" id="E3o-KL-6eZ"/>
+                                    <constraint firstAttribute="trailing" secondItem="xaL-Oq-rkx" secondAttribute="trailing" constant="265" id="Ffu-cV-dDl"/>
+                                    <constraint firstItem="8k7-4p-yGs" firstAttribute="top" secondItem="R4s-ld-VFL" secondAttribute="bottom" constant="24" id="Gbg-nh-0tN"/>
+                                    <constraint firstItem="nnj-Ur-dyQ" firstAttribute="top" secondItem="bSk-mu-PAu" secondAttribute="top" constant="61" id="Hcz-3D-yyC"/>
+                                    <constraint firstAttribute="trailing" secondItem="mwv-xg-ZtC" secondAttribute="trailing" constant="287" id="Htw-ef-MPq"/>
+                                    <constraint firstItem="Nut-wI-JqR" firstAttribute="top" secondItem="12S-jO-2pw" secondAttribute="bottom" constant="24" id="IcZ-WF-ogx"/>
+                                    <constraint firstItem="ggb-IB-Dpn" firstAttribute="leading" secondItem="xaL-Oq-rkx" secondAttribute="trailing" constant="22" id="IzN-TI-5zS"/>
+                                    <constraint firstItem="UIt-IU-ru0" firstAttribute="leading" secondItem="bSk-mu-PAu" secondAttribute="leading" constant="198" id="JOk-Pv-qXU"/>
+                                    <constraint firstItem="xaL-Oq-rkx" firstAttribute="top" secondItem="bSk-mu-PAu" secondAttribute="top" constant="92" id="Kho-3l-fz2"/>
+                                    <constraint firstItem="nnj-Ur-dyQ" firstAttribute="leading" secondItem="bSk-mu-PAu" secondAttribute="leading" constant="127" id="O5p-SG-m9g"/>
+                                    <constraint firstItem="ggb-IB-Dpn" firstAttribute="top" secondItem="bSk-mu-PAu" secondAttribute="top" constant="97" id="OQB-gj-q8s"/>
+                                    <constraint firstItem="aMt-gS-kCg" firstAttribute="top" secondItem="nnj-Ur-dyQ" secondAttribute="bottom" constant="17.5" id="QGA-lZ-G14"/>
+                                    <constraint firstItem="muJ-hA-Teq" firstAttribute="leading" secondItem="bSk-mu-PAu" secondAttribute="leading" constant="252" id="QTb-MJ-MeX"/>
+                                    <constraint firstAttribute="trailing" secondItem="XwT-ug-5II" secondAttribute="trailing" constant="290" id="X2g-YH-ytT"/>
+                                    <constraint firstItem="PtX-gy-AE6" firstAttribute="leading" secondItem="bSk-mu-PAu" secondAttribute="leading" id="Zik-05-YFW"/>
+                                    <constraint firstAttribute="trailing" secondItem="PtX-gy-AE6" secondAttribute="trailing" id="hb9-DE-BE7"/>
+                                    <constraint firstItem="ekV-61-01z" firstAttribute="top" secondItem="8k7-4p-yGs" secondAttribute="bottom" constant="4" id="iBq-SF-wcB"/>
+                                    <constraint firstAttribute="trailing" secondItem="uJt-jn-oZ1" secondAttribute="trailing" constant="280" id="kQK-7N-AAa"/>
+                                    <constraint firstItem="R4s-ld-VFL" firstAttribute="top" secondItem="UIt-IU-ru0" secondAttribute="bottom" constant="4" id="lm9-9n-QRU"/>
+                                    <constraint firstItem="mwv-xg-ZtC" firstAttribute="top" secondItem="ekV-61-01z" secondAttribute="bottom" constant="4" id="oVL-uf-ahh"/>
+                                    <constraint firstItem="VUS-CW-Zym" firstAttribute="top" secondItem="bSk-mu-PAu" secondAttribute="top" constant="132" id="oob-aH-GEy"/>
+                                    <constraint firstItem="UIt-IU-ru0" firstAttribute="top" secondItem="VUS-CW-Zym" secondAttribute="bottom" constant="29" id="p6s-Oa-Rhh"/>
+                                    <constraint firstItem="XwT-ug-5II" firstAttribute="top" secondItem="bSk-mu-PAu" secondAttribute="top" constant="140" id="qUL-fM-czE"/>
+                                    <constraint firstItem="sEy-wI-4Tw" firstAttribute="leading" secondItem="bSk-mu-PAu" secondAttribute="leading" constant="270" id="qhp-OO-nRm"/>
+                                    <constraint firstItem="12S-jO-2pw" firstAttribute="top" secondItem="ekV-61-01z" secondAttribute="bottom" constant="44" id="sAR-3Q-eeo"/>
+                                    <constraint firstAttribute="bottom" secondItem="PtX-gy-AE6" secondAttribute="bottom" id="sVY-xw-VQ3"/>
+                                    <constraint firstItem="Nut-wI-JqR" firstAttribute="leading" secondItem="bSk-mu-PAu" secondAttribute="leading" constant="283" id="sqb-JA-7us"/>
+                                    <constraint firstItem="sEy-wI-4Tw" firstAttribute="top" secondItem="muJ-hA-Teq" secondAttribute="bottom" constant="10" id="tcD-B5-CMA"/>
+                                    <constraint firstItem="ekV-61-01z" firstAttribute="leading" secondItem="bSk-mu-PAu" secondAttribute="leading" constant="197" id="wye-iY-yes"/>
+                                    <constraint firstItem="F4O-v4-1bi" firstAttribute="top" secondItem="nnj-Ur-dyQ" secondAttribute="bottom" constant="17" id="y3a-cw-hjT"/>
+                                    <constraint firstItem="F4O-v4-1bi" firstAttribute="leading" secondItem="bSk-mu-PAu" secondAttribute="leading" constant="193" id="ydT-Am-s4l"/>
+                                    <constraint firstItem="aMt-gS-kCg" firstAttribute="leading" secondItem="bSk-mu-PAu" secondAttribute="leading" constant="10" id="zhh-3a-UWG"/>
+                                    <constraint firstItem="PtX-gy-AE6" firstAttribute="top" secondItem="bSk-mu-PAu" secondAttribute="top" id="zxe-9B-Abh"/>
+                                </constraints>
+                            </customView>
+                            <customView translatesAutoresizingMaskIntoConstraints="NO" id="fg1-mc-BoK" customClass="BlockingView" customModule="FolderLock" customModuleProvider="target">
+                                <rect key="frame" x="179" y="79" width="362" height="429"/>
+                                <subviews>
+                                    <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="zun-lX-BsY">
+                                        <rect key="frame" x="156" y="190" width="50" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="YW8-Pi-SVY"/>
+                                            <constraint firstAttribute="width" constant="50" id="bR1-dh-jKz"/>
+                                        </constraints>
+                                        <imageCell key="cell" refusesFirstResponder="YES" alignment="left" animates="YES" imageScaling="proportionallyDown" image="Spinner_5" id="8EH-Me-2JY"/>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="zun-lX-BsY" firstAttribute="leading" secondItem="fg1-mc-BoK" secondAttribute="leading" constant="156" id="9CN-ox-Vny"/>
+                                    <constraint firstAttribute="height" constant="429" id="dM5-fw-3TX"/>
+                                    <constraint firstItem="zun-lX-BsY" firstAttribute="top" secondItem="fg1-mc-BoK" secondAttribute="top" constant="189" id="sIm-F9-nhB"/>
+                                    <constraint firstAttribute="width" constant="362" id="tiz-pH-GLR"/>
+                                </constraints>
+                            </customView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="fg1-mc-BoK" firstAttribute="top" secondItem="kWP-As-Ypf" secondAttribute="top" constant="118" id="1o2-za-Cwk"/>
+                            <constraint firstItem="bSk-mu-PAu" firstAttribute="top" secondItem="kWP-As-Ypf" secondAttribute="top" id="G4K-u1-K94"/>
+                            <constraint firstItem="bSk-mu-PAu" firstAttribute="leading" secondItem="kWP-As-Ypf" secondAttribute="leading" id="XIe-sD-5dF"/>
+                            <constraint firstAttribute="trailing" secondItem="bSk-mu-PAu" secondAttribute="trailing" id="fdG-Dd-iKc"/>
+                            <constraint firstItem="fg1-mc-BoK" firstAttribute="leading" secondItem="kWP-As-Ypf" secondAttribute="leading" constant="179" id="g62-YQ-TTq"/>
+                            <constraint firstAttribute="bottom" secondItem="bSk-mu-PAu" secondAttribute="bottom" id="qB3-yZ-vkd"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="ResetAccBTN" destination="7nn-ne-ESl" id="RhU-rm-xjq"/>
+                        <outlet property="activationCodeBtn" destination="aZI-KZ-f98" id="QNd-n4-2Zg"/>
+                        <outlet property="createAccount" destination="sPW-0I-yGc" id="EXf-xG-bJi"/>
+                        <outlet property="emailTF" destination="R4s-ld-VFL" id="Rzd-wF-5Py"/>
+                        <outlet property="grayView" destination="fg1-mc-BoK" id="oc0-gT-GPw"/>
+                        <outlet property="incorrectLbl" destination="mwv-xg-ZtC" id="RlC-fF-1Fw"/>
+                        <outlet property="loginAvtivityInd" destination="zun-lX-BsY" id="wOU-6d-aOl"/>
+                        <outlet property="mainView" destination="bSk-mu-PAu" id="EGB-FG-rgj"/>
+                        <outlet property="noUpdatesBtn" destination="xaL-Oq-rkx" id="TdV-wB-51F"/>
+                        <outlet property="passTF" destination="ekV-61-01z" id="DRY-wI-to9"/>
+                        <outlet property="signInButton" destination="12S-jO-2pw" id="PE7-4D-r6E"/>
+                        <outlet property="signbtn" destination="v5y-I9-rNd" id="ZOJ-Ve-qld"/>
+                        <outlet property="versionLbl" destination="nnj-Ur-dyQ" id="vlF-DS-OTE"/>
+                    </connections>
+                </viewController>
+                <customObject id="dQy-vs-scP" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="268" y="857"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Keyboard" width="26" height="26"/>
+        <image name="Sign_InBackGroung" width="800" height="626"/>
+        <image name="Spinner_5" width="64" height="64"/>
+        <image name="features 1 1" width="18" height="20"/>
+        <image name="ic_round-home" width="26" height="26"/>
+        <image name="upgrade icon 1" width="17" height="18"/>
+        <namedColor name="Text Color">
+            <color red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="blueImport">
+            <color red="0.035294117647058823" green="0.58823529411764708" blue="0.97254901960784312" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="botmcolor">
+            <color red="0.11764705882352941" green="0.29411764705882354" blue="0.58039215686274515" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+        <namedColor name="green">
+            <color red="0.30980392156862746" green="0.73333333333333328" blue="0.28235294117647058" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="hoverBlue2">
+            <color red="0.14117647058823529" green="0.63137254901960782" blue="0.97254901960784312" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="red">
+            <color red="0.88627450980392153" green="0.3411764705882353" blue="0.29803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="tableColor">
+            <color red="0.77499997615814209" green="0.875" blue="0.98100000619888306" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+        <namedColor name="whiteColor">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

@@ -86,6 +86,7 @@ enum AuthEndpoint: APIEndpoint {
 
     case login(LoginRequestDTO)
     case readAuth(parameter: String)
+    case checkExistingDevice(parameter:String)
     case logout
     case refreshToken(token: String)
 
@@ -99,9 +100,12 @@ enum AuthEndpoint: APIEndpoint {
 
         case .logout:
             return "/auth/logout"
-
+            
         case .refreshToken:
             return "/auth/refresh-token"
+            
+        case .checkExistingDevice:
+            return "/device_list.php"
         }
     }
 
@@ -118,12 +122,14 @@ enum AuthEndpoint: APIEndpoint {
 
         case .refreshToken:
             return .post
+        case .checkExistingDevice:
+            return .put
         }
     }
 
     var headers: [String: String] {
         switch self {
-        case .readAuth:
+        case .readAuth,.checkExistingDevice:
             return [
                 "Content-Type": "text/plain; charset=utf-8",
                 "Accept": "text/plain"
@@ -150,6 +156,9 @@ enum AuthEndpoint: APIEndpoint {
         case .refreshToken(let token):
             let body = RefreshTokenRequestDTO(refreshToken: token)
             return try JSONEncoder().encode(body)
+            
+        case .checkExistingDevice(let parameter):
+            return Data(parameter.utf8)
         }
     }
 }

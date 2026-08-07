@@ -13,8 +13,8 @@ protocol AuthRemoteDataSource: Sendable {
     func readAuth(parameter: String) async throws -> AuthResponseDTO
 }
 
-final class DefaultAuthRemoteDataSource: AuthRemoteDataSource {
-
+struct DefaultAuthRemoteDataSource: AuthRemoteDataSource {
+    
     private let apiClient: DefaultAPIClient
     private let encryptor: APIRequestEncrypting
 
@@ -45,14 +45,3 @@ final class DefaultAuthRemoteDataSource: AuthRemoteDataSource {
         )
     }
 }
-/*
- func readAuth(parameter: String) async throws -> AuthResponseDTO {
-        let encryptedParam = try encryptor.encryptEmailParameter(parameter)
-        let endpoint = AuthEndpoint.readAuth(parameter: encryptedParam)
-        // Automatically decrypts & decodes JSON into AuthResponseDTO
-        return try await apiClient.requestDecodable(
-            AuthResponseDTO.self,
-            endpoint: endpoint
-        )
-    }
- */

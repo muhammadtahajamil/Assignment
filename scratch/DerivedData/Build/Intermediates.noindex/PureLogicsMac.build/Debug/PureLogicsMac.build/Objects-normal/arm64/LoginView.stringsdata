@@ -7,7 +7,7 @@
         "key": "Login",
         "location": {
           "startingColumn": 30,
-          "startingLine": 132
+          "startingLine": 133
         }
       },
       {
@@ -15,7 +15,7 @@
         "key": "Welcome Back",
         "location": {
           "startingColumn": 26,
-          "startingLine": 48
+          "startingLine": 49
         }
       },
       {
@@ -23,7 +23,7 @@
         "key": "Login to continue",
         "location": {
           "startingColumn": 26,
-          "startingLine": 52
+          "startingLine": 53
         }
       },
       {
@@ -31,7 +31,7 @@
         "key": "Email",
         "location": {
           "startingColumn": 31,
-          "startingLine": 59
+          "startingLine": 60
         }
       },
       {
@@ -39,7 +39,7 @@
         "key": "Password",
         "location": {
           "startingColumn": 39,
-          "startingLine": 68
+          "startingLine": 69
         }
       },
       {
@@ -47,7 +47,7 @@
         "key": "Password",
         "location": {
           "startingColumn": 41,
-          "startingLine": 71
+          "startingLine": 72
         }
       },
       {
@@ -55,7 +55,7 @@
         "key": "Login",
         "location": {
           "startingColumn": 26,
-          "startingLine": 99
+          "startingLine": 100
         }
       },
       {
@@ -63,7 +63,7 @@
         "key": "Forgot Password?",
         "location": {
           "startingColumn": 26,
-          "startingLine": 111
+          "startingLine": 112
         }
       },
       {
@@ -71,7 +71,7 @@
         "key": "Don’t have an account?",
         "location": {
           "startingColumn": 26,
-          "startingLine": 118
+          "startingLine": 119
         }
       },
       {
@@ -79,7 +79,7 @@
         "key": "Sign Up",
         "location": {
           "startingColumn": 30,
-          "startingLine": 124
+          "startingLine": 125
         }
       },
       {
@@ -87,7 +87,7 @@
         "key": "Home",
         "location": {
           "startingColumn": 26,
-          "startingLine": 158
+          "startingLine": 157
         }
       },
       {
@@ -95,7 +95,7 @@
         "key": "Welcome",
         "location": {
           "startingColumn": 18,
-          "startingLine": 151
+          "startingLine": 150
         }
       },
       {
@@ -103,7 +103,7 @@
         "key": "Login successful.",
         "location": {
           "startingColumn": 18,
-          "startingLine": 155
+          "startingLine": 154
         }
       }
     ]

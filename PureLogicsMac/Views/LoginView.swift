@@ -11,7 +11,8 @@ struct LoginView: View {
     @Binding var isLoggedIn: Bool
     @Binding var isOffline: Bool
     
-        @State private var loginViewModel : LoginViewModel
+    @State private var loginViewModel : LoginViewModel
+    let deviceRepository = DefaultDeviceRepository()
     
     init(isLoggedIn: Binding<Bool>, isOffline: Binding<Bool>, sessionStore: UserSessionStore) {
         self._isLoggedIn = isLoggedIn
@@ -28,13 +29,13 @@ struct LoginView: View {
               let authRepository = DefaultAuthRepository(
                   remoteDataSource: authRemoteDataSource
               )
-
+            
               let loginUseCase = LoginUseCase(
-                  repository: authRepository
+                repository: authRepository
               )
 
               self._loginViewModel = State(wrappedValue: LoginViewModel(
-                useCase: loginUseCase, sessionStore: sessionStore
+                useCase: loginUseCase, sessionStore: sessionStore, deviceAuthRepository: deviceRepository
         ))
     }
     
@@ -134,8 +135,6 @@ struct LoginView: View {
         .onChange(of: [loginViewModel.isLoggedIn, loginViewModel.isOffline]) { oldValue, newValue in
             if newValue[0] {
                 isLoggedIn = true
-                
-//                testString = "Muhammad Taha Jamil"
             }
             if newValue[1]{
                 isOffline = true

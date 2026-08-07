@@ -7,17 +7,17 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "7FE39D46-02F8-4056-AE5A-ACC0F62C2EBB"
+            uuid = "1A003512-EBF2-48FC-B709-E851B578B92F"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "PureLogicsMac/Views/SettingView.swift"
+            filePath = "PureLogicsMac/ViewModels/LoginViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "16"
-            endingLineNumber = "16"
-            landmarkName = "body"
-            landmarkType = "24">
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "loginButtonTapped()"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

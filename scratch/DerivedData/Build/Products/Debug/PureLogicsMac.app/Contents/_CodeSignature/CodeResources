@@ -4,6 +4,10 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Resources/Assets.car</key>
+		<data>
+		HWgMBEj72nydDzS6Eqy3o1rW+CE=
+		</data>
 		<key>Resources/GRDB_GRDB.bundle/Contents/Info.plist</key>
 		<data>
 		i+QmbIAjBI0S3tF/FAfkpB6YHQ4=
@@ -31,7 +35,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			PQvt1yxTv/zd928EOG8gyKMwVlU=
+			o0+BtOnCq2Y2GrlL8yW1vvqdP4Y=
 			</data>
 			<key>requirement</key>
 			<string>identifier "PureLogicsMac.debug" and anchor apple generic and certificate leaf[subject.CN] = "Apple Development: tahajamil125@gmail.com (R6DQFQN6C9)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
@@ -44,6 +48,13 @@
 			</data>
 			<key>requirement</key>
 			<string>identifier "__preview" and anchor apple generic and certificate leaf[subject.CN] = "Apple Development: tahajamil125@gmail.com (R6DQFQN6C9)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
+		</dict>
+		<key>Resources/Assets.car</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			F2ztIiwcMOZLunSpS6uio8h7kUuQEvvgtm8QcHl0WEc=
+			</data>
 		</dict>
 		<key>Resources/GRDB_GRDB.bundle/Contents/Info.plist</key>
 		<dict>

@@ -330,15 +330,17 @@ SWIFT_CLASS("_TtC13PureLogicsMac8BaseUser")
 - (NSData * _Nullable)getPrivateKeyHash SWIFT_WARN_UNUSED_RESULT;
 - (NSString * _Nonnull)getSubscription SWIFT_WARN_UNUSED_RESULT;
 - (NSString * _Nonnull)getDefaultCloud SWIFT_WARN_UNUSED_RESULT;
-- (NSString * _Nonnull)getStatus SWIFT_WARN_UNUSED_RESULT;
 - (NSInteger)getNumberOfDevices SWIFT_WARN_UNUSED_RESULT;
 - (NSString * _Nonnull)getCardExpiry SWIFT_WARN_UNUSED_RESULT;
 - (NSString * _Nonnull)getCardLastFourDigits SWIFT_WARN_UNUSED_RESULT;
 - (NSString * _Nonnull)getSubscriptionDate SWIFT_WARN_UNUSED_RESULT;
 - (NSString * _Nonnull)getSubscriptionExpiryDate SWIFT_WARN_UNUSED_RESULT;
 - (NSString * _Nonnull)getActivationCode SWIFT_WARN_UNUSED_RESULT;
+- (NSString * _Nonnull)getSubscriptionPlatform SWIFT_WARN_UNUSED_RESULT;
 - (NSString * _Nonnull)getAesEncryptedBase64EncodedAccountDetails SWIFT_WARN_UNUSED_RESULT;
 - (NSString * _Nonnull)getServerCurrentDate SWIFT_WARN_UNUSED_RESULT;
+- (NSInteger)getGracePeriodDays SWIFT_WARN_UNUSED_RESULT;
+- (NSString * _Nonnull)getpasswordSalt SWIFT_WARN_UNUSED_RESULT;
 - (void)setId:(NSString * _Nonnull)id;
 - (void)setEmail:(NSString * _Nonnull)email;
 - (void)setDerEncodedPublicKey:(NSData * _Nullable)derEncodedPublicKey;
@@ -352,15 +354,17 @@ SWIFT_CLASS("_TtC13PureLogicsMac8BaseUser")
 - (void)setPrivateKeyHash:(NSData * _Nullable)derEncodedPrivateKeySha256Hash;
 - (void)setSubscription:(NSString * _Nonnull)subscription;
 - (void)setDefaultCloud:(NSString * _Nonnull)defaultCloud;
-- (void)setStatus:(NSString * _Nonnull)status;
 - (void)setNumberOfDevices:(NSInteger)numberOfDevices;
-- (void)setCardExpiry:(NSString * _Nonnull)cardExpiry;
+- (void)setCardExpiry:(NSString * _Nonnull)cardExpiryDate;
 - (void)setCardLastFourDigits:(NSString * _Nonnull)cardLastFourDigits;
-- (void)setSubscriptionDate:(NSString * _Nonnull)subscriptionDate;
-- (void)setSubscriptionExpiryDate:(NSString * _Nonnull)subscriptionExpiryDate;
-- (void)setActivationCode:(NSString * _Nonnull)activationCode;
+- (void)setSubscriptionDate:(NSString * _Nonnull)purchaseDate;
+- (void)setSubscriptionExpiryDate:(NSString * _Nonnull)expiryDate;
+- (void)setActivationCode:(NSString * _Nonnull)activationKey;
+- (void)setSubscriptionPlatform:(NSString * _Nonnull)subscriptionPlatform;
 - (void)setAesEncryptedBase64EncodedAccountDetails:(NSString * _Nonnull)aesEncryptedBase64EncodedAccountDetails;
 - (void)setServerCurrentDate:(NSString * _Nonnull)serverCurrentDate;
+- (void)setpasswordSalt:(NSString * _Nonnull)passwordSalt;
+- (void)setGracePeriodDays:(NSInteger)gracePeriodDays;
 @end
 
 SWIFT_CLASS("_TtC13PureLogicsMac7Account")

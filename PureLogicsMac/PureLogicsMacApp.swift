@@ -4,29 +4,32 @@ import SwiftUI
 @main
 struct PureLogicsMacApp: App {
     
-    @State private var isLoggedIn = false
     @State private var isOffline = false
 //    @State private var testString = "Taha"
     @State private var sessionstore = UserSessionStore()
+    
+    private var isRunningForPreviews: Bool {
+        ProcessInfo.processInfo.environment["XCODE_RUNNING_FOR_PREVIEWS"] == "1"
+    }
 
     var body: some Scene {
         WindowGroup {
             SwiftUI.Group {
-                if isLoggedIn {
+                 if sessionstore.isAuthenticated {
                     AuthenticatedSessionView()
-                        
                 } else {
-                    LoginView(isLoggedIn: $isLoggedIn, isOffline: $isOffline, sessionStore: sessionstore)
+                    SignInView()
+                        .edgesIgnoringSafeArea(.top)
+                        .frame(width: 840, height: 626)
                 }
             }
-            .frame(minWidth: 800, minHeight: 600)
             .environment(sessionstore)
         }
-        .windowResizability(.contentMinSize)
+        .windowStyle(.hiddenTitleBar)
+        .windowResizability(.contentSize)
         .commands {
             SidebarCommands()
         }
     }
 }
-
 

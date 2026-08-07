@@ -60,4 +60,12 @@ final class AppNavigation: ObservableObject {
     @Published var usersPath = NavigationPath()
     @Published var filePath = NavigationPath()
     @Published var settingsPath = NavigationPath()
+    
+    func reset() {
+           selectedSection = .dashboard
+           dashboardPath = NavigationPath()
+           usersPath = NavigationPath()
+           filePath = NavigationPath()
+           settingsPath = NavigationPath()
+       }
 }

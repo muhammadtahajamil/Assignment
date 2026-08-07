@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>colors</key>
+	<array/>
+	<key>images</key>
+	<array>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/taha/Documents/GitHub/Assignment/PureLogicsMac/Assests/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameKeyboard</string>
+			<key>relativePath</key>
+			<string>./SigninView/Keyboard.imageset</string>
+			<key>swiftSymbol</key>
+			<string>keyboard</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/taha/Documents/GitHub/Assignment/PureLogicsMac/Assests/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameSignInBackGroung</string>
+			<key>relativePath</key>
+			<string>./SigninView/Sign_InBackGroung.imageset</string>
+			<key>swiftSymbol</key>
+			<string>signInBackGroung</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/taha/Documents/GitHub/Assignment/PureLogicsMac/Assests/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameFeatures11</string>
+			<key>relativePath</key>
+			<string>./SigninView/features 1 1.imageset</string>
+			<key>swiftSymbol</key>
+			<string>features11</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/taha/Documents/GitHub/Assignment/PureLogicsMac/Assests/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameIcRoundHome</string>
+			<key>relativePath</key>
+			<string>./SigninView/ic_round-home.imageset</string>
+			<key>swiftSymbol</key>
+			<string>icRoundHome</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/taha/Documents/GitHub/Assignment/PureLogicsMac/Assests/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameUpgradeIcon1</string>
+			<key>relativePath</key>
+			<string>./SigninView/upgrade icon 1.imageset</string>
+			<key>swiftSymbol</key>
+			<string>upgradeIcon1</string>
+		</dict>
+	</array>
+	<key>symbols</key>
+	<array/>
+</dict>
+</plist>

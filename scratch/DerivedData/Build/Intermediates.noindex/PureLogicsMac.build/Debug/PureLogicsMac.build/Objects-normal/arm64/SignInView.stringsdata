@@ -1,0 +1,136 @@
+{
+  "source": "/Users/taha/Documents/GitHub/Assignment/PureLogicsMac/Views/SignInView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Sign in",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 89
+        }
+      },
+      {
+        "comment": "",
+        "key": "Version 10.1.1",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 84
+        }
+      },
+      {
+        "comment": "",
+        "key": "Main Features",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 77
+        }
+      },
+      {
+        "comment": "",
+        "key": "Check Updates",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 103
+        }
+      },
+      {
+        "comment": "",
+        "key": "Additional Features",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 117
+        }
+      },
+      {
+        "comment": "",
+        "key": "Sign in",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 128
+        }
+      },
+      {
+        "comment": "",
+        "key": "Enter Email",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 134
+        }
+      },
+      {
+        "comment": "",
+        "key": "Password",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 146
+        }
+      },
+      {
+        "comment": "",
+        "key": "",
+        "location": {
+          "startingColumn": 23,
+          "startingLine": 140
+        }
+      },
+      {
+        "comment": "",
+        "key": "Sign in",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 178
+        }
+      },
+      {
+        "comment": "",
+        "key": "New User?",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 190
+        }
+      },
+      {
+        "comment": "",
+        "key": "Create Account",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 194
+        }
+      },
+      {
+        "comment": "",
+        "key": "Forgot Password?",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 203
+        }
+      },
+      {
+        "comment": "",
+        "key": "Reset Your Account",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 207
+        }
+      },
+      {
+        "comment": "",
+        "key": "",
+        "location": {
+          "startingColumn": 23,
+          "startingLine": 237
+        }
+      },
+      {
+        "comment": "",
+        "key": "",
+        "location": {
+          "startingColumn": 25,
+          "startingLine": 241
+        }
+      }
+    ]
+  },
+  "version": 1
+}

@@ -7,7 +7,7 @@
         "key": "Settings",
         "location": {
           "startingColumn": 26,
-          "startingLine": 30
+          "startingLine": 42
         }
       },
       {
@@ -23,7 +23,7 @@
         "key": "No Device Found",
         "location": {
           "startingColumn": 36,
-          "startingLine": 25
+          "startingLine": 37
         }
       },
       {
@@ -31,7 +31,15 @@
         "key": "Open Devices",
         "location": {
           "startingColumn": 23,
-          "startingLine": 21
+          "startingLine": 22
+        }
+      },
+      {
+        "comment": "",
+        "key": "Sign Out",
+        "location": {
+          "startingColumn": 23,
+          "startingLine": 33
         }
       }
     ]

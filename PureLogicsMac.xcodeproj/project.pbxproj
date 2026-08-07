@@ -9,9 +9,16 @@
 /* Begin PBXBuildFile section */
 		0F37534C3008228900714FCB /* AuthenticatedSessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F37534B3008228900714FCB /* AuthenticatedSessionView.swift */; };
 		0F6EDD2030066B52002B51D2 /* Connectivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6EDD1F30066B52002B51D2 /* Connectivity.swift */; };
+		0F70A664301A4A9000279091 /* LoginError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F70A663301A4A9000279091 /* LoginError.swift */; };
+		0F7C562F301BC58000F22228 /* APIEncryptionError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7C562E301BC58000F22228 /* APIEncryptionError.swift */; };
 		0F83ACCB300641E000A2516A /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F83ACCA300641E000A2516A /* LoginView.swift */; };
-		0FA6CB98301774BE008D1AB4 /* SignInApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA6CB97301774B1008D1AB4 /* SignInApi.swift */; };
-		0FA6CB9A30177820008D1AB4 /* APIDecryptionError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA6CB9930177820008D1AB4 /* APIDecryptionError.swift */; };
+		0F88D0013025000100000002 /* DeviceDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F88D0013025000100000001 /* DeviceDTO.swift */; };
+		0F88D0023025000100000002 /* DeviceParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F88D0023025000100000001 /* DeviceParser.swift */; };
+		0F88D0033025000100000002 /* DeviceRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F88D0033025000100000001 /* DeviceRepository.swift */; };
+		0F88D0043025000100000002 /* DefaultDeviceRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F88D0043025000100000001 /* DefaultDeviceRepository.swift */; };
+		0F914D8E3025345700964F1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F914D8D3025345700964F1F /* Assets.xcassets */; };
+		0F914D903025350D00964F1F /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F914D8F3025350D00964F1F /* SignInView.swift */; };
+		0FA6CB9A30177820008D1AB4 /* APIResponseDecryptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA6CB9930177820008D1AB4 /* APIResponseDecryptor.swift */; };
 		0FA6CC05301778D3008D1AB4 /* myvault_base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FA6CBA6301778D3008D1AB4 /* myvault_base64.m */; };
 		0FA6CC06301778D3008D1AB4 /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA6CBC5301778D3008D1AB4 /* Group.swift */; };
 		0FA6CC07301778D3008D1AB4 /* OpenSSL_IVHelper_Wrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0FA6CBE2301778D3008D1AB4 /* OpenSSL_IVHelper_Wrapper.mm */; };
@@ -85,7 +92,7 @@
 		0FA6CC6430180C06008D1AB4 /* LoginUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA6CC6330180C06008D1AB4 /* LoginUseCase.swift */; };
 		0FA6CC6730180C8E008D1AB4 /* AuthRemoteDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA6CC6630180C8E008D1AB4 /* AuthRemoteDataSource.swift */; };
 		0FA6CC6930180F38008D1AB4 /* DefaultAuthRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA6CC6830180F38008D1AB4 /* DefaultAuthRepository.swift */; };
-		0FA6CC6B301894C6008D1AB4 /* APIEncryptionError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA6CC6A301894C6008D1AB4 /* APIEncryptionError.swift */; };
+		0FA6CC6B301894C6008D1AB4 /* APIRequestEncryptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA6CC6A301894C6008D1AB4 /* APIRequestEncryptor.swift */; };
 		0FA6CC6D3018ACE2008D1AB4 /* AuthResponseDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA6CC6C3018ACE2008D1AB4 /* AuthResponseDTO.swift */; };
 		0FA6CC6F3018C2C3008D1AB4 /* UserSessionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA6CC6E3018C2C3008D1AB4 /* UserSessionStore.swift */; };
 		0FDF89DC300026B10094F5DB /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDF89DB300026B10094F5DB /* SettingView.swift */; };
@@ -106,9 +113,16 @@
 /* Begin PBXFileReference section */
 		0F37534B3008228900714FCB /* AuthenticatedSessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticatedSessionView.swift; sourceTree = "<group>"; };
 		0F6EDD1F30066B52002B51D2 /* Connectivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connectivity.swift; sourceTree = "<group>"; };
+		0F70A663301A4A9000279091 /* LoginError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginError.swift; sourceTree = "<group>"; };
+		0F7C562E301BC58000F22228 /* APIEncryptionError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIEncryptionError.swift; sourceTree = "<group>"; };
 		0F83ACCA300641E000A2516A /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
-		0FA6CB97301774B1008D1AB4 /* SignInApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInApi.swift; sourceTree = "<group>"; };
-		0FA6CB9930177820008D1AB4 /* APIDecryptionError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIDecryptionError.swift; sourceTree = "<group>"; };
+		0F88D0013025000100000001 /* DeviceDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceDTO.swift; sourceTree = "<group>"; };
+		0F88D0023025000100000001 /* DeviceParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceParser.swift; sourceTree = "<group>"; };
+		0F88D0033025000100000001 /* DeviceRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceRepository.swift; sourceTree = "<group>"; };
+		0F88D0043025000100000001 /* DefaultDeviceRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultDeviceRepository.swift; sourceTree = "<group>"; };
+		0F914D8D3025345700964F1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0F914D8F3025350D00964F1F /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		0FA6CB9930177820008D1AB4 /* APIResponseDecryptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIResponseDecryptor.swift; sourceTree = "<group>"; };
 		0FA6CB9B301778D3008D1AB4 /* CryptLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CryptLib.h; sourceTree = "<group>"; };
 		0FA6CB9C301778D3008D1AB4 /* CryptLib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CryptLib.m; sourceTree = "<group>"; };
 		0FA6CB9D301778D3008D1AB4 /* PureLogicsMac_Bridging header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PureLogicsMac_Bridging header.h"; sourceTree = "<group>"; };
@@ -215,7 +229,7 @@
 		0FA6CC6330180C06008D1AB4 /* LoginUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUseCase.swift; sourceTree = "<group>"; };
 		0FA6CC6630180C8E008D1AB4 /* AuthRemoteDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthRemoteDataSource.swift; sourceTree = "<group>"; };
 		0FA6CC6830180F38008D1AB4 /* DefaultAuthRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultAuthRepository.swift; sourceTree = "<group>"; };
-		0FA6CC6A301894C6008D1AB4 /* APIEncryptionError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIEncryptionError.swift; sourceTree = "<group>"; };
+		0FA6CC6A301894C6008D1AB4 /* APIRequestEncryptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequestEncryptor.swift; sourceTree = "<group>"; };
 		0FA6CC6C3018ACE2008D1AB4 /* AuthResponseDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthResponseDTO.swift; sourceTree = "<group>"; };
 		0FA6CC6E3018C2C3008D1AB4 /* UserSessionStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSessionStore.swift; sourceTree = "<group>"; };
 		0FDF89DB300026B10094F5DB /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
@@ -246,6 +260,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F70A662301A4A7D00279091 /* Errors */ = {
+			isa = PBXGroup;
+			children = (
+				0F70A663301A4A9000279091 /* LoginError.swift */,
+			);
+			path = Errors;
+			sourceTree = "<group>";
+		};
+		0F7C562D301BC56C00F22228 /* Errors */ = {
+			isa = PBXGroup;
+			children = (
+				0F7C562E301BC58000F22228 /* APIEncryptionError.swift */,
+			);
+			path = Errors;
+			sourceTree = "<group>";
+		};
+		0F914D8A3025341000964F1F /* Assests */ = {
+			isa = PBXGroup;
+			children = (
+				0F914D8D3025345700964F1F /* Assets.xcassets */,
+			);
+			path = Assests;
+			sourceTree = "<group>";
+		};
 		0FA6CB9E301778D3008D1AB4 /* AES Encryption */ = {
 			isa = PBXGroup;
 			children = (
@@ -421,6 +459,7 @@
 		0FA6CC53301802CE008D1AB4 /* DTOs */ = {
 			isa = PBXGroup;
 			children = (
+				0F88D0013025000100000001 /* DeviceDTO.swift */,
 				0FA6CC6C3018ACE2008D1AB4 /* AuthResponseDTO.swift */,
 				0FA6CC5A301803EE008D1AB4 /* LoginResponseDTO.swift */,
 				0FA6CC58301802FC008D1AB4 /* LoginRequestDTO.swift */,
@@ -431,6 +470,7 @@
 		0FA6CC54301802CE008D1AB4 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				0F7C562D301BC56C00F22228 /* Errors */,
 				0FA6CC6530180C85008D1AB4 /* RemoteDataSource */,
 				0FA6CC5D30180A6A008D1AB4 /* Repositories */,
 				100000000000000000000508 /* Networking */,
@@ -450,6 +490,7 @@
 		0FA6CC5C30180A38008D1AB4 /* Domain */ = {
 			isa = PBXGroup;
 			children = (
+				0F70A662301A4A7D00279091 /* Errors */,
 				0FA6CC6030180AC7008D1AB4 /* Entities */,
 				0FA6CC5F30180AC3008D1AB4 /* Repositories */,
 				0FA6CC5E30180AB2008D1AB4 /* UseCases */,
@@ -460,6 +501,8 @@
 		0FA6CC5D30180A6A008D1AB4 /* Repositories */ = {
 			isa = PBXGroup;
 			children = (
+				0F88D0023025000100000001 /* DeviceParser.swift */,
+				0F88D0043025000100000001 /* DefaultDeviceRepository.swift */,
 				0FA6CC6830180F38008D1AB4 /* DefaultAuthRepository.swift */,
 			);
 			path = Repositories;
@@ -476,6 +519,7 @@
 		0FA6CC5F30180AC3008D1AB4 /* Repositories */ = {
 			isa = PBXGroup;
 			children = (
+				0F88D0033025000100000001 /* DeviceRepository.swift */,
 				0FA6CC6130180BC7008D1AB4 /* AuthRepository.swift */,
 			);
 			path = Repositories;
@@ -508,6 +552,7 @@
 		100000000000000000000502 /* PureLogicsMac */ = {
 			isa = PBXGroup;
 			children = (
+				0F914D8A3025341000964F1F /* Assests */,
 				0FA6CB9E301778D3008D1AB4 /* AES Encryption */,
 				0FA6CBD0301778D3008D1AB4 /* encs */,
 				0FA6CBD6301778D3008D1AB4 /* EncyAccount */,
@@ -570,12 +615,11 @@
 		100000000000000000000508 /* Networking */ = {
 			isa = PBXGroup;
 			children = (
-				0FA6CC6A301894C6008D1AB4 /* APIEncryptionError.swift */,
-				0FA6CB9930177820008D1AB4 /* APIDecryptionError.swift */,
+				0FA6CC6A301894C6008D1AB4 /* APIRequestEncryptor.swift */,
+				0FA6CB9930177820008D1AB4 /* APIResponseDecryptor.swift */,
 				0FA6CC4F3017FF36008D1AB4 /* APIEnvironment.swift */,
 				0FA6CC4B3017FCE3008D1AB4 /* EncryptedAPIClient.swift */,
 				0FA6CC493017FCD3008D1AB4 /* NetworkError.swift */,
-				0FA6CB97301774B1008D1AB4 /* SignInApi.swift */,
 				100000000000000000000205 /* UserAPIClient.swift */,
 				0F6EDD1F30066B52002B51D2 /* Connectivity.swift */,
 			);
@@ -602,6 +646,7 @@
 		100000000000000000000511 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				0F914D8F3025350D00964F1F /* SignInView.swift */,
 				0F37534B3008228900714FCB /* AuthenticatedSessionView.swift */,
 				0F83ACCA300641E000A2516A /* LoginView.swift */,
 				100000000000000000000208 /* DashboardViews.swift */,
@@ -679,6 +724,7 @@
 			files = (
 				0FA6CC41301778D3008D1AB4 /* share.xml in Resources */,
 				0FA6CC42301778D3008D1AB4 /* vault_info.xml in Resources */,
+				0F914D8E3025345700964F1F /* Assets.xcassets in Resources */,
 				0FA6CC43301778D3008D1AB4 /* accounts.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -697,7 +743,7 @@
 				100000000000000000000103 /* User.swift in Sources */,
 				100000000000000000000104 /* AppNavigation.swift in Sources */,
 				100000000000000000000105 /* UserAPIClient.swift in Sources */,
-				0FA6CB9A30177820008D1AB4 /* APIDecryptionError.swift in Sources */,
+				0FA6CB9A30177820008D1AB4 /* APIResponseDecryptor.swift in Sources */,
 				0FDF89DC300026B10094F5DB /* SettingView.swift in Sources */,
 				100000000000000000000106 /* AppDatabase.swift in Sources */,
 				100000000000000000000107 /* UserStore.swift in Sources */,
@@ -716,6 +762,7 @@
 				0FA6CC0F301778D3008D1AB4 /* CryptLib.m in Sources */,
 				0FA6CC10301778D3008D1AB4 /* OpenSSL_SHA256Helper.cpp in Sources */,
 				0FA6CC11301778D3008D1AB4 /* UtilManager.swift in Sources */,
+				0F7C562F301BC58000F22228 /* APIEncryptionError.swift in Sources */,
 				0FA6CC12301778D3008D1AB4 /* OpenSSL_AESKeyHelper_Wrapper.mm in Sources */,
 				0FA6CC13301778D3008D1AB4 /* AccountInfoXml.swift in Sources */,
 				0FA6CC14301778D3008D1AB4 /* ShareGroupManager.swift in Sources */,
@@ -731,6 +778,7 @@
 				0FA6CC1C301778D3008D1AB4 /* AccountManager.swift in Sources */,
 				0FA6CC1D301778D3008D1AB4 /* Secret.swift in Sources */,
 				0FA6CC1E301778D3008D1AB4 /* VaultInfoXml.swift in Sources */,
+				0F70A664301A4A9000279091 /* LoginError.swift in Sources */,
 				0FA6CC1F301778D3008D1AB4 /* OpenSSL_Base64Helper_Wrapper.mm in Sources */,
 				0FA6CC20301778D3008D1AB4 /* OpenSSL_Helper.cpp in Sources */,
 				0FA6CC21301778D3008D1AB4 /* OpenSSL_AESHelper.cpp in Sources */,
@@ -756,7 +804,7 @@
 				0FA6CC31301778D3008D1AB4 /* DecryptAccountDetails.swift in Sources */,
 				0FA6CC32301778D3008D1AB4 /* OpenSSL_SaltHelper.cpp in Sources */,
 				0FA6CC33301778D3008D1AB4 /* UtilManagerC.m in Sources */,
-				0FA6CC6B301894C6008D1AB4 /* APIEncryptionError.swift in Sources */,
+				0FA6CC6B301894C6008D1AB4 /* APIRequestEncryptor.swift in Sources */,
 				0FA6CC34301778D3008D1AB4 /* OpenSSL_HMACSHA256Helper_Wrapper.mm in Sources */,
 				0FA6CC35301778D3008D1AB4 /* ChangePassword.swift in Sources */,
 				0FA6CC36301778D3008D1AB4 /* GroupInfoXml.swift in Sources */,
@@ -766,17 +814,21 @@
 				0FA6CC3A301778D3008D1AB4 /* CipherAes.swift in Sources */,
 				0FA6CC3B301778D3008D1AB4 /* SecureAccount_Wrapper.mm in Sources */,
 				0FA6CC3C301778D3008D1AB4 /* VaultFile.swift in Sources */,
+				0F914D903025350D00964F1F /* SignInView.swift in Sources */,
 				0FA6CC6F3018C2C3008D1AB4 /* UserSessionStore.swift in Sources */,
 				0FA6CC3D301778D3008D1AB4 /* EncKeyLib.swift in Sources */,
 				0FA6CC3E301778D3008D1AB4 /* OpenSSL_AESKeyHelper.cpp in Sources */,
 				0FA6CC6930180F38008D1AB4 /* DefaultAuthRepository.swift in Sources */,
+				0F88D0013025000100000002 /* DeviceDTO.swift in Sources */,
+				0F88D0023025000100000002 /* DeviceParser.swift in Sources */,
+				0F88D0033025000100000002 /* DeviceRepository.swift in Sources */,
+				0F88D0043025000100000002 /* DefaultDeviceRepository.swift in Sources */,
 				0FA6CC3F301778D3008D1AB4 /* OpenSSL_RSAHelper_Wrapper.mm in Sources */,
 				0FA6CC40301778D3008D1AB4 /* OpenSSL_HMACSHA256Helper.cpp in Sources */,
 				0F37534C3008228900714FCB /* AuthenticatedSessionView.swift in Sources */,
 				100000000000000000000109 /* FileProcessingViews.swift in Sources */,
 				100000000000000000000110 /* NaviagtionView.swift in Sources */,
 				0FA6CC6430180C06008D1AB4 /* LoginUseCase.swift in Sources */,
-				0FA6CB98301774BE008D1AB4 /* SignInApi.swift in Sources */,
 				100000000000000000000111 /* UserViews.swift in Sources */,
 				0F83ACCB300641E000A2516A /* LoginView.swift in Sources */,
 				0FA6CC503017FF36008D1AB4 /* APIEnvironment.swift in Sources */,

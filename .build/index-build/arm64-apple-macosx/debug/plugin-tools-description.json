@@ -1,0 +1,2123 @@
+{
+  "builtTestProducts" : [
+
+  ],
+  "copyCommands" : {
+    "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB_GRDB.bundle/Info.plist" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/Info.plist"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB_GRDB.bundle/Info.plist"
+        }
+      ]
+    },
+    "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB_GRDB.bundle/PrivacyInfo.xcprivacy" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/PrivacyInfo.xcprivacy"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB_GRDB.bundle/PrivacyInfo.xcprivacy"
+        }
+      ]
+    }
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.GRDB-arm64-apple-macosx26.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/sources",
+      "importPath" : "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/Configuration.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/Cursor.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/Database+SQLCipher.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/Database+Schema.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/Database+Statements.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/Database.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/DatabaseBackupProgress.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/DatabaseCollation.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/DatabaseError.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/DatabaseFunction.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/DatabasePool.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/DatabasePublishers.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/DatabaseQueue.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/DatabaseReader.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/DatabaseRegion.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/DatabaseRegionObservation.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/DatabaseSchemaCache.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/DatabaseSchemaSource.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/DatabaseSnapshot.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/DatabaseSnapshotPool.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/DatabaseValue.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/DatabaseValueConvertible.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/DatabaseWriter.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/DispatchQueueActor.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/FetchRequest.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/Row.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/RowAdapter.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/RowDecodingError.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/SQL.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/SQLInterpolation.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/SQLRequest.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/SchedulingWatchdog.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/SerializedDatabase.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/Statement.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/StatementAuthorizer.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/StatementColumnConvertible.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/Support/CoreGraphics/CGFloat.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/Support/Foundation/Data.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/Support/Foundation/DatabaseDateComponents.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/Support/Foundation/DatabaseValueConvertible+ReferenceConvertible.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/Support/Foundation/Date.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/Support/Foundation/Decimal.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/Support/Foundation/NSData.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/Support/Foundation/NSNull.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/Support/Foundation/NSNumber.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/Support/Foundation/NSString.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/Support/Foundation/SQLiteDateParser.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/Support/Foundation/URL.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/Support/Foundation/UUID.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/Support/StandardLibrary/DatabaseValueConvertible+Decodable.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/Support/StandardLibrary/DatabaseValueConvertible+Encodable.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/Support/StandardLibrary/DatabaseValueConvertible+RawRepresentable.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/Support/StandardLibrary/JSONRequiredEncoder.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/Support/StandardLibrary/Optional.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/Support/StandardLibrary/StandardLibrary.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/TransactionClock.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/TransactionObserver.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/WALSnapshot.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/WALSnapshotTransaction.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Dump/Database+Dump.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Dump/DatabaseReader+dump.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Dump/DumpFormat.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Dump/DumpFormats/DebugDumpFormat.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Dump/DumpFormats/JSONDumpFormat.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Dump/DumpFormats/LineDumpFormat.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Dump/DumpFormats/ListDumpFormat.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Dump/DumpFormats/QuoteDumpFormat.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/FTS/FTS3.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/FTS/FTS3Pattern.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/FTS/FTS3TokenizerDescriptor.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/FTS/FTS4.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/FTS/FTS5.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/FTS/FTS5CustomTokenizer.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/FTS/FTS5Pattern.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/FTS/FTS5Tokenizer.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/FTS/FTS5TokenizerDescriptor.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/FTS/FTS5WrapperTokenizer.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Fixits.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/JSON/JSONColumn.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/JSON/SQLJSONExpressible.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/JSON/SQLJSONFunctions.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Migration/DatabaseMigrator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Migration/Migration.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/FTS3+QueryInterface.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/FTS5+QueryInterface.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/ForeignKey.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/Request/Association/Association.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/Request/Association/AssociationAggregate.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/Request/Association/BelongsToAssociation.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/Request/Association/HasManyAssociation.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/Request/Association/HasManyThroughAssociation.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/Request/Association/HasOneAssociation.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/Request/Association/HasOneThroughAssociation.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/Request/Association/JoinAssociation.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/Request/CommonTableExpression.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/Request/QueryInterfaceRequest.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/Request/RequestProtocols.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/SQL/Column.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/SQL/DatabasePromise.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/SQL/SQLAssociation.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/SQL/SQLCollection.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/SQL/SQLExpression.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/SQL/SQLForeignKeyRequest.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/SQL/SQLFunctions.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/SQL/SQLOperators.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/SQL/SQLOrdering.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/SQL/SQLRelation.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/SQL/SQLSelection.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/SQL/SQLSubquery.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/SQL/Table.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/SQLGeneration/SQLColumnGenerator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/SQLGeneration/SQLGenerationContext.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/SQLGeneration/SQLIndexGenerator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/SQLGeneration/SQLQueryGenerator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/SQLGeneration/SQLTableAlterationGenerator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/SQLGeneration/SQLTableGenerator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/SQLGeneration/TableAlias.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/SQLInterpolation+QueryInterface.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/Schema/ColumnDefinition.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/Schema/Database+SchemaDefinition.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/Schema/ForeignKeyDefinition.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/Schema/IndexDefinition.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/Schema/TableAlteration.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/Schema/TableDefinition.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/Schema/VirtualTableModule.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/TableRecord+Association.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/TableRecord+QueryInterfaceRequest.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Record/EncodableRecord+Encodable.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Record/EncodableRecord.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Record/FetchableRecord+Decodable.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Record/FetchableRecord+TableRecord.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Record/FetchableRecord.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Record/MutablePersistableRecord+DAO.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Record/MutablePersistableRecord+Delete.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Record/MutablePersistableRecord+Insert.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Record/MutablePersistableRecord+Save.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Record/MutablePersistableRecord+Update.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Record/MutablePersistableRecord+Upsert.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Record/MutablePersistableRecord.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Record/PersistableRecord+Insert.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Record/PersistableRecord+Save.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Record/PersistableRecord+Upsert.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Record/PersistableRecord.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Record/Record.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Record/TableRecord.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Utils/CaseInsensitiveIdentifier.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Utils/Inflections+English.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Utils/Inflections.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Utils/Mutex.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Utils/OnDemandFuture.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Utils/OrderedDictionary.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Utils/Pool.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Utils/ReadWriteLock.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Utils/ReceiveValuesOn.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Utils/Refinable.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Utils/Utils.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/ValueObservation/DatabaseCancellable.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/ValueObservation/Observers/ValueConcurrentObserver.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/ValueObservation/Observers/ValueWriteOnlyObserver.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/ValueObservation/Reducers/Fetch.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/ValueObservation/Reducers/Map.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/ValueObservation/Reducers/RemoveDuplicates.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/ValueObservation/Reducers/Trace.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/ValueObservation/Reducers/ValueReducer.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/ValueObservation/SharedValueObservation.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/ValueObservation/ValueObservation.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/ValueObservation/ValueObservationScheduler.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/DerivedSources/resource_bundle_accessor.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "virtual",
+          "name" : "<GRDB-arm64-apple-macosx26.0-debug.module-resources>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "GRDB",
+      "moduleOutputPath" : "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/Modules/GRDB.swiftmodule",
+      "objects" : [
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/Configuration.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/Cursor.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/Database+SQLCipher.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/Database+Schema.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/Database+Statements.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/Database.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/DatabaseBackupProgress.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/DatabaseCollation.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/DatabaseError.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/DatabaseFunction.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/DatabasePool.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/DatabasePublishers.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/DatabaseQueue.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/DatabaseReader.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/DatabaseRegion.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/DatabaseRegionObservation.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/DatabaseSchemaCache.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/DatabaseSchemaSource.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/DatabaseSnapshot.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/DatabaseSnapshotPool.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/DatabaseValue.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/DatabaseValueConvertible.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/DatabaseWriter.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/DispatchQueueActor.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/FetchRequest.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/Row.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/RowAdapter.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/RowDecodingError.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/SQL.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/SQLInterpolation.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/SQLRequest.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/SchedulingWatchdog.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/SerializedDatabase.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/Statement.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/StatementAuthorizer.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/StatementColumnConvertible.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/CGFloat.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/Data.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/DatabaseDateComponents.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/DatabaseValueConvertible+ReferenceConvertible.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/Date.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/Decimal.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/NSData.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/NSNull.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/NSNumber.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/NSString.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/SQLiteDateParser.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/URL.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/UUID.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/DatabaseValueConvertible+Decodable.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/DatabaseValueConvertible+Encodable.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/DatabaseValueConvertible+RawRepresentable.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/JSONRequiredEncoder.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/Optional.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/StandardLibrary.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/TransactionClock.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/TransactionObserver.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/WALSnapshot.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/WALSnapshotTransaction.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/Database+Dump.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/DatabaseReader+dump.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/DumpFormat.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/DebugDumpFormat.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/JSONDumpFormat.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/LineDumpFormat.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/ListDumpFormat.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/QuoteDumpFormat.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/FTS3.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/FTS3Pattern.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/FTS3TokenizerDescriptor.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/FTS4.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/FTS5.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/FTS5CustomTokenizer.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/FTS5Pattern.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/FTS5Tokenizer.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/FTS5TokenizerDescriptor.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/FTS5WrapperTokenizer.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/Fixits.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/JSONColumn.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/SQLJSONExpressible.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/SQLJSONFunctions.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/DatabaseMigrator.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/Migration.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/FTS3+QueryInterface.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/FTS5+QueryInterface.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/ForeignKey.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/Association.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/AssociationAggregate.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/BelongsToAssociation.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/HasManyAssociation.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/HasManyThroughAssociation.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/HasOneAssociation.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/HasOneThroughAssociation.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/JoinAssociation.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/CommonTableExpression.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/QueryInterfaceRequest.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/RequestProtocols.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/Column.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/DatabasePromise.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/SQLAssociation.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/SQLCollection.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/SQLExpression.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/SQLForeignKeyRequest.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/SQLFunctions.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/SQLOperators.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/SQLOrdering.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/SQLRelation.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/SQLSelection.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/SQLSubquery.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/Table.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/SQLColumnGenerator.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/SQLGenerationContext.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/SQLIndexGenerator.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/SQLQueryGenerator.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/SQLTableAlterationGenerator.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/SQLTableGenerator.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/TableAlias.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/SQLInterpolation+QueryInterface.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/ColumnDefinition.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/Database+SchemaDefinition.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/ForeignKeyDefinition.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/IndexDefinition.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/TableAlteration.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/TableDefinition.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/VirtualTableModule.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/TableRecord+Association.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/TableRecord+QueryInterfaceRequest.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/EncodableRecord+Encodable.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/EncodableRecord.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/FetchableRecord+Decodable.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/FetchableRecord+TableRecord.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/FetchableRecord.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/MutablePersistableRecord+DAO.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/MutablePersistableRecord+Delete.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/MutablePersistableRecord+Insert.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/MutablePersistableRecord+Save.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/MutablePersistableRecord+Update.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/MutablePersistableRecord+Upsert.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/MutablePersistableRecord.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/PersistableRecord+Insert.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/PersistableRecord+Save.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/PersistableRecord+Upsert.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/PersistableRecord.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/Record.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/TableRecord.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/CaseInsensitiveIdentifier.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/Inflections+English.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/Inflections.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/Mutex.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/OnDemandFuture.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/OrderedDictionary.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/Pool.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/ReadWriteLock.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/ReceiveValuesOn.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/Refinable.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/Utils.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/DatabaseCancellable.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/ValueConcurrentObserver.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/ValueWriteOnlyObserver.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/Fetch.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/Map.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/RemoveDuplicates.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/Trace.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/ValueReducer.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/SharedValueObservation.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/ValueObservation.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/ValueObservationScheduler.swift.o",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/resource_bundle_accessor.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx10.15",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j11",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_AVAILABLE",
+        "-Xcc",
+        "-fmodule-map-file=/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/Sources/GRDBSQLite/module.modulemap",
+        "-module-cache-path",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/include/GRDB-Swift.h",
+        "-swift-version",
+        "6",
+        "-DSQLITE_ENABLE_FTS5",
+        "-DSQLITE_ENABLE_SNAPSHOT",
+        "-Xfrontend",
+        "-experimental-lazy-typecheck",
+        "-Xfrontend",
+        "-experimental-skip-all-function-bodies",
+        "-Xfrontend",
+        "-experimental-allow-module-with-compiler-errors",
+        "-Xfrontend",
+        "-empty-abi-descriptor",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "grdb_swift"
+      ],
+      "outputFileMapPath" : "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/Modules/GRDB.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : true,
+      "sources" : [
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/Configuration.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/Cursor.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/Database+SQLCipher.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/Database+Schema.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/Database+Statements.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/Database.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/DatabaseBackupProgress.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/DatabaseCollation.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/DatabaseError.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/DatabaseFunction.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/DatabasePool.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/DatabasePublishers.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/DatabaseQueue.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/DatabaseReader.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/DatabaseRegion.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/DatabaseRegionObservation.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/DatabaseSchemaCache.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/DatabaseSchemaSource.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/DatabaseSnapshot.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/DatabaseSnapshotPool.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/DatabaseValue.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/DatabaseValueConvertible.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/DatabaseWriter.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/DispatchQueueActor.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/FetchRequest.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/Row.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/RowAdapter.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/RowDecodingError.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/SQL.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/SQLInterpolation.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/SQLRequest.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/SchedulingWatchdog.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/SerializedDatabase.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/Statement.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/StatementAuthorizer.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/StatementColumnConvertible.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/Support/CoreGraphics/CGFloat.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/Support/Foundation/Data.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/Support/Foundation/DatabaseDateComponents.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/Support/Foundation/DatabaseValueConvertible+ReferenceConvertible.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/Support/Foundation/Date.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/Support/Foundation/Decimal.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/Support/Foundation/NSData.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/Support/Foundation/NSNull.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/Support/Foundation/NSNumber.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/Support/Foundation/NSString.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/Support/Foundation/SQLiteDateParser.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/Support/Foundation/URL.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/Support/Foundation/UUID.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/Support/StandardLibrary/DatabaseValueConvertible+Decodable.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/Support/StandardLibrary/DatabaseValueConvertible+Encodable.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/Support/StandardLibrary/DatabaseValueConvertible+RawRepresentable.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/Support/StandardLibrary/JSONRequiredEncoder.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/Support/StandardLibrary/Optional.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/Support/StandardLibrary/StandardLibrary.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/TransactionClock.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/TransactionObserver.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/WALSnapshot.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/WALSnapshotTransaction.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Dump/Database+Dump.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Dump/DatabaseReader+dump.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Dump/DumpFormat.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Dump/DumpFormats/DebugDumpFormat.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Dump/DumpFormats/JSONDumpFormat.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Dump/DumpFormats/LineDumpFormat.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Dump/DumpFormats/ListDumpFormat.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Dump/DumpFormats/QuoteDumpFormat.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/FTS/FTS3.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/FTS/FTS3Pattern.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/FTS/FTS3TokenizerDescriptor.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/FTS/FTS4.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/FTS/FTS5.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/FTS/FTS5CustomTokenizer.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/FTS/FTS5Pattern.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/FTS/FTS5Tokenizer.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/FTS/FTS5TokenizerDescriptor.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/FTS/FTS5WrapperTokenizer.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Fixits.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/JSON/JSONColumn.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/JSON/SQLJSONExpressible.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/JSON/SQLJSONFunctions.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Migration/DatabaseMigrator.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Migration/Migration.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/FTS3+QueryInterface.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/FTS5+QueryInterface.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/ForeignKey.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/Request/Association/Association.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/Request/Association/AssociationAggregate.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/Request/Association/BelongsToAssociation.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/Request/Association/HasManyAssociation.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/Request/Association/HasManyThroughAssociation.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/Request/Association/HasOneAssociation.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/Request/Association/HasOneThroughAssociation.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/Request/Association/JoinAssociation.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/Request/CommonTableExpression.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/Request/QueryInterfaceRequest.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/Request/RequestProtocols.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/SQL/Column.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/SQL/DatabasePromise.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/SQL/SQLAssociation.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/SQL/SQLCollection.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/SQL/SQLExpression.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/SQL/SQLForeignKeyRequest.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/SQL/SQLFunctions.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/SQL/SQLOperators.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/SQL/SQLOrdering.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/SQL/SQLRelation.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/SQL/SQLSelection.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/SQL/SQLSubquery.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/SQL/Table.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/SQLGeneration/SQLColumnGenerator.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/SQLGeneration/SQLGenerationContext.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/SQLGeneration/SQLIndexGenerator.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/SQLGeneration/SQLQueryGenerator.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/SQLGeneration/SQLTableAlterationGenerator.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/SQLGeneration/SQLTableGenerator.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/SQLGeneration/TableAlias.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/SQLInterpolation+QueryInterface.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/Schema/ColumnDefinition.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/Schema/Database+SchemaDefinition.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/Schema/ForeignKeyDefinition.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/Schema/IndexDefinition.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/Schema/TableAlteration.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/Schema/TableDefinition.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/Schema/VirtualTableModule.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/TableRecord+Association.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/TableRecord+QueryInterfaceRequest.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Record/EncodableRecord+Encodable.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Record/EncodableRecord.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Record/FetchableRecord+Decodable.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Record/FetchableRecord+TableRecord.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Record/FetchableRecord.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Record/MutablePersistableRecord+DAO.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Record/MutablePersistableRecord+Delete.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Record/MutablePersistableRecord+Insert.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Record/MutablePersistableRecord+Save.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Record/MutablePersistableRecord+Update.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Record/MutablePersistableRecord+Upsert.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Record/MutablePersistableRecord.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Record/PersistableRecord+Insert.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Record/PersistableRecord+Save.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Record/PersistableRecord+Upsert.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Record/PersistableRecord.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Record/Record.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Record/TableRecord.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Utils/CaseInsensitiveIdentifier.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Utils/Inflections+English.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Utils/Inflections.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Utils/Mutex.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Utils/OnDemandFuture.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Utils/OrderedDictionary.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Utils/Pool.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Utils/ReadWriteLock.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Utils/ReceiveValuesOn.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Utils/Refinable.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Utils/Utils.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/ValueObservation/DatabaseCancellable.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/ValueObservation/Observers/ValueConcurrentObserver.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/ValueObservation/Observers/ValueWriteOnlyObserver.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/ValueObservation/Reducers/Fetch.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/ValueObservation/Reducers/Map.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/ValueObservation/Reducers/RemoveDuplicates.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/ValueObservation/Reducers/Trace.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/ValueObservation/Reducers/ValueReducer.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/ValueObservation/SharedValueObservation.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/ValueObservation/ValueObservation.swift",
+        "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/ValueObservation/ValueObservationScheduler.swift",
+        "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/DerivedSources/resource_bundle_accessor.swift"
+      ],
+      "tempsPath" : "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "GRDB" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "GRDB",
+      "-package-name",
+      "grdb_swift",
+      "-c",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/Configuration.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/Cursor.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/Database+SQLCipher.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/Database+Schema.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/Database+Statements.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/Database.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/DatabaseBackupProgress.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/DatabaseCollation.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/DatabaseError.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/DatabaseFunction.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/DatabasePool.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/DatabasePublishers.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/DatabaseQueue.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/DatabaseReader.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/DatabaseRegion.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/DatabaseRegionObservation.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/DatabaseSchemaCache.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/DatabaseSchemaSource.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/DatabaseSnapshot.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/DatabaseSnapshotPool.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/DatabaseValue.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/DatabaseValueConvertible.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/DatabaseWriter.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/DispatchQueueActor.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/FetchRequest.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/Row.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/RowAdapter.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/RowDecodingError.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/SQL.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/SQLInterpolation.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/SQLRequest.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/SchedulingWatchdog.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/SerializedDatabase.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/Statement.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/StatementAuthorizer.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/StatementColumnConvertible.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/Support/CoreGraphics/CGFloat.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/Support/Foundation/Data.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/Support/Foundation/DatabaseDateComponents.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/Support/Foundation/DatabaseValueConvertible+ReferenceConvertible.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/Support/Foundation/Date.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/Support/Foundation/Decimal.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/Support/Foundation/NSData.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/Support/Foundation/NSNull.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/Support/Foundation/NSNumber.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/Support/Foundation/NSString.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/Support/Foundation/SQLiteDateParser.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/Support/Foundation/URL.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/Support/Foundation/UUID.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/Support/StandardLibrary/DatabaseValueConvertible+Decodable.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/Support/StandardLibrary/DatabaseValueConvertible+Encodable.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/Support/StandardLibrary/DatabaseValueConvertible+RawRepresentable.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/Support/StandardLibrary/JSONRequiredEncoder.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/Support/StandardLibrary/Optional.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/Support/StandardLibrary/StandardLibrary.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/TransactionClock.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/TransactionObserver.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/WALSnapshot.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/WALSnapshotTransaction.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Dump/Database+Dump.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Dump/DatabaseReader+dump.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Dump/DumpFormat.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Dump/DumpFormats/DebugDumpFormat.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Dump/DumpFormats/JSONDumpFormat.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Dump/DumpFormats/LineDumpFormat.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Dump/DumpFormats/ListDumpFormat.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Dump/DumpFormats/QuoteDumpFormat.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/FTS/FTS3.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/FTS/FTS3Pattern.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/FTS/FTS3TokenizerDescriptor.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/FTS/FTS4.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/FTS/FTS5.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/FTS/FTS5CustomTokenizer.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/FTS/FTS5Pattern.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/FTS/FTS5Tokenizer.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/FTS/FTS5TokenizerDescriptor.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/FTS/FTS5WrapperTokenizer.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Fixits.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/JSON/JSONColumn.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/JSON/SQLJSONExpressible.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/JSON/SQLJSONFunctions.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Migration/DatabaseMigrator.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Migration/Migration.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/FTS3+QueryInterface.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/FTS5+QueryInterface.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/ForeignKey.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/Request/Association/Association.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/Request/Association/AssociationAggregate.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/Request/Association/BelongsToAssociation.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/Request/Association/HasManyAssociation.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/Request/Association/HasManyThroughAssociation.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/Request/Association/HasOneAssociation.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/Request/Association/HasOneThroughAssociation.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/Request/Association/JoinAssociation.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/Request/CommonTableExpression.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/Request/QueryInterfaceRequest.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/Request/RequestProtocols.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/SQL/Column.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/SQL/DatabasePromise.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/SQL/SQLAssociation.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/SQL/SQLCollection.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/SQL/SQLExpression.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/SQL/SQLForeignKeyRequest.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/SQL/SQLFunctions.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/SQL/SQLOperators.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/SQL/SQLOrdering.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/SQL/SQLRelation.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/SQL/SQLSelection.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/SQL/SQLSubquery.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/SQL/Table.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/SQLGeneration/SQLColumnGenerator.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/SQLGeneration/SQLGenerationContext.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/SQLGeneration/SQLIndexGenerator.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/SQLGeneration/SQLQueryGenerator.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/SQLGeneration/SQLTableAlterationGenerator.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/SQLGeneration/SQLTableGenerator.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/SQLGeneration/TableAlias.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/SQLInterpolation+QueryInterface.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/Schema/ColumnDefinition.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/Schema/Database+SchemaDefinition.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/Schema/ForeignKeyDefinition.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/Schema/IndexDefinition.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/Schema/TableAlteration.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/Schema/TableDefinition.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/Schema/VirtualTableModule.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/TableRecord+Association.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/TableRecord+QueryInterfaceRequest.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Record/EncodableRecord+Encodable.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Record/EncodableRecord.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Record/FetchableRecord+Decodable.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Record/FetchableRecord+TableRecord.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Record/FetchableRecord.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Record/MutablePersistableRecord+DAO.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Record/MutablePersistableRecord+Delete.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Record/MutablePersistableRecord+Insert.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Record/MutablePersistableRecord+Save.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Record/MutablePersistableRecord+Update.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Record/MutablePersistableRecord+Upsert.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Record/MutablePersistableRecord.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Record/PersistableRecord+Insert.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Record/PersistableRecord+Save.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Record/PersistableRecord+Upsert.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Record/PersistableRecord.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Record/Record.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Record/TableRecord.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Utils/CaseInsensitiveIdentifier.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Utils/Inflections+English.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Utils/Inflections.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Utils/Mutex.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Utils/OnDemandFuture.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Utils/OrderedDictionary.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Utils/Pool.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Utils/ReadWriteLock.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Utils/ReceiveValuesOn.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Utils/Refinable.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Utils/Utils.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/ValueObservation/DatabaseCancellable.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/ValueObservation/Observers/ValueConcurrentObserver.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/ValueObservation/Observers/ValueWriteOnlyObserver.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/ValueObservation/Reducers/Fetch.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/ValueObservation/Reducers/Map.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/ValueObservation/Reducers/RemoveDuplicates.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/ValueObservation/Reducers/Trace.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/ValueObservation/Reducers/ValueReducer.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/ValueObservation/SharedValueObservation.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/ValueObservation/ValueObservation.swift",
+      "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/ValueObservation/ValueObservationScheduler.swift",
+      "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/DerivedSources/resource_bundle_accessor.swift",
+      "-I",
+      "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx10.15",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j11",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_AVAILABLE",
+      "-Xcc",
+      "-fmodule-map-file=/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/Sources/GRDBSQLite/module.modulemap",
+      "-module-cache-path",
+      "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/include/GRDB-Swift.h",
+      "-swift-version",
+      "6",
+      "-DSQLITE_ENABLE_FTS5",
+      "-DSQLITE_ENABLE_SNAPSHOT",
+      "-Xfrontend",
+      "-experimental-lazy-typecheck",
+      "-Xfrontend",
+      "-experimental-skip-all-function-bodies",
+      "-Xfrontend",
+      "-experimental-allow-module-with-compiler-errors",
+      "-Xfrontend",
+      "-empty-abi-descriptor",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "grdb_swift",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "GRDB" : [
+      "GRDBSQLite"
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+
+  },
+  "traitConfiguration" : {
+    "default" : {
+
+    }
+  },
+  "writeCommands" : {
+    "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/Configuration.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/Cursor.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/Database+SQLCipher.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/Database+Schema.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/Database+Statements.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/Database.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/DatabaseBackupProgress.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/DatabaseCollation.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/DatabaseError.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/DatabaseFunction.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/DatabasePool.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/DatabasePublishers.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/DatabaseQueue.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/DatabaseReader.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/DatabaseRegion.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/DatabaseRegionObservation.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/DatabaseSchemaCache.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/DatabaseSchemaSource.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/DatabaseSnapshot.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/DatabaseSnapshotPool.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/DatabaseValue.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/DatabaseValueConvertible.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/DatabaseWriter.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/DispatchQueueActor.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/FetchRequest.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/Row.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/RowAdapter.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/RowDecodingError.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/SQL.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/SQLInterpolation.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/SQLRequest.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/SchedulingWatchdog.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/SerializedDatabase.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/Statement.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/StatementAuthorizer.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/StatementColumnConvertible.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/Support/CoreGraphics/CGFloat.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/Support/Foundation/Data.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/Support/Foundation/DatabaseDateComponents.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/Support/Foundation/DatabaseValueConvertible+ReferenceConvertible.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/Support/Foundation/Date.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/Support/Foundation/Decimal.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/Support/Foundation/NSData.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/Support/Foundation/NSNull.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/Support/Foundation/NSNumber.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/Support/Foundation/NSString.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/Support/Foundation/SQLiteDateParser.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/Support/Foundation/URL.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/Support/Foundation/UUID.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/Support/StandardLibrary/DatabaseValueConvertible+Decodable.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/Support/StandardLibrary/DatabaseValueConvertible+Encodable.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/Support/StandardLibrary/DatabaseValueConvertible+RawRepresentable.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/Support/StandardLibrary/JSONRequiredEncoder.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/Support/StandardLibrary/Optional.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/Support/StandardLibrary/StandardLibrary.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/TransactionClock.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/TransactionObserver.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/WALSnapshot.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Core/WALSnapshotTransaction.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Dump/Database+Dump.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Dump/DatabaseReader+dump.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Dump/DumpFormat.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Dump/DumpFormats/DebugDumpFormat.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Dump/DumpFormats/JSONDumpFormat.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Dump/DumpFormats/LineDumpFormat.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Dump/DumpFormats/ListDumpFormat.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Dump/DumpFormats/QuoteDumpFormat.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/FTS/FTS3.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/FTS/FTS3Pattern.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/FTS/FTS3TokenizerDescriptor.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/FTS/FTS4.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/FTS/FTS5.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/FTS/FTS5CustomTokenizer.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/FTS/FTS5Pattern.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/FTS/FTS5Tokenizer.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/FTS/FTS5TokenizerDescriptor.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/FTS/FTS5WrapperTokenizer.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Fixits.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/JSON/JSONColumn.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/JSON/SQLJSONExpressible.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/JSON/SQLJSONFunctions.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Migration/DatabaseMigrator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Migration/Migration.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/FTS3+QueryInterface.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/FTS5+QueryInterface.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/ForeignKey.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/Request/Association/Association.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/Request/Association/AssociationAggregate.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/Request/Association/BelongsToAssociation.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/Request/Association/HasManyAssociation.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/Request/Association/HasManyThroughAssociation.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/Request/Association/HasOneAssociation.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/Request/Association/HasOneThroughAssociation.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/Request/Association/JoinAssociation.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/Request/CommonTableExpression.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/Request/QueryInterfaceRequest.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/Request/RequestProtocols.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/SQL/Column.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/SQL/DatabasePromise.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/SQL/SQLAssociation.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/SQL/SQLCollection.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/SQL/SQLExpression.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/SQL/SQLForeignKeyRequest.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/SQL/SQLFunctions.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/SQL/SQLOperators.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/SQL/SQLOrdering.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/SQL/SQLRelation.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/SQL/SQLSelection.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/SQL/SQLSubquery.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/SQL/Table.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/SQLGeneration/SQLColumnGenerator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/SQLGeneration/SQLGenerationContext.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/SQLGeneration/SQLIndexGenerator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/SQLGeneration/SQLQueryGenerator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/SQLGeneration/SQLTableAlterationGenerator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/SQLGeneration/SQLTableGenerator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/SQLGeneration/TableAlias.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/SQLInterpolation+QueryInterface.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/Schema/ColumnDefinition.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/Schema/Database+SchemaDefinition.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/Schema/ForeignKeyDefinition.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/Schema/IndexDefinition.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/Schema/TableAlteration.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/Schema/TableDefinition.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/Schema/VirtualTableModule.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/TableRecord+Association.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/QueryInterface/TableRecord+QueryInterfaceRequest.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Record/EncodableRecord+Encodable.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Record/EncodableRecord.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Record/FetchableRecord+Decodable.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Record/FetchableRecord+TableRecord.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Record/FetchableRecord.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Record/MutablePersistableRecord+DAO.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Record/MutablePersistableRecord+Delete.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Record/MutablePersistableRecord+Insert.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Record/MutablePersistableRecord+Save.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Record/MutablePersistableRecord+Update.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Record/MutablePersistableRecord+Upsert.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Record/MutablePersistableRecord.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Record/PersistableRecord+Insert.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Record/PersistableRecord+Save.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Record/PersistableRecord+Upsert.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Record/PersistableRecord.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Record/Record.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Record/TableRecord.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Utils/CaseInsensitiveIdentifier.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Utils/Inflections+English.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Utils/Inflections.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Utils/Mutex.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Utils/OnDemandFuture.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Utils/OrderedDictionary.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Utils/Pool.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Utils/ReadWriteLock.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Utils/ReceiveValuesOn.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Utils/Refinable.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/Utils/Utils.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/ValueObservation/DatabaseCancellable.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/ValueObservation/Observers/ValueConcurrentObserver.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/ValueObservation/Observers/ValueWriteOnlyObserver.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/ValueObservation/Reducers/Fetch.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/ValueObservation/Reducers/Map.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/ValueObservation/Reducers/RemoveDuplicates.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/ValueObservation/Reducers/Trace.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/ValueObservation/Reducers/ValueReducer.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/ValueObservation/SharedValueObservation.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/ValueObservation/ValueObservation.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/Vendor/GRDB.swift/GRDB/ValueObservation/ValueObservationScheduler.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/DerivedSources/resource_bundle_accessor.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/GRDB.build/sources"
+    },
+    "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/taha/Documents/GitHub/Assignment/.build/index-build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+    }
+  }
+}
