@@ -24,3 +24,4 @@ struct DefaultDeviceRepository: DeviceRepository {
         return DeviceParser.parseDevices(from: rawString)
     }
 }
+

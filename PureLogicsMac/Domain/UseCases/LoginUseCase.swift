@@ -12,7 +12,6 @@ actor LoginUseCase : Sendable {
 
     private let repository: AuthRepository
 
-    let crypt = CryptLib()
     
     init(repository: AuthRepository) {
         self.repository = repository
@@ -64,86 +63,56 @@ actor LoginUseCase : Sendable {
            return authInfo
        }
     
-    func callAPIAsync(url: URL, parameter: String, completion: @escaping (Bool, String) -> Void) {
-        // Simplified the redundant String -> Data -> String -> Data conversion
-        guard let postData = parameter.data(using: .utf8) else {
-            completion(false, "")
-            
-            return
+    
+    @discardableResult
+    func checkUserExists(email:String) async throws -> CheckUserExistsDTO {
+        let checkUserExistInfo = try await repository.checkUserExist(parameter: email)
+        print("Check User Exists API response == \(checkUserExistInfo.message)")
+        guard checkUserExistInfo.message == "New User" else {
+            throw LoginError.userAlreadyExists
         }
-        
-        print("Url : \(url.absoluteString)")
-        var request = URLRequest(url: url)
-        request.httpMethod = "PUT"
-        request.httpBody = postData
-        request.setValue("macOS", forHTTPHeaderField: "App-Platform")
-        request.timeoutInterval = 5
-        
-        let task = URLSession.shared.dataTask(with: request) { data, response, error in
-            // Alamofire defaults to main queue for completions.
-            // We wrap URLSession's callback to maintain that exact behavior.
-            DispatchQueue.main.async {
-                
-                // 1. Handle Errors
-                if let error = error {
-                    if let urlError = error as? URLError {
-                        if urlError.code == .timedOut {
-                            
-                            completion(false, "\(urlError.code.rawValue)")
-                            return
-                        } else {
-                            // Matches original logic returning the error code enum/struct
-                            completion(false, "\(urlError.code)")
-                            return
-                        }
-                    } else {
-                        completion(false, "\(error)")
-                        return
-                    }
-                }
-                
-                // 2. Handle missing data
-                guard let data = data else {
-                    completion(false, "")
-                    return
-                }
-                
-                // 3. Handle Success Data
-                if let returnData = String(data: data, encoding: .utf8) {
-                    Task{
-                        await completion(true, self.getDecUId(cipher: returnData))
-                    }
-                    return
-                } else {
-                    completion(false, "")
-                    return
-                }
-            }
-        }
-        
-        // URLSession requires you to explicitly start the task
-        task.resume()
+        return checkUserExistInfo
     }
     
-    func getDecUId(cipher :String)->String{
-        let string1 = cipher.prefix(8)
-        let result1 = cipher.split(separator: string1)
-        
-        let string2 = result1[0].prefix(15)
-        
-        let result2 = result1[0].split(separator: string2)
-        let lastPart : String = String(result2[0])
-        
-        let crypText = string1 + lastPart
-        
-        let decCipher = self.DecText(text: String(crypText), forkey: String(string2))
-        return decCipher
-    }
-    func DecText(text:String, forkey:String)->String{
-        let vp = crypt.decryptCipherTextRandomIV(withCipherText: text as String, key: forkey)
-        // print("DecypherText \(vp! as String)")
-        return vp ?? "Nil value found"
+    
+    func sendPinCode(parameter:String) async throws -> String {
+        let pinCode = try await repository.sendPinCode(parameter: parameter)
+        print("Pin Code response = \(pinCode)")
+        guard pinCode == "Success" else {
+            throw LoginError.pinCodeSentFailed
+        }
+        return pinCode
     }
     
+    func createUserId(parameter:String) async throws -> String {
+        
+        let userId = try await repository.createUserId(parameter: parameter)
+        print("User Id response = \(userId)")
+        guard userId != "Invalid Parameters" || userId != "Error" else {
+            throw LoginError.createUserIdFailure
+        }
+        return userId
+    }
+    
+    func createAccount(userId:String, email:String, proCode:String, password:String)throws -> String {
+        let apiCreateAccount = ApiCreateAccount()
+        let passwordData = password.data(using: .utf8)! as NSData
+        do {
+            let result = try apiCreateAccount.saveAccountToJson(userId: userId, email: email, proCode: proCode, password: passwordData)
+            return result
+        }catch {
+            throw LoginError.createPasswrodFailed
+        }
+    }
+    
+    //{"message":"Success","activation":"Empty"}
+    func signUpAccount(parameter:String) async throws -> CheckUserExistsDTO {
+        let response = try await repository.signUp(parameter: parameter)
+        guard response.message == "Success" && response.activation == "Empty" else {
+            throw LoginError.signupError
+        }
+        print("Sign Up response = \(response)")
+        return response
+    }
    }
 

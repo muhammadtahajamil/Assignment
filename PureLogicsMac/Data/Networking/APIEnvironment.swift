@@ -87,6 +87,10 @@ enum AuthEndpoint: APIEndpoint {
     case login(LoginRequestDTO)
     case readAuth(parameter: String)
     case checkExistingDevice(parameter:String)
+    case userIsRegistered(parameter: String)
+    case sendPinCode(parameter: String)
+    case createUserOrDeviceIDURL(parameter: String)
+    case userSignup(parameter:String)
     case logout
     case refreshToken(token: String)
 
@@ -106,6 +110,16 @@ enum AuthEndpoint: APIEndpoint {
             
         case .checkExistingDevice:
             return "/device_list.php"
+            
+        case .userIsRegistered(parameter: let parameter):
+            return "/user_is_registered.php"
+            
+        case .sendPinCode(parameter: let parameter):
+            return "/send_pin_code.php"
+        case .createUserOrDeviceIDURL(parameter: let parameter):
+            return "/create_user_or_device_id.php"
+        case .userSignup(parameter: let parameter):
+            return "/user_signup.php"
         }
     }
 
@@ -123,6 +137,14 @@ enum AuthEndpoint: APIEndpoint {
         case .refreshToken:
             return .post
         case .checkExistingDevice:
+            return .put
+        case .userIsRegistered(parameter: let parameter):
+            return HTTPMethod.put
+        case .sendPinCode(parameter: let parameter):
+            return .put
+        case .createUserOrDeviceIDURL(parameter: let parameter):
+            return .put
+        case .userSignup(parameter: let parameter):
             return .put
         }
     }
@@ -158,6 +180,16 @@ enum AuthEndpoint: APIEndpoint {
             return try JSONEncoder().encode(body)
             
         case .checkExistingDevice(let parameter):
+            return Data(parameter.utf8)
+            
+        case .userIsRegistered(parameter: let parameter):
+            return Data(parameter.utf8)
+            
+        case .sendPinCode(parameter: let parameter):
+            return Data(parameter.utf8)
+        case .createUserOrDeviceIDURL(parameter: let parameter):
+            return Data(parameter.utf8)
+        case .userSignup(parameter: let parameter):
             return Data(parameter.utf8)
         }
     }
@@ -225,3 +257,10 @@ final class URLRequestBuilder :Sendable{
         return url
     }
 }
+
+    /*
+     User Accounts
+     cojanec282@rpaintel.com 12345678
+     wikanaj484@murkstar.com 12345678
+     sefik63298@dnsink.com 12345678
+     */

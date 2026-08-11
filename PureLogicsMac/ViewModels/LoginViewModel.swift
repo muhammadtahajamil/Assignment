@@ -28,7 +28,8 @@ import Foundation
         self.deviceRepository = deviceAuthRepository
     }
     
-    func loginButtonTapped() async {
+     func loginButtonTapped() async {
+         isLoading = true
         
         let trimmedEmail = email.trimmingCharacters(in: .whitespacesAndNewlines)
         //Validate form
@@ -37,15 +38,28 @@ import Foundation
             return
         }
         errorMessage = nil
-        isLoading = true
-        
+        //
+         defer {
+             isLoading = false
+         }
+         do {
+             async let login = try await useCase.authenticateUser(
+                email: trimmedEmail, password: password)
+             async let devices = try await deviceRepository.fetchDevices(parameter: "123456789")
+             
+             print("Successfully fetched \( try await devices.count) devices for user.")
+//             self.sessionStore.authData = login
+//             self.sessionStore.deviceList = devices
+         }catch{
+             self.errorMessage = error.localizedDescription
+         }
         //Auth Request
         do {
             let loginResponse = try await useCase.authenticateUser(
                 email: trimmedEmail,
                 password: password
             )
-           
+           //get devices List
             let devices = try await deviceRepository.fetchDevices(parameter: loginResponse.id!)
                     print("Successfully fetched \(devices.count) devices for user.")
             self.sessionStore.authData = loginResponse
@@ -55,11 +69,9 @@ import Foundation
         } catch {
             self.errorMessage = error.localizedDescription
         }
-        isLoading = false
-        
     }
     
-    func checkInternet()->Bool{
+    private func checkInternet()->Bool{
         guard Connectivity.shared.isConnectedToWiFi else {
             return false
         }

@@ -11,8 +11,12 @@ import Observation
     var currentUser: UserAuthInfo?
     var authData : AuthResponseDTO?
     var deviceList : [DeviceDTO]?
+    var verificationData : SignUpVerificationData?
     
-    var isAuthenticated: Bool { return authData != nil }
+    var isAuthenticated: Bool {
+        print("Auth Data Found Tahaaaaa")
+        return authData != nil
+    }
     
     func logout() {
         currentUser = nil

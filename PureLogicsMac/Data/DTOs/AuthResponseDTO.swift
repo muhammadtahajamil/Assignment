@@ -8,6 +8,7 @@
 
 import Foundation
 
+//Read Auth response
 struct AuthResponseDTO: Decodable, Sendable {
     let message: String?
     let errorCode : Int?
@@ -24,7 +25,6 @@ struct AuthResponseDTO: Decodable, Sendable {
     let serverCurrentDate: String?
     let subscription: String?
     let subscriptionDetails: SubscriptionDetailsDTO?
-    
 }
 struct SubscriptionDetailsDTO: Decodable, Sendable {
     let platform: String
@@ -70,4 +70,31 @@ enum APIError: LocalizedError {
             return message
         }
     }
+}
+
+//CheckUserExistDTO
+struct CheckUserExistsDTO : Decodable, Sendable {
+    let message : String
+    let userId : String?
+    let activation : String?
+}
+
+struct SignUpVerificationData : Hashable, Sendable {
+    let email: String
+    let password : String
+    let pinCode: String
+    let activationCode : String?
+}
+
+struct postJsonForCreateAcc: Codable, Sendable{
+    let id : String
+    let email : String
+    let proCode: String?
+    let pubKey: String
+    let privKeyIter: String
+    let privKeySalt: String
+    let privKey: String
+    let passIter: String
+    let passSalt: String
+    let passHash: String
 }

@@ -53,6 +53,11 @@ enum settingsDestination: Hashable {
     case devices
 }
 
+//enum AuthDestination: Hashable {
+//    case signIn
+//    case signUp
+//}
+
 @MainActor
 final class AppNavigation: ObservableObject {
     @Published var selectedSection: SidebarSection? = .dashboard

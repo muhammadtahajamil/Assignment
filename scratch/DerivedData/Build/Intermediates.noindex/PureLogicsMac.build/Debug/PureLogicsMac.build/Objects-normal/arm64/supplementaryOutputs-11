@@ -13,25 +13,18 @@
     "object" : "/Users/taha/Documents/GitHub/Assignment/scratch/DerivedData/Build/Intermediates.noindex/PureLogicsMac.build/Debug/PureLogicsMac.build/Objects-normal/arm64/LoginUseCase.o",
     "swift-dependencies" : "/Users/taha/Documents/GitHub/Assignment/scratch/DerivedData/Build/Intermediates.noindex/PureLogicsMac.build/Debug/PureLogicsMac.build/Objects-normal/arm64/LoginUseCase.swiftdeps"
   },
-  "/Users/taha/Documents/GitHub/Assignment/PureLogicsMac/Views/LoginView.swift" : {
-    "const-values" : "/Users/taha/Documents/GitHub/Assignment/scratch/DerivedData/Build/Intermediates.noindex/PureLogicsMac.build/Debug/PureLogicsMac.build/Objects-normal/arm64/LoginView.swiftconstvalues",
-    "dependencies" : "/Users/taha/Documents/GitHub/Assignment/scratch/DerivedData/Build/Intermediates.noindex/PureLogicsMac.build/Debug/PureLogicsMac.build/Objects-normal/arm64/LoginView.d",
-    "diagnostics" : "/Users/taha/Documents/GitHub/Assignment/scratch/DerivedData/Build/Intermediates.noindex/PureLogicsMac.build/Debug/PureLogicsMac.build/Objects-normal/arm64/LoginView.dia",
-    "object" : "/Users/taha/Documents/GitHub/Assignment/scratch/DerivedData/Build/Intermediates.noindex/PureLogicsMac.build/Debug/PureLogicsMac.build/Objects-normal/arm64/LoginView.o",
-    "swift-dependencies" : "/Users/taha/Documents/GitHub/Assignment/scratch/DerivedData/Build/Intermediates.noindex/PureLogicsMac.build/Debug/PureLogicsMac.build/Objects-normal/arm64/LoginView.swiftdeps"
-  },
-  "/Users/taha/Documents/GitHub/Assignment/PureLogicsMac/Views/NaviagtionView.swift" : {
-    "const-values" : "/Users/taha/Documents/GitHub/Assignment/scratch/DerivedData/Build/Intermediates.noindex/PureLogicsMac.build/Debug/PureLogicsMac.build/Objects-normal/arm64/NaviagtionView.swiftconstvalues",
-    "dependencies" : "/Users/taha/Documents/GitHub/Assignment/scratch/DerivedData/Build/Intermediates.noindex/PureLogicsMac.build/Debug/PureLogicsMac.build/Objects-normal/arm64/NaviagtionView.d",
-    "diagnostics" : "/Users/taha/Documents/GitHub/Assignment/scratch/DerivedData/Build/Intermediates.noindex/PureLogicsMac.build/Debug/PureLogicsMac.build/Objects-normal/arm64/NaviagtionView.dia",
-    "object" : "/Users/taha/Documents/GitHub/Assignment/scratch/DerivedData/Build/Intermediates.noindex/PureLogicsMac.build/Debug/PureLogicsMac.build/Objects-normal/arm64/NaviagtionView.o",
-    "swift-dependencies" : "/Users/taha/Documents/GitHub/Assignment/scratch/DerivedData/Build/Intermediates.noindex/PureLogicsMac.build/Debug/PureLogicsMac.build/Objects-normal/arm64/NaviagtionView.swiftdeps"
-  },
   "/Users/taha/Documents/GitHub/Assignment/PureLogicsMac/Views/UserViews.swift" : {
     "const-values" : "/Users/taha/Documents/GitHub/Assignment/scratch/DerivedData/Build/Intermediates.noindex/PureLogicsMac.build/Debug/PureLogicsMac.build/Objects-normal/arm64/UserViews.swiftconstvalues",
     "dependencies" : "/Users/taha/Documents/GitHub/Assignment/scratch/DerivedData/Build/Intermediates.noindex/PureLogicsMac.build/Debug/PureLogicsMac.build/Objects-normal/arm64/UserViews.d",
     "diagnostics" : "/Users/taha/Documents/GitHub/Assignment/scratch/DerivedData/Build/Intermediates.noindex/PureLogicsMac.build/Debug/PureLogicsMac.build/Objects-normal/arm64/UserViews.dia",
     "object" : "/Users/taha/Documents/GitHub/Assignment/scratch/DerivedData/Build/Intermediates.noindex/PureLogicsMac.build/Debug/PureLogicsMac.build/Objects-normal/arm64/UserViews.o",
     "swift-dependencies" : "/Users/taha/Documents/GitHub/Assignment/scratch/DerivedData/Build/Intermediates.noindex/PureLogicsMac.build/Debug/PureLogicsMac.build/Objects-normal/arm64/UserViews.swiftdeps"
+  },
+  "/Users/taha/Documents/GitHub/Assignment/scratch/DerivedData/Build/Intermediates.noindex/PureLogicsMac.build/Debug/PureLogicsMac.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "const-values" : "/Users/taha/Documents/GitHub/Assignment/scratch/DerivedData/Build/Intermediates.noindex/PureLogicsMac.build/Debug/PureLogicsMac.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftconstvalues",
+    "dependencies" : "/Users/taha/Documents/GitHub/Assignment/scratch/DerivedData/Build/Intermediates.noindex/PureLogicsMac.build/Debug/PureLogicsMac.build/Objects-normal/arm64/GeneratedAssetSymbols.d",
+    "diagnostics" : "/Users/taha/Documents/GitHub/Assignment/scratch/DerivedData/Build/Intermediates.noindex/PureLogicsMac.build/Debug/PureLogicsMac.build/Objects-normal/arm64/GeneratedAssetSymbols.dia",
+    "object" : "/Users/taha/Documents/GitHub/Assignment/scratch/DerivedData/Build/Intermediates.noindex/PureLogicsMac.build/Debug/PureLogicsMac.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "swift-dependencies" : "/Users/taha/Documents/GitHub/Assignment/scratch/DerivedData/Build/Intermediates.noindex/PureLogicsMac.build/Debug/PureLogicsMac.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftdeps"
   }
 }

@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct SignUpView: View {
-    @Environment(UserSessionStore.self) private var sessionStore: UserSessionStore?
+    @Environment(UserSessionStore.self) private var sessionStore
 
     var body: some View {
         SignUpStoryboardContent(sessionStore: sessionStore)
@@ -16,12 +16,24 @@ struct SignUpView: View {
 }
 
 private struct SignUpStoryboardContent: View {
+    @Environment(AuthNavigationStore.self) private var authNavigation
+
     private let baseSize = CGSize(width: 800, height: 626)
 
     @State private var signUpViewModel: SignUpViewModel
-
+    
     init(sessionStore: UserSessionStore? = nil) {
-        _signUpViewModel = State(wrappedValue: SignUpViewModel(sessionStore: sessionStore))
+        let apiClient = DefaultAPIClient(environment: .development)
+        let authRemoteDataSource = DefaultAuthRemoteDataSource(apiClient: apiClient)
+        let authRepository = DefaultAuthRepository(remoteDataSource: authRemoteDataSource)
+        let authUseCase = LoginUseCase(repository: authRepository)
+
+        _signUpViewModel = State(
+            wrappedValue: SignUpViewModel(
+                useCase: authUseCase,
+                sessionStore: sessionStore
+            )
+        )
     }
 
     var body: some View {
@@ -131,8 +143,8 @@ private struct SignUpStoryboardContent: View {
                     .position(x: 445, y: 345)
             }
 
-            purchasedProSection
-                .position(x: 358.5, y: 375)
+//            purchasedProSection
+//                .position(x: 358.5, y: 375)
 
             agreementSection
                 .position(x: 359, y: signUpViewModel.isPurchasedProExpanded ? 445 : 400)
@@ -142,8 +154,9 @@ private struct SignUpStoryboardContent: View {
                     .font(.system(size: 13))
                     .foregroundStyle(.red)
                     .lineLimit(1)
-                    .frame(width: 321, height: 17, alignment: .center)
-                    .position(x: 360, y: signUpViewModel.isPurchasedProExpanded ? 475 : 425)
+                    .frame(width: 321, height: 17, alignment: .trailing)
+                    .position(x: 360, y: 345)
+                //signUpViewModel.isPurchasedProExpanded ? 475 : 425
             }
 
             Button {
@@ -169,14 +182,23 @@ private struct SignUpStoryboardContent: View {
             .disabled(signUpViewModel.isLoading)
             .frame(width: 196, height: 40)
             .position(x: 361, y: signUpViewModel.isPurchasedProExpanded ? 505 : 455)
-
+            .onChange(of: signUpViewModel.isPinCodeSent) { oldValue, newValue in
+                    guard newValue else {
+                            return
+                    }
+                withAnimation(.smooth) {
+                    authNavigation.showVerifyAccount()
+                }
+                }
             HStack(spacing: 2) {
                 Text("Already a User?")
                     .font(.system(size: 13))
                     .foregroundStyle(textColor)
 
                 Button("Sign in") {
-                    print("Sign in tapped")
+                    withAnimation(.smooth) {
+                        authNavigation.showSignIn()
+                    }
                 }
                 .buttonStyle(UnderlineTextButtonStyle(color: linkBlue, font: .system(size: 14, weight: .semibold)))
             }
@@ -316,7 +338,7 @@ private struct SignUpStoryboardContent: View {
             }
             .buttonStyle(UnderlineTextButtonStyle(color: linkBlue, font: .system(size: 14, weight: .semibold)))
         }
-        .frame(width: 272, height: 17, alignment: .leading)
+        .frame(width: 320, height: 17, alignment: .leading)
     }
 
     private var loadingOverlay: some View {
@@ -366,4 +388,5 @@ private struct UnderlineTextButtonStyle: ButtonStyle {
     SignUpView()
         .frame(width: 840, height: 626)
         .environment(UserSessionStore())
+        .environment(AuthNavigationStore())
 }

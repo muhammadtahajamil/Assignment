@@ -1,44 +1,30 @@
 {
-  "/Users/taha/Documents/GitHub/Assignment/PureLogicsMac/Data/DTOs/LoginRequestDTO.swift" : {
-    "const-values" : "/Users/taha/Documents/GitHub/Assignment/scratch/DerivedData/Build/Intermediates.noindex/PureLogicsMac.build/Debug/PureLogicsMac.build/Objects-normal/arm64/LoginRequestDTO.swiftconstvalues",
-    "dependencies" : "/Users/taha/Documents/GitHub/Assignment/scratch/DerivedData/Build/Intermediates.noindex/PureLogicsMac.build/Debug/PureLogicsMac.build/Objects-normal/arm64/LoginRequestDTO.d",
-    "diagnostics" : "/Users/taha/Documents/GitHub/Assignment/scratch/DerivedData/Build/Intermediates.noindex/PureLogicsMac.build/Debug/PureLogicsMac.build/Objects-normal/arm64/LoginRequestDTO.dia",
-    "object" : "/Users/taha/Documents/GitHub/Assignment/scratch/DerivedData/Build/Intermediates.noindex/PureLogicsMac.build/Debug/PureLogicsMac.build/Objects-normal/arm64/LoginRequestDTO.o",
-    "swift-dependencies" : "/Users/taha/Documents/GitHub/Assignment/scratch/DerivedData/Build/Intermediates.noindex/PureLogicsMac.build/Debug/PureLogicsMac.build/Objects-normal/arm64/LoginRequestDTO.swiftdeps"
+  "/Users/taha/Documents/GitHub/Assignment/PureLogicsMac/Domain/Errors/LoginError.swift" : {
+    "const-values" : "/Users/taha/Documents/GitHub/Assignment/scratch/DerivedData/Build/Intermediates.noindex/PureLogicsMac.build/Debug/PureLogicsMac.build/Objects-normal/arm64/LoginError.swiftconstvalues",
+    "dependencies" : "/Users/taha/Documents/GitHub/Assignment/scratch/DerivedData/Build/Intermediates.noindex/PureLogicsMac.build/Debug/PureLogicsMac.build/Objects-normal/arm64/LoginError.d",
+    "diagnostics" : "/Users/taha/Documents/GitHub/Assignment/scratch/DerivedData/Build/Intermediates.noindex/PureLogicsMac.build/Debug/PureLogicsMac.build/Objects-normal/arm64/LoginError.dia",
+    "object" : "/Users/taha/Documents/GitHub/Assignment/scratch/DerivedData/Build/Intermediates.noindex/PureLogicsMac.build/Debug/PureLogicsMac.build/Objects-normal/arm64/LoginError.o",
+    "swift-dependencies" : "/Users/taha/Documents/GitHub/Assignment/scratch/DerivedData/Build/Intermediates.noindex/PureLogicsMac.build/Debug/PureLogicsMac.build/Objects-normal/arm64/LoginError.swiftdeps"
   },
-  "/Users/taha/Documents/GitHub/Assignment/PureLogicsMac/Data/Networking/APIRequestEncryptor.swift" : {
-    "const-values" : "/Users/taha/Documents/GitHub/Assignment/scratch/DerivedData/Build/Intermediates.noindex/PureLogicsMac.build/Debug/PureLogicsMac.build/Objects-normal/arm64/APIRequestEncryptor.swiftconstvalues",
-    "dependencies" : "/Users/taha/Documents/GitHub/Assignment/scratch/DerivedData/Build/Intermediates.noindex/PureLogicsMac.build/Debug/PureLogicsMac.build/Objects-normal/arm64/APIRequestEncryptor.d",
-    "diagnostics" : "/Users/taha/Documents/GitHub/Assignment/scratch/DerivedData/Build/Intermediates.noindex/PureLogicsMac.build/Debug/PureLogicsMac.build/Objects-normal/arm64/APIRequestEncryptor.dia",
-    "object" : "/Users/taha/Documents/GitHub/Assignment/scratch/DerivedData/Build/Intermediates.noindex/PureLogicsMac.build/Debug/PureLogicsMac.build/Objects-normal/arm64/APIRequestEncryptor.o",
-    "swift-dependencies" : "/Users/taha/Documents/GitHub/Assignment/scratch/DerivedData/Build/Intermediates.noindex/PureLogicsMac.build/Debug/PureLogicsMac.build/Objects-normal/arm64/APIRequestEncryptor.swiftdeps"
+  "/Users/taha/Documents/GitHub/Assignment/PureLogicsMac/encs/encryption/CipherRsa.swift" : {
+    "const-values" : "/Users/taha/Documents/GitHub/Assignment/scratch/DerivedData/Build/Intermediates.noindex/PureLogicsMac.build/Debug/PureLogicsMac.build/Objects-normal/arm64/CipherRsa.swiftconstvalues",
+    "dependencies" : "/Users/taha/Documents/GitHub/Assignment/scratch/DerivedData/Build/Intermediates.noindex/PureLogicsMac.build/Debug/PureLogicsMac.build/Objects-normal/arm64/CipherRsa.d",
+    "diagnostics" : "/Users/taha/Documents/GitHub/Assignment/scratch/DerivedData/Build/Intermediates.noindex/PureLogicsMac.build/Debug/PureLogicsMac.build/Objects-normal/arm64/CipherRsa.dia",
+    "object" : "/Users/taha/Documents/GitHub/Assignment/scratch/DerivedData/Build/Intermediates.noindex/PureLogicsMac.build/Debug/PureLogicsMac.build/Objects-normal/arm64/CipherRsa.o",
+    "swift-dependencies" : "/Users/taha/Documents/GitHub/Assignment/scratch/DerivedData/Build/Intermediates.noindex/PureLogicsMac.build/Debug/PureLogicsMac.build/Objects-normal/arm64/CipherRsa.swiftdeps"
   },
-  "/Users/taha/Documents/GitHub/Assignment/PureLogicsMac/Data/Networking/EncryptedAPIClient.swift" : {
-    "const-values" : "/Users/taha/Documents/GitHub/Assignment/scratch/DerivedData/Build/Intermediates.noindex/PureLogicsMac.build/Debug/PureLogicsMac.build/Objects-normal/arm64/EncryptedAPIClient.swiftconstvalues",
-    "dependencies" : "/Users/taha/Documents/GitHub/Assignment/scratch/DerivedData/Build/Intermediates.noindex/PureLogicsMac.build/Debug/PureLogicsMac.build/Objects-normal/arm64/EncryptedAPIClient.d",
-    "diagnostics" : "/Users/taha/Documents/GitHub/Assignment/scratch/DerivedData/Build/Intermediates.noindex/PureLogicsMac.build/Debug/PureLogicsMac.build/Objects-normal/arm64/EncryptedAPIClient.dia",
-    "object" : "/Users/taha/Documents/GitHub/Assignment/scratch/DerivedData/Build/Intermediates.noindex/PureLogicsMac.build/Debug/PureLogicsMac.build/Objects-normal/arm64/EncryptedAPIClient.o",
-    "swift-dependencies" : "/Users/taha/Documents/GitHub/Assignment/scratch/DerivedData/Build/Intermediates.noindex/PureLogicsMac.build/Debug/PureLogicsMac.build/Objects-normal/arm64/EncryptedAPIClient.swiftdeps"
+  "/Users/taha/Documents/GitHub/Assignment/PureLogicsMac/encs/manager/SecretManager.swift" : {
+    "const-values" : "/Users/taha/Documents/GitHub/Assignment/scratch/DerivedData/Build/Intermediates.noindex/PureLogicsMac.build/Debug/PureLogicsMac.build/Objects-normal/arm64/SecretManager.swiftconstvalues",
+    "dependencies" : "/Users/taha/Documents/GitHub/Assignment/scratch/DerivedData/Build/Intermediates.noindex/PureLogicsMac.build/Debug/PureLogicsMac.build/Objects-normal/arm64/SecretManager.d",
+    "diagnostics" : "/Users/taha/Documents/GitHub/Assignment/scratch/DerivedData/Build/Intermediates.noindex/PureLogicsMac.build/Debug/PureLogicsMac.build/Objects-normal/arm64/SecretManager.dia",
+    "object" : "/Users/taha/Documents/GitHub/Assignment/scratch/DerivedData/Build/Intermediates.noindex/PureLogicsMac.build/Debug/PureLogicsMac.build/Objects-normal/arm64/SecretManager.o",
+    "swift-dependencies" : "/Users/taha/Documents/GitHub/Assignment/scratch/DerivedData/Build/Intermediates.noindex/PureLogicsMac.build/Debug/PureLogicsMac.build/Objects-normal/arm64/SecretManager.swiftdeps"
   },
-  "/Users/taha/Documents/GitHub/Assignment/PureLogicsMac/EncyAccount/DecryptAccountDetails.swift" : {
-    "const-values" : "/Users/taha/Documents/GitHub/Assignment/scratch/DerivedData/Build/Intermediates.noindex/PureLogicsMac.build/Debug/PureLogicsMac.build/Objects-normal/arm64/DecryptAccountDetails.swiftconstvalues",
-    "dependencies" : "/Users/taha/Documents/GitHub/Assignment/scratch/DerivedData/Build/Intermediates.noindex/PureLogicsMac.build/Debug/PureLogicsMac.build/Objects-normal/arm64/DecryptAccountDetails.d",
-    "diagnostics" : "/Users/taha/Documents/GitHub/Assignment/scratch/DerivedData/Build/Intermediates.noindex/PureLogicsMac.build/Debug/PureLogicsMac.build/Objects-normal/arm64/DecryptAccountDetails.dia",
-    "object" : "/Users/taha/Documents/GitHub/Assignment/scratch/DerivedData/Build/Intermediates.noindex/PureLogicsMac.build/Debug/PureLogicsMac.build/Objects-normal/arm64/DecryptAccountDetails.o",
-    "swift-dependencies" : "/Users/taha/Documents/GitHub/Assignment/scratch/DerivedData/Build/Intermediates.noindex/PureLogicsMac.build/Debug/PureLogicsMac.build/Objects-normal/arm64/DecryptAccountDetails.swiftdeps"
-  },
-  "/Users/taha/Documents/GitHub/Assignment/PureLogicsMac/encs/manager/VaultInfoManager.swift" : {
-    "const-values" : "/Users/taha/Documents/GitHub/Assignment/scratch/DerivedData/Build/Intermediates.noindex/PureLogicsMac.build/Debug/PureLogicsMac.build/Objects-normal/arm64/VaultInfoManager.swiftconstvalues",
-    "dependencies" : "/Users/taha/Documents/GitHub/Assignment/scratch/DerivedData/Build/Intermediates.noindex/PureLogicsMac.build/Debug/PureLogicsMac.build/Objects-normal/arm64/VaultInfoManager.d",
-    "diagnostics" : "/Users/taha/Documents/GitHub/Assignment/scratch/DerivedData/Build/Intermediates.noindex/PureLogicsMac.build/Debug/PureLogicsMac.build/Objects-normal/arm64/VaultInfoManager.dia",
-    "object" : "/Users/taha/Documents/GitHub/Assignment/scratch/DerivedData/Build/Intermediates.noindex/PureLogicsMac.build/Debug/PureLogicsMac.build/Objects-normal/arm64/VaultInfoManager.o",
-    "swift-dependencies" : "/Users/taha/Documents/GitHub/Assignment/scratch/DerivedData/Build/Intermediates.noindex/PureLogicsMac.build/Debug/PureLogicsMac.build/Objects-normal/arm64/VaultInfoManager.swiftdeps"
-  },
-  "/Users/taha/Documents/GitHub/Assignment/PureLogicsMac/encs/model/FileEncInfo.swift" : {
-    "const-values" : "/Users/taha/Documents/GitHub/Assignment/scratch/DerivedData/Build/Intermediates.noindex/PureLogicsMac.build/Debug/PureLogicsMac.build/Objects-normal/arm64/FileEncInfo.swiftconstvalues",
-    "dependencies" : "/Users/taha/Documents/GitHub/Assignment/scratch/DerivedData/Build/Intermediates.noindex/PureLogicsMac.build/Debug/PureLogicsMac.build/Objects-normal/arm64/FileEncInfo.d",
-    "diagnostics" : "/Users/taha/Documents/GitHub/Assignment/scratch/DerivedData/Build/Intermediates.noindex/PureLogicsMac.build/Debug/PureLogicsMac.build/Objects-normal/arm64/FileEncInfo.dia",
-    "object" : "/Users/taha/Documents/GitHub/Assignment/scratch/DerivedData/Build/Intermediates.noindex/PureLogicsMac.build/Debug/PureLogicsMac.build/Objects-normal/arm64/FileEncInfo.o",
-    "swift-dependencies" : "/Users/taha/Documents/GitHub/Assignment/scratch/DerivedData/Build/Intermediates.noindex/PureLogicsMac.build/Debug/PureLogicsMac.build/Objects-normal/arm64/FileEncInfo.swiftdeps"
+  "/Users/taha/Documents/GitHub/Assignment/PureLogicsMac/encs/model/BaseUser.swift" : {
+    "const-values" : "/Users/taha/Documents/GitHub/Assignment/scratch/DerivedData/Build/Intermediates.noindex/PureLogicsMac.build/Debug/PureLogicsMac.build/Objects-normal/arm64/BaseUser.swiftconstvalues",
+    "dependencies" : "/Users/taha/Documents/GitHub/Assignment/scratch/DerivedData/Build/Intermediates.noindex/PureLogicsMac.build/Debug/PureLogicsMac.build/Objects-normal/arm64/BaseUser.d",
+    "diagnostics" : "/Users/taha/Documents/GitHub/Assignment/scratch/DerivedData/Build/Intermediates.noindex/PureLogicsMac.build/Debug/PureLogicsMac.build/Objects-normal/arm64/BaseUser.dia",
+    "object" : "/Users/taha/Documents/GitHub/Assignment/scratch/DerivedData/Build/Intermediates.noindex/PureLogicsMac.build/Debug/PureLogicsMac.build/Objects-normal/arm64/BaseUser.o",
+    "swift-dependencies" : "/Users/taha/Documents/GitHub/Assignment/scratch/DerivedData/Build/Intermediates.noindex/PureLogicsMac.build/Debug/PureLogicsMac.build/Objects-normal/arm64/BaseUser.swiftdeps"
   }
 }

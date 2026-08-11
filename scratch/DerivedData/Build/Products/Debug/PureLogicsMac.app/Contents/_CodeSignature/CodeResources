@@ -35,7 +35,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			o0+BtOnCq2Y2GrlL8yW1vvqdP4Y=
+			Q+LQjLNK2i/hb6W1UIktVwE0Agk=
 			</data>
 			<key>requirement</key>
 			<string>identifier "PureLogicsMac.debug" and anchor apple generic and certificate leaf[subject.CN] = "Apple Development: tahajamil125@gmail.com (R6DQFQN6C9)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>

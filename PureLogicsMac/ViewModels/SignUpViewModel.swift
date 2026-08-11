@@ -38,11 +38,14 @@ enum PasswordStrength {
     var isPurchasedProExpanded: Bool = false
     var errorMessage: String?
     var isLoading: Bool = false
-    var isSignedUp: Bool = false
+    var isPinCodeSent: Bool = false
+    var pinCode: String = ""
 
+    private let useCase: LoginUseCase
     private let sessionStore: UserSessionStore?
 
-    init(sessionStore: UserSessionStore? = nil) {
+    init(useCase: LoginUseCase, sessionStore: UserSessionStore? = nil) {
+        self.useCase = useCase
         self.sessionStore = sessionStore
     }
 
@@ -70,25 +73,39 @@ enum PasswordStrength {
     }
 
     func signUpButtonTapped() async {
+        isLoading = true
+        
         let trimmedEmail = email.trimmingCharacters(in: .whitespacesAndNewlines)
-
         if let validateError = validateForm(email: trimmedEmail) {
             self.errorMessage = validateError
             return
         }
-
         errorMessage = nil
-        isLoading = true
-
-        // Simulate sign up process
-        try? await Task.sleep(for: .seconds(1.5))
-
-        isLoading = false
-        isSignedUp = true
+        defer {
+            isLoading = false
+        }
+        
+        do {
+            _ = try await useCase.checkUserExists(email: trimmedEmail)
+            self.pinCode = self.randomInt(length: 6)
+            let parameter = "\(trimmedEmail);\(pinCode);signup"
+            let pinCodeSendResponse = try await useCase.sendPinCode(parameter: parameter)
+            print("PinCode: \(pinCodeSendResponse)")
+            sessionStore?.verificationData = SignUpVerificationData(
+                email: trimmedEmail,
+                password: password,
+                pinCode: pinCode,
+                activationCode: proCode.isEmpty ? nil : proCode
+            )
+            isPinCodeSent = true
+        }catch {
+            self.errorMessage = error.localizedDescription
+        }
     }
 
     private func validateForm(email: String) -> String? {
         if email.isEmpty { return "Please enter your email." }
+        if email.count > 254 { return "Email is too long." }
         if !isValidEmail(email) { return "Please enter a valid email address." }
         if password.isEmpty { return "Please enter your password." }
         if password.count < 6 { return "Password must be at least 6 characters." }
@@ -102,4 +119,10 @@ enum PasswordStrength {
         let emailRegex = #"^[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$"#
         return NSPredicate(format: "SELF MATCHES %@", emailRegex).evaluate(with: email)
     }
+    
+    func randomInt(length: Int) -> String {
+        let letters = "0123456789"
+        return String((0..<length).map{ _ in letters.randomElement()! })
+    }
+
 }

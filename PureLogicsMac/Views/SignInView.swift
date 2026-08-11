@@ -11,11 +11,15 @@ struct SignInView: View {
     @Environment(UserSessionStore.self) private var sessionStore
 
     var body: some View {
-        SignInStoryboardContent(sessionStore: sessionStore)
+        SignInStoryboardContent(
+            sessionStore: sessionStore
+            )
     }
 }
 
 private struct SignInStoryboardContent: View {
+    @Environment(AuthNavigationStore.self) private var authNavigation
+
     private let baseSize = CGSize(width: 800, height: 626)
 
     @State private var loginViewModel: LoginViewModel
@@ -192,7 +196,9 @@ private struct SignInStoryboardContent: View {
                     .foregroundStyle(textColor)
 
                 Button("Create Account") {
-                    print("Create account tapped")
+                    withAnimation(.smooth) {
+                        authNavigation.showSignUp()
+                    }
                 }
                 .buttonStyle(UnderlineTextButtonStyle(color: linkBlue, font: .system(size: 13, weight: .semibold)))
             }
@@ -287,6 +293,7 @@ private struct UnderlineTextButtonStyle: ButtonStyle {
     SignInView()
         .frame(width: 840, height: 626)
         .environment(UserSessionStore())
+        .environment(AuthNavigationStore())
 }
 
 /*
@@ -294,4 +301,3 @@ private struct UnderlineTextButtonStyle: ButtonStyle {
  1.Signup View Controller
  2.
  */
-

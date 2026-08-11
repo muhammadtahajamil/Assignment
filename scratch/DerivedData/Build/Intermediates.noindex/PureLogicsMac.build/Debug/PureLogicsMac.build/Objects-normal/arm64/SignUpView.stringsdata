@@ -1,0 +1,176 @@
+{
+  "source": "/Users/taha/Documents/GitHub/Assignment/PureLogicsMac/Views/SignUpView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Version 10.1.1",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 85
+        }
+      },
+      {
+        "comment": "",
+        "key": "Main Features",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 78
+        }
+      },
+      {
+        "comment": "",
+        "key": "Checking Updates",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 98
+        }
+      },
+      {
+        "comment": "",
+        "key": "Additional Features",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 112
+        }
+      },
+      {
+        "comment": "",
+        "key": "Create Account",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 123
+        }
+      },
+      {
+        "comment": "",
+        "key": "Password didn't match",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 139
+        }
+      },
+      {
+        "comment": "",
+        "key": "Sign Up",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 174
+        }
+      },
+      {
+        "comment": "",
+        "key": "Already a User?",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 192
+        }
+      },
+      {
+        "comment": "",
+        "key": "Sign in",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 196
+        }
+      },
+      {
+        "comment": "",
+        "key": "Enter Email",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 211
+        }
+      },
+      {
+        "comment": "",
+        "key": "",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 215
+        }
+      },
+      {
+        "comment": "",
+        "key": "Create Password",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 222
+        }
+      },
+      {
+        "comment": "",
+        "key": "Confirm Password",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 233
+        }
+      },
+      {
+        "comment": "",
+        "key": "",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 248
+        }
+      },
+      {
+        "comment": "",
+        "key": "",
+        "location": {
+          "startingColumn": 29,
+          "startingLine": 253
+        }
+      },
+      {
+        "comment": "",
+        "key": "Purchased Pro?",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 298
+        }
+      },
+      {
+        "comment": "",
+        "key": "Purchased for someone or yourself? Enter Pro Code:",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 307
+        }
+      },
+      {
+        "comment": "",
+        "key": "",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 311
+        }
+      },
+      {
+        "comment": "",
+        "key": "Not forget this password",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 330
+        }
+      },
+      {
+        "comment": "",
+        "key": "Why?",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 334
+        }
+      },
+      {
+        "comment": "",
+        "key": "I agree to",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 324
+        }
+      }
+    ]
+  },
+  "version": 1
+}
