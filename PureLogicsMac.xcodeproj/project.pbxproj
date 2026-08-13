@@ -24,7 +24,6 @@
 		0FA3CCC83025DC5100D881E2 /* SignUpUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA3CCC73025DC5100D881E2 /* SignUpUseCase.swift */; };
 		0FA3CCC830264B4A00D881EE /* SignupRemoteDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA3CCC730264B3300D881EE /* SignupRemoteDataSource.swift */; };
 		0FA3CCCC3025DC5100D881E4 /* SignUpRequestDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA3CCCB3025DC5100D881E4 /* SignUpRequestDTO.swift */; };
-		0FA3CCCE3025DC5100D881E5 /* DefaultCreateAccountRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA3CCCD3025DC5100D881E5 /* DefaultCreateAccountRepository.swift */; };
 		0FA3CCD03025DC5100D881E6 /* AuthNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA3CCCF3025DC5100D881E6 /* AuthNavigationView.swift */; };
 		0FA6CB9A30177820008D1AB4 /* APIResponseDecryptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA6CB9930177820008D1AB4 /* APIResponseDecryptor.swift */; };
 		0FA6CC05301778D3008D1AB4 /* myvault_base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FA6CBA6301778D3008D1AB4 /* myvault_base64.m */; };
@@ -104,6 +103,10 @@
 		0FA6CC6D3018ACE2008D1AB4 /* AuthResponseDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA6CC6C3018ACE2008D1AB4 /* AuthResponseDTO.swift */; };
 		0FA6CC6F3018C2C3008D1AB4 /* UserSessionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA6CC6E3018C2C3008D1AB4 /* UserSessionStore.swift */; };
 		0FAEADC83029BDEC0042389B /* ApiCreateAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FAEADC73029BDE40042389B /* ApiCreateAccount.swift */; };
+		0FB23F5B302BD12F00D213B0 /* AppDependencyConatainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB23F5A302BD12200D213B0 /* AppDependencyConatainer.swift */; };
+		0FB61CA2302C830C001216D7 /* AuthModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB61CA1302C8302001216D7 /* AuthModel.swift */; };
+		0FB61CA4302C8446001216D7 /* LocalAuthSessionRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB61CA3302C8446001216D7 /* LocalAuthSessionRepository.swift */; };
+		0FB61CA6302C8AFF001216D7 /* KeychainRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB61CA5302C8AFF001216D7 /* KeychainRepositoryProtocol.swift */; };
 		0FDF89DC300026B10094F5DB /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDF89DB300026B10094F5DB /* SettingView.swift */; };
 		100000000000000000000101 /* PureLogicsMacApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000201 /* PureLogicsMacApp.swift */; };
 		100000000000000000000102 /* FileHashProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000202 /* FileHashProcessor.swift */; };
@@ -137,7 +140,6 @@
 		0FA3CCC73025DC5100D881E2 /* SignUpUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpUseCase.swift; sourceTree = "<group>"; };
 		0FA3CCC730264B3300D881EE /* SignupRemoteDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupRemoteDataSource.swift; sourceTree = "<group>"; };
 		0FA3CCCB3025DC5100D881E4 /* SignUpRequestDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpRequestDTO.swift; sourceTree = "<group>"; };
-		0FA3CCCD3025DC5100D881E5 /* DefaultCreateAccountRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultCreateAccountRepository.swift; sourceTree = "<group>"; };
 		0FA3CCCF3025DC5100D881E6 /* AuthNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthNavigationView.swift; sourceTree = "<group>"; };
 		0FA6CB9930177820008D1AB4 /* APIResponseDecryptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIResponseDecryptor.swift; sourceTree = "<group>"; };
 		0FA6CB9B301778D3008D1AB4 /* CryptLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CryptLib.h; sourceTree = "<group>"; };
@@ -250,6 +252,10 @@
 		0FA6CC6C3018ACE2008D1AB4 /* AuthResponseDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthResponseDTO.swift; sourceTree = "<group>"; };
 		0FA6CC6E3018C2C3008D1AB4 /* UserSessionStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSessionStore.swift; sourceTree = "<group>"; };
 		0FAEADC73029BDE40042389B /* ApiCreateAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiCreateAccount.swift; sourceTree = "<group>"; };
+		0FB23F5A302BD12200D213B0 /* AppDependencyConatainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDependencyConatainer.swift; sourceTree = "<group>"; };
+		0FB61CA1302C8302001216D7 /* AuthModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthModel.swift; sourceTree = "<group>"; };
+		0FB61CA3302C8446001216D7 /* LocalAuthSessionRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalAuthSessionRepository.swift; sourceTree = "<group>"; };
+		0FB61CA5302C8AFF001216D7 /* KeychainRepositoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainRepositoryProtocol.swift; sourceTree = "<group>"; };
 		0FDF89DB300026B10094F5DB /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
 		100000000000000000000201 /* PureLogicsMacApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PureLogicsMacApp.swift; sourceTree = "<group>"; };
 		100000000000000000000202 /* FileHashProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileHashProcessor.swift; sourceTree = "<group>"; };
@@ -522,7 +528,7 @@
 		0FA6CC5D30180A6A008D1AB4 /* Repositories */ = {
 			isa = PBXGroup;
 			children = (
-				0FA3CCCD3025DC5100D881E5 /* DefaultCreateAccountRepository.swift */,
+				0FB61CA3302C8446001216D7 /* LocalAuthSessionRepository.swift */,
 				0F88D0023025000100000001 /* DeviceParser.swift */,
 				0F88D0043025000100000001 /* DefaultDeviceRepository.swift */,
 				0FA6CC6830180F38008D1AB4 /* DefaultAuthRepository.swift */,
@@ -542,6 +548,7 @@
 		0FA6CC5F30180AC3008D1AB4 /* Repositories */ = {
 			isa = PBXGroup;
 			children = (
+				0FB61CA5302C8AFF001216D7 /* KeychainRepositoryProtocol.swift */,
 				0F88D0033025000100000001 /* DeviceRepository.swift */,
 				0FA6CC6130180BC7008D1AB4 /* AuthRepository.swift */,
 			);
@@ -562,6 +569,14 @@
 				0FA6CC6630180C8E008D1AB4 /* AuthRemoteDataSource.swift */,
 			);
 			path = RemoteDataSource;
+			sourceTree = "<group>";
+		};
+		0FB61CA0302C82DE001216D7 /* DataStorage */ = {
+			isa = PBXGroup;
+			children = (
+				0FB61CA1302C8302001216D7 /* AuthModel.swift */,
+			);
+			path = DataStorage;
 			sourceTree = "<group>";
 		};
 		100000000000000000000501 = {
@@ -587,6 +602,7 @@
 				100000000000000000000507 /* Navigation */,
 				0FA6CC54301802CE008D1AB4 /* Data */,
 				0FA6CC5C30180A38008D1AB4 /* Domain */,
+				0FB61CA0302C82DE001216D7 /* DataStorage */,
 				100000000000000000000509 /* Persistence */,
 				100000000000000000000510 /* Stores */,
 				0FA6CC56301802D4008D1AB4 /* ViewModels */,
@@ -631,6 +647,7 @@
 		100000000000000000000507 /* Navigation */ = {
 			isa = PBXGroup;
 			children = (
+				0FB23F5A302BD12200D213B0 /* AppDependencyConatainer.swift */,
 				100000000000000000000204 /* AppNavigation.swift */,
 			);
 			path = Navigation;
@@ -785,8 +802,8 @@
 				0FA3CCC63025DC5100D881E1 /* SignUpViewModel.swift in Sources */,
 				0FA3CCC83025DC5100D881E2 /* SignUpUseCase.swift in Sources */,
 				0FA3CCCC3025DC5100D881E4 /* SignUpRequestDTO.swift in Sources */,
-				0FA3CCCE3025DC5100D881E5 /* DefaultCreateAccountRepository.swift in Sources */,
 				0FA6CC5B301803EE008D1AB4 /* LoginResponseDTO.swift in Sources */,
+				0FB23F5B302BD12F00D213B0 /* AppDependencyConatainer.swift in Sources */,
 				0FA6CC0A301778D3008D1AB4 /* VaultManager.swift in Sources */,
 				0FA6CC0B301778D3008D1AB4 /* EncryptAccountDetails.swift in Sources */,
 				0FA6CC0C301778D3008D1AB4 /* WrappingKeyCacheValue.m in Sources */,
@@ -834,8 +851,10 @@
 				0FA6CC4C3017FCE3008D1AB4 /* EncryptedAPIClient.swift in Sources */,
 				0FA6CC2E301778D3008D1AB4 /* FileEncInfo.swift in Sources */,
 				0FA6CC2F301778D3008D1AB4 /* myvault_rsa.m in Sources */,
+				0FB61CA6302C8AFF001216D7 /* KeychainRepositoryProtocol.swift in Sources */,
 				0FA6CC59301802FC008D1AB4 /* LoginRequestDTO.swift in Sources */,
 				0FA6CC30301778D3008D1AB4 /* OpenSSL_RSAHelper.cpp in Sources */,
+				0FB61CA4302C8446001216D7 /* LocalAuthSessionRepository.swift in Sources */,
 				0FA6CC31301778D3008D1AB4 /* DecryptAccountDetails.swift in Sources */,
 				0FA6CC32301778D3008D1AB4 /* OpenSSL_SaltHelper.cpp in Sources */,
 				0FA6CC33301778D3008D1AB4 /* UtilManagerC.m in Sources */,
@@ -863,6 +882,7 @@
 				0FA6CC3F301778D3008D1AB4 /* OpenSSL_RSAHelper_Wrapper.mm in Sources */,
 				0FA6CC40301778D3008D1AB4 /* OpenSSL_HMACSHA256Helper.cpp in Sources */,
 				0F37534C3008228900714FCB /* AuthenticatedSessionView.swift in Sources */,
+				0FB61CA2302C830C001216D7 /* AuthModel.swift in Sources */,
 				100000000000000000000109 /* FileProcessingViews.swift in Sources */,
 				100000000000000000000110 /* NaviagtionView.swift in Sources */,
 				0FA6CC6430180C06008D1AB4 /* LoginUseCase.swift in Sources */,

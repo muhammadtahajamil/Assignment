@@ -9,11 +9,13 @@
 import Foundation
 
 enum NetworkError: LocalizedError {
+    
     case invalidResponse
     case invalidStatusCode(Int)
     case invalidUTF8Response
     case decodingFailed
     case requestFailed(Error)
+    case noInternetConnection
 
     var errorDescription: String? {
         switch self {
@@ -31,6 +33,9 @@ enum NetworkError: LocalizedError {
 
         case .requestFailed(let error):
             return error.localizedDescription
+
+        case .noInternetConnection:
+            return "No internet connection."
         }
     }
 }

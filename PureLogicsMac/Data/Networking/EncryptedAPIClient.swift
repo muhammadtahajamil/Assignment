@@ -49,13 +49,6 @@ final class DefaultAPIClient: APIClient, Sendable {
             
             let decryptedResponse = try decryptor.decryptAPIResponse(encryptedResponse)
             print("response = \(decryptedResponse)")
-//            let jsonData = decryptedResponse.data(using: .utf8)
-//            do {
-//                let userResponse = try JSONDecoder().decode(AuthResponseDTO.self, from: jsonData!)
-//
-//            } catch {
-//                print("Failed to decode JSON: \(error)")
-//            }
             
             return decryptedResponse
             
@@ -65,7 +58,10 @@ final class DefaultAPIClient: APIClient, Sendable {
         } catch let error as APIDecryptionError {
             throw error
             
-        } catch {
+        } catch is URLError {
+            throw NetworkError.noInternetConnection
+        }
+        catch {
             throw NetworkError.requestFailed(error)
         }
     }

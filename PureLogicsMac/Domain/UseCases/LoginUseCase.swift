@@ -11,10 +11,14 @@ import Foundation
 actor LoginUseCase : Sendable {
 
     private let repository: AuthRepository
+//    private let keychainRepository : KeychainRepositoryProtocol
 
     
-    init(repository: AuthRepository) {
+    init(
+        repository: AuthRepository
+    ) {
         self.repository = repository
+        
     }
 
     func execute(
@@ -35,34 +39,44 @@ actor LoginUseCase : Sendable {
     
     func authenticateUser(email: String, password: String) async throws -> AuthResponseDTO {
            // 1. Fetch remote user auth data
-        let authInfo = try await repository.readAuth(parameter: email)
-        print("Login response == ",authInfo.message!)
-        guard authInfo.message == "success" else {
-            guard authInfo.errorCode == 9 else {
-                throw LoginError.unknowError
+        do {
+            let authInfo = try await repository.readAuth(parameter: email)
+            print("Login response == ",authInfo.message!)
+            guard authInfo.message == "success" else {
+                guard authInfo.errorCode == 9 else {
+                    throw LoginError.unknowError
+                }
+                throw LoginError.userNotExist
             }
-            throw LoginError.userNotExist
+               // 2. Perform Cryptographic Password Verification
+               // 3. Throw domain error if password fails
+               guard isValidPassword(password: password, authInfo: authInfo) else {
+                   throw LoginError.invalidPassword
+               }
+               return authInfo
+        } catch{
+            throw NetworkError.noInternetConnection
         }
-           // 2. Perform Cryptographic Password Verification
-           let passwordData = password.data(using: .utf8)
-           var derEncodedPublicKey: NSData?
-           var derEncodedPrivateKey: NSData?
-           let isValid = SecureAccount_Wrapper.verifyAccount(
-               passwordData,
-               base64DerEncodedPublicKey: authInfo.publicKey,
-               derEncodedPublicKey: &derEncodedPublicKey,
-               privateKeyKdfIterations: Int32(authInfo.privateKeyIter!),
-               base64EncodedPrivateKeySalt: authInfo.privateKeySalt,
-               base64EncodedSecurePrivateKey: authInfo.privateKey,
-               derEncodedPrivateKey: &derEncodedPrivateKey
-           )
-           // 3. Throw domain error if password fails
-           guard isValid else {
-               throw LoginError.invalidPassword
-           }
-           return authInfo
+        
        }
-    
+     func isValidPassword(password :String ,authInfo : AuthResponseDTO) -> Bool {
+        let passwordData = password.data(using: .utf8)
+        var derEncodedPublicKey: NSData?
+        var derEncodedPrivateKey: NSData?
+        let isValid = SecureAccount_Wrapper.verifyAccount(
+            passwordData,
+            base64DerEncodedPublicKey: authInfo.publicKey,
+            derEncodedPublicKey: &derEncodedPublicKey,
+            privateKeyKdfIterations: Int32(authInfo.privateKeyIter!),
+            base64EncodedPrivateKeySalt: authInfo.privateKeySalt,
+            base64EncodedSecurePrivateKey: authInfo.privateKey,
+            derEncodedPrivateKey: &derEncodedPrivateKey
+        )
+        guard isValid else {
+            return false
+        }
+        return true
+    }
     
     @discardableResult
     func checkUserExists(email:String) async throws -> CheckUserExistsDTO {
@@ -91,6 +105,7 @@ actor LoginUseCase : Sendable {
         guard userId != "Invalid Parameters" || userId != "Error" else {
             throw LoginError.createUserIdFailure
         }
+        //Save id to keychains
         return userId
     }
     

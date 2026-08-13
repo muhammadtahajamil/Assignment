@@ -6,13 +6,15 @@
 //
 
 import SwiftUI
+import SwiftData
 
 struct SignInView: View {
     @Environment(UserSessionStore.self) private var sessionStore
+    @Environment(\.modelContext) private var modelContext
 
     var body: some View {
         SignInStoryboardContent(
-            sessionStore: sessionStore
+            sessionStore: sessionStore, modelCotext: modelContext
             )
     }
 }
@@ -24,18 +26,24 @@ private struct SignInStoryboardContent: View {
 
     @State private var loginViewModel: LoginViewModel
 
-    init(sessionStore: UserSessionStore) {
+    init(sessionStore: UserSessionStore, modelCotext: ModelContext) {
         let apiClient = DefaultAPIClient(environment: .development)
         let authRemoteDataSource = DefaultAuthRemoteDataSource(apiClient: apiClient)
         let authRepository = DefaultAuthRepository(remoteDataSource: authRemoteDataSource)
         let loginUseCase = LoginUseCase(repository: authRepository)
 
-        _loginViewModel = State(
-            wrappedValue: LoginViewModel(
-                useCase: loginUseCase,
-                sessionStore: sessionStore,
-                deviceAuthRepository: DefaultDeviceRepository()
-            )
+//        _loginViewModel = State(
+//            wrappedValue: LoginViewModel(
+//                useCase: loginUseCase,
+//                sessionStore: sessionStore,
+//                deviceAuthRepository: DefaultDeviceRepository(),
+//                modelContext: modelContext)
+        
+        _loginViewModel = State(wrappedValue: LoginViewModel(
+            useCase: loginUseCase,
+            sessionStore: sessionStore,
+            deviceAuthRepository: DefaultDeviceRepository(),
+            modelContext: modelCotext)
         )
     }
 
@@ -164,7 +172,9 @@ private struct SignInStoryboardContent: View {
                     .lineLimit(1)
                     .frame(width: 220, height: 17, alignment: .trailing)
                     .position(x: 405, y: 320.5)
+                    
             }
+                
 
             Button {
                 Task {
@@ -189,6 +199,12 @@ private struct SignInStoryboardContent: View {
             .disabled(loginViewModel.isLoading)
             .frame(width: 196, height: 40)
             .position(x: 360, y: 372)
+            .onChange(of: loginViewModel.errorMessage) { oldValue, newValue in
+                guard newValue == NetworkError.noInternetConnection.localizedDescription else {
+                    return
+                }
+                loginViewModel.getSwiftData()
+            }
 
             HStack(spacing: 2) {
                 Text("New User?")

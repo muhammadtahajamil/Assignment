@@ -394,7 +394,6 @@ struct CustomPopupView: View {
                     withAnimation(.smooth) {
                         authNavigation.showSignIn()
                     }
-                    //TODO: Navigate to signin here
                 }catch{
                     viewModel.errorMessage = error.localizedDescription
                 }

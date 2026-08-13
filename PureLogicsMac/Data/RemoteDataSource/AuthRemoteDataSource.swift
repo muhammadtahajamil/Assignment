@@ -84,5 +84,4 @@ struct DefaultAuthRemoteDataSource: AuthRemoteDataSource {
             endpoint: endPoint
         )
     }
-    
 }

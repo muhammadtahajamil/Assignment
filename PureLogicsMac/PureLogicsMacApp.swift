@@ -1,16 +1,23 @@
-//import AppKit
+
 import SwiftUI
+import SwiftData
 
 @main
 struct PureLogicsMacApp: App {
     
-    @State private var isOffline = false
-    @State private var sessionstore = UserSessionStore()
+    private var container = AppDependencyConatainer()
+    @State var sessionStore: UserSessionStore
+    
+    init() {
+        let container = AppDependencyConatainer()
+        self.container = container
+        self._sessionStore = State(wrappedValue: container.sessionStore)
+    }
     
     var body: some Scene {
         WindowGroup {
             SwiftUI.Group {
-                 if sessionstore.isAuthenticated {
+                 if sessionStore.isAuthenticated {
                     AuthenticatedSessionView()
 //                     AuthNavigationViewTest()
                 } else {
@@ -19,8 +26,9 @@ struct PureLogicsMacApp: App {
                         .frame(width: 840, height: 626)
                 }
             }
-            .environment(sessionstore)
+            .environment(sessionStore)
         }
+        .modelContainer(for : [UserSessionModel.self, SubscriptionDetailsModel.self ,UserDevicesModel.self, DevicesInfo.self])
         .windowStyle(.hiddenTitleBar)
         .windowResizability(.contentSize)
         .commands {
@@ -28,4 +36,3 @@ struct PureLogicsMacApp: App {
         }
     }
 }
-
