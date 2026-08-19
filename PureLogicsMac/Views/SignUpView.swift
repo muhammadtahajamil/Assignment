@@ -22,7 +22,7 @@ private struct SignUpStoryboardContent: View {
 
     @State private var signUpViewModel: SignUpViewModel
     
-    init(sessionStore: UserSessionStore? = nil) {
+    init(sessionStore: UserSessionStore) {
         let apiClient = DefaultAPIClient(environment: .development)
         let authRemoteDataSource = DefaultAuthRemoteDataSource(apiClient: apiClient)
         let authRepository = DefaultAuthRepository(remoteDataSource: authRemoteDataSource)

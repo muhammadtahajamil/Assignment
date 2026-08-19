@@ -86,3 +86,6 @@ import Foundation
         return true
     }
 }
+
+
+//Variables

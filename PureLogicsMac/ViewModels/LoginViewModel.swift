@@ -18,6 +18,8 @@ import SwiftData
     var isLoading: Bool = false
     var isLoggedIn: Bool = false
     var isOffline : Bool = false
+    var isLinkedDevices : Bool = false
+    
     
     private let useCase: LoginUseCase
     private let sessionStore: UserSessionStore
@@ -30,6 +32,10 @@ import SwiftData
         self.sessionStore = sessionStore
         self.deviceRepository = deviceAuthRepository
         self.modelContext = modelContext
+        if let value = UserDefaults().string(forKey: "loginEmail") ,let value2 = UserDefaults().string(forKey: "loginPass"){
+            self.email = value
+            self.password = value2
+        }
     }
     
      func loginButtonTapped() async {
@@ -55,11 +61,18 @@ import SwiftData
            //get devices List
             let devices = try await deviceRepository.fetchDevices(parameter: loginResponse.id!)
                     print("Successfully fetched \(devices.count) devices for user.")
+            //TODO: check device esist here
+            
+            
             self.sessionStore.authData = loginResponse
             self.sessionStore.deviceList = devices
             //check devices exist
             let localRepository = LocalAuthSessionRepository(modelContext: modelContext)
             try localRepository.saveOrUpdateSession(from: loginResponse)
+            
+            UserDefaults.standard.set(email, forKey: "loginEmail")
+            UserDefaults.standard.set(password, forKey: "loginPass")
+            
             //TODO: Check device exist here
             self.isLoggedIn = true
         } catch {
@@ -67,6 +80,7 @@ import SwiftData
         }
     }
     
+    //Helping Private Func
     private func checkInternet()->Bool{
         guard Connectivity.shared.isConnectedToWiFi else {
             return false
@@ -89,6 +103,41 @@ import SwiftData
     private func isValidEmail(_ email: String) -> Bool {
         let emailRegex = #"^[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$"#
         return NSPredicate(format: "SELF MATCHES %@", emailRegex).evaluate(with: email)
+    }
+    
+    private func IsRegisteredDevice(devices:[DeviceDTO], authResponse:AuthResponseDTO, ) -> Bool{
+        let deviceId = getDeviceIdFromKC()
+        guard devices.contains(where: { $0.id == deviceId }) else {
+            // |--> First Time logged In on this device
+            guard authResponse.subscription == "Free" && authResponse.numberOfDevices! >= 2 || authResponse.subscription == "Pro" && authResponse.numberOfDevices! >= 5 else{
+                //save devices devies here in Swift Data
+                //TODO: Navigate to Linked Devices here
+                self.isLinkedDevices = true
+                return false
+            }
+            //Save Account here first in Swift Data
+            //Add device here and navigate to Login Screen
+//            call APi Here 
+            return false
+        }
+        //Save trusted devices to JSON
+        //ALready Saved Device
+        return true
+    }
+    
+    private func getDeviceIdFromKC()->String{
+        Task {
+            guard let deviceId = await useCase.getIdFromKC(key: "flKey") else{
+                // call register device id here API
+                let deviceId = try await useCase.createUserId(parameter: "userID")
+                await useCase.saveToKeychain(value: deviceId, key: "flKey")
+                return deviceId
+            }
+            return deviceId
+        }
+        
+        
+        return ""
     }
     
     @discardableResult

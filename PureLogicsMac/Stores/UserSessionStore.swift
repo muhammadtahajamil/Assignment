@@ -14,7 +14,6 @@ import Observation
     var verificationData : SignUpVerificationData?
     
     var isAuthenticated: Bool {
-        print("Auth Data Found Tahaaaaa")
         return authData != nil
     }
     

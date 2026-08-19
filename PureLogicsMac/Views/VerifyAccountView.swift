@@ -33,7 +33,6 @@ private struct VerifyAccountStoryboardContent: View {
                let authRepository = DefaultAuthRepository(remoteDataSource: authRemoteDataSource)
                let loginUseCase = LoginUseCase(repository: authRepository)
         _verifyAccountVM = State(wrappedValue: VerifyAccountVM(useCase: loginUseCase, sessionStore: sesionStore))
-        
     }
     
     var onVerifySuccess: (() -> Void)?

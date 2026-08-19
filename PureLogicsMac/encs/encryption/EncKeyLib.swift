@@ -590,7 +590,7 @@ import Foundation
             inputStream!.close()
             return false;
         } else {
-            // TODO: Look into the following commented code and fix it if required.
+            //  Look into the following commented code and fix it if required.
             //VaultManager.updateVaultFile(vaultFile: vaultFile)
         }
         

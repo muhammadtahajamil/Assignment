@@ -7,6 +7,8 @@
 
 
 import Foundation
+import Security
+
 
 actor LoginUseCase : Sendable {
 
@@ -105,7 +107,10 @@ actor LoginUseCase : Sendable {
         guard userId != "Invalid Parameters" || userId != "Error" else {
             throw LoginError.createUserIdFailure
         }
-        //Save id to keychains
+        UserDefaults.standard.set(userId, forKey: "fl10_deviceId")
+        
+        
+        //also add get id from keychains
         return userId
     }
     
@@ -129,5 +134,44 @@ actor LoginUseCase : Sendable {
         print("Sign Up response = \(response)")
         return response
     }
-   }
+    
+    func saveToKeychain(value :String, key:String) {
+        guard let data = value.data(using: .utf8) else { return }
+        
+        let query: [String: Any] = [
+            kSecClass as String: kSecClassGenericPassword,
+            kSecAttrAccount as String: key,
+            kSecValueData as String: data
+        ]
+        
+        // Always delete any existing item before saving to avoid duplicate errors
+        SecItemDelete(query as CFDictionary)
+        
+        // Add the new item to the Keychain
+        let status = SecItemAdd(query as CFDictionary, nil)
+        
+        if status != errSecSuccess {
+            print("Error saving to Keychain: \(status)")
+        }
+    }
+    
+    func getIdFromKC(key: String) -> String? {
+            let query: [String: Any] = [
+                kSecClass as String: kSecClassGenericPassword,
+                kSecAttrAccount as String: key,
+                kSecReturnData as String: true,
+                kSecMatchLimit as String: kSecMatchLimitOne
+            ]
+            
+            var dataTypeRef: AnyObject?
+            let status = SecItemCopyMatching(query as CFDictionary, &dataTypeRef)
+            
+            // If successful, convert the raw data back to a String
+            if status == errSecSuccess, let data = dataTypeRef as? Data {
+                return String(data: data, encoding: .utf8)
+            }
+            
+            return nil
+        }
+}
 

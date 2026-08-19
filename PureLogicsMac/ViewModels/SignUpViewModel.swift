@@ -26,6 +26,8 @@ enum PasswordStrength {
     }
 }
 
+
+
 @MainActor
 @Observable final class SignUpViewModel {
     var email: String = ""

@@ -66,7 +66,7 @@ private struct SignInStoryboardContent: View {
 
     private var storyboardLayout: some View {
         ZStack(alignment: .topLeading) {
-            Image("Sign_InBackGroung")
+            Image(.signInBackGroung)
                 .resizable()
                 .frame(width: baseSize.width, height: baseSize.height)
 
@@ -243,7 +243,7 @@ private struct SignInStoryboardContent: View {
             Button {
                 loginViewModel.isPasswordVisible.toggle()
             } label: {
-                Image("Keyboard")
+                Image(.keyboard)
                     .resizable()
                     .frame(width: 26, height: 26)
             }
